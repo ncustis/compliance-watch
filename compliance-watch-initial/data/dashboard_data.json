@@ -1,0 +1,4473 @@
+{
+  "summary": {
+    "as_of": "2026-05-14",
+    "total_permits": 1489,
+    "total_properties": 139,
+    "total_expired": 103,
+    "total_expiring": 34,
+    "properties_with_issues": 70,
+    "overall_compliance": 93.1,
+    "total_regions": 21
+  },
+  "active_permits": [
+    {
+      "permit_id": "NEB-98f75435",
+      "title": "(ELUR) RIDEM File No. 2004-046 - Annual Filing Reminder",
+      "property_code": "NEB",
+      "display_name": "Safe Harbor New England Boatworks",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "renewal_start": "2026-03-01",
+      "expiration": "2026-03-31",
+      "status": "expired",
+      "days_to_exp": -44
+    },
+    {
+      "permit_id": "DSY-ab099e66",
+      "title": "1987 POINT Open Motorboat Reg CT8851AG",
+      "property_code": "DSY",
+      "display_name": "Safe Harbor Dauntless Shipyard",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "renewal_start": "2026-03-01",
+      "expiration": "2026-04-30",
+      "status": "expired",
+      "days_to_exp": -14
+    },
+    {
+      "permit_id": "DSY-d86c19ec",
+      "title": "1995 GODFR Pontoon Boat Reg CT7963AB",
+      "property_code": "DSY",
+      "display_name": "Safe Harbor Dauntless Shipyard",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "renewal_start": "2026-04-01",
+      "expiration": "2026-04-30",
+      "status": "expired",
+      "days_to_exp": -14
+    },
+    {
+      "permit_id": "DSY-dc1f77db",
+      "title": "1995 Stard Pontoon Boat CT2047AS",
+      "property_code": "DSY",
+      "display_name": "Safe Harbor Dauntless Shipyard",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "renewal_start": "2026-04-01",
+      "expiration": "2026-04-30",
+      "status": "expired",
+      "days_to_exp": -14
+    },
+    {
+      "permit_id": "DSY-b1191c98",
+      "title": "1997 Carol Open Motorboat Reg CT2477AT",
+      "property_code": "DSY",
+      "display_name": "Safe Harbor Dauntless Shipyard",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "renewal_start": "2026-04-01",
+      "expiration": "2026-04-30",
+      "status": "expired",
+      "days_to_exp": -14
+    },
+    {
+      "permit_id": "JBM-9efeef66",
+      "title": "1998 Travellift 35BFN Inspection",
+      "property_code": "JBM",
+      "display_name": "Safe Harbor Jefferson Beach",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "renewal_start": "2026-03-31",
+      "expiration": "2026-03-31",
+      "status": "expired",
+      "days_to_exp": -44
+    },
+    {
+      "permit_id": "WDM-02a8e5fc",
+      "title": "2001 Ford F-150 Registration",
+      "property_code": "WDM",
+      "display_name": "Safe Harbor Wisdom Dock",
+      "rvp": "Layne Wilson",
+      "region": "Kentucky + Tennessee",
+      "renewal_start": "2026-04-01",
+      "expiration": "2026-04-30",
+      "status": "expired",
+      "days_to_exp": -14
+    },
+    {
+      "permit_id": "DSY-33fa5b69",
+      "title": "2004 Pontoon Boat Reg CT7874BA",
+      "property_code": "DSY",
+      "display_name": "Safe Harbor Dauntless Shipyard",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "renewal_start": "2026-03-01",
+      "expiration": "2026-04-30",
+      "status": "expired",
+      "days_to_exp": -14
+    },
+    {
+      "permit_id": "TBM-159b12a8",
+      "title": "2009 Black Chevy Truck Registration",
+      "property_code": "TBM",
+      "display_name": "Safe Harbor Toledo Beach",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "renewal_start": "2026-01-01",
+      "expiration": "2026-02-28",
+      "status": "expired",
+      "days_to_exp": -75
+    },
+    {
+      "permit_id": "BMR-1406d08a",
+      "title": "2014 F250",
+      "property_code": "BMR",
+      "display_name": "Safe Harbor Brady Mountain",
+      "rvp": "Sean McNamara",
+      "region": "Southwest",
+      "renewal_start": "2026-04-01",
+      "expiration": "2026-05-31",
+      "status": "expiring_soon",
+      "days_to_exp": 17
+    },
+    {
+      "permit_id": "HAW-db866705",
+      "title": "2021 SWPPP",
+      "property_code": "HAW",
+      "display_name": "Safe Harbor Hawthorne Cove",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "renewal_start": "2026-02-01",
+      "expiration": "2026-02-28",
+      "status": "expired",
+      "days_to_exp": -75
+    },
+    {
+      "permit_id": "ROC-16091150",
+      "title": "2022 Blue Ford 550",
+      "property_code": "ROC",
+      "display_name": "Safe Harbor Rockland",
+      "rvp": "Greg Glavin",
+      "region": "Maine + New Hampshire",
+      "renewal_start": "2026-04-30",
+      "expiration": "2026-05-31",
+      "status": "expiring_soon",
+      "days_to_exp": 17
+    },
+    {
+      "permit_id": "JAR-a66dd564",
+      "title": "2024 200Ton Travel Lift Annual Inspection",
+      "property_code": "JAR",
+      "display_name": "Safe Harbor Jarrett Bay",
+      "rvp": "Ron Gift",
+      "region": "Southeast",
+      "renewal_start": "2026-02-03",
+      "expiration": "2026-03-03",
+      "status": "expired",
+      "days_to_exp": -72
+    },
+    {
+      "permit_id": "JAR-33223f58",
+      "title": "2024 Annual Inspection 75A Travel Lift",
+      "property_code": "JAR",
+      "display_name": "Safe Harbor Jarrett Bay",
+      "rvp": "Ron Gift",
+      "region": "Southeast",
+      "renewal_start": "2026-02-01",
+      "expiration": "2026-03-01",
+      "status": "expired",
+      "days_to_exp": -74
+    },
+    {
+      "permit_id": "JAR-a507f7f5",
+      "title": "2024 Annual Inspection 75B Travel Lift",
+      "property_code": "JAR",
+      "display_name": "Safe Harbor Jarrett Bay",
+      "rvp": "Ron Gift",
+      "region": "Southeast",
+      "renewal_start": "2026-02-02",
+      "expiration": "2026-03-02",
+      "status": "expired",
+      "days_to_exp": -73
+    },
+    {
+      "permit_id": "PAM-00fb57eb",
+      "title": "2024 Dredging Grading Permit",
+      "property_code": "PAM",
+      "display_name": "Safe Harbor Port Annapolis",
+      "rvp": "Desiree Bell",
+      "region": "Mid-Atlantic West",
+      "renewal_start": "2026-02-01",
+      "expiration": "2026-02-28",
+      "status": "expired",
+      "days_to_exp": -75
+    },
+    {
+      "permit_id": "JAR-5ff274c8",
+      "title": "2025 Marine Travelift TM60 Yearly Inspection",
+      "property_code": "JAR",
+      "display_name": "Safe Harbor Jarrett Bay",
+      "rvp": "Ron Gift",
+      "region": "Southeast",
+      "renewal_start": "2026-02-19",
+      "expiration": "2026-03-19",
+      "status": "expired",
+      "days_to_exp": -56
+    },
+    {
+      "permit_id": "ANN-60d74283",
+      "title": "57647294 (License Plate-5FJ5454)",
+      "property_code": "ANN",
+      "display_name": "Safe Harbor Annapolis",
+      "rvp": "Desiree Bell",
+      "region": "Mid-Atlantic West",
+      "renewal_start": "2026-05-01",
+      "expiration": "2026-05-31",
+      "status": "expiring_soon",
+      "days_to_exp": 17
+    },
+    {
+      "permit_id": "PYC-8ee50723",
+      "title": "ABC food and bev alcohol",
+      "property_code": "PYC",
+      "display_name": "Safe Harbor Peninsula Yacht Club",
+      "rvp": "Michael Duling",
+      "region": "South",
+      "renewal_start": "2026-03-01",
+      "expiration": "2026-03-13",
+      "status": "expired",
+      "days_to_exp": -62
+    },
+    {
+      "permit_id": "BIM-59dd3ee0",
+      "title": "Alameda Fire Department",
+      "property_code": "BIM",
+      "display_name": "Safe Harbor Ballena Isle",
+      "rvp": "Garrett McKinney",
+      "region": "West Coast North",
+      "renewal_start": "2026-04-21",
+      "expiration": "2026-05-21",
+      "status": "expiring_soon",
+      "days_to_exp": 7
+    },
+    {
+      "permit_id": "PDP-febab90b",
+      "title": "Anne Arundel Co Health Dept Pool Permit",
+      "property_code": "PDP",
+      "display_name": "Safe Harbor Podickory",
+      "rvp": "Desiree Bell",
+      "region": "Mid-Atlantic West",
+      "renewal_start": "2026-04-15",
+      "expiration": "2026-04-30",
+      "status": "expired",
+      "days_to_exp": -14
+    },
+    {
+      "permit_id": "ANN-230f4dc6",
+      "title": "Anne Arundel County Swimming Pool Facilities -Wading and Main",
+      "property_code": "ANN",
+      "display_name": "Safe Harbor Annapolis",
+      "rvp": "Desiree Bell",
+      "region": "Mid-Atlantic West",
+      "renewal_start": "2026-05-05",
+      "expiration": "2026-04-30",
+      "status": "expired",
+      "days_to_exp": -14
+    },
+    {
+      "permit_id": "SAU-67b9a539",
+      "title": "Annual Certified Unified Program Agency (CUPA) Permit",
+      "property_code": "SAU",
+      "display_name": "Safe Harbor Sausalito",
+      "rvp": "Garrett McKinney",
+      "region": "West Coast North",
+      "renewal_start": "2026-04-15",
+      "expiration": "2026-05-01",
+      "status": "expired",
+      "days_to_exp": -13
+    },
+    {
+      "permit_id": "WBM-3b96853f",
+      "title": "Annual DOH Campground Permit",
+      "property_code": "WBM",
+      "display_name": "Safe Harbor Willsboro Bay",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "renewal_start": "2026-04-01",
+      "expiration": "2026-05-31",
+      "status": "expiring_soon",
+      "days_to_exp": 17
+    },
+    {
+      "permit_id": "JAR-49afd176",
+      "title": "Annual Inspection of 300 Ton Travel Lift",
+      "property_code": "JAR",
+      "display_name": "Safe Harbor Jarrett Bay",
+      "rvp": "Ron Gift",
+      "region": "Southeast",
+      "renewal_start": "2026-02-02",
+      "expiration": "2026-03-02",
+      "status": "expired",
+      "days_to_exp": -73
+    },
+    {
+      "permit_id": "COW-178d3f94",
+      "title": "APP Travel Lift Inspection",
+      "property_code": "COW",
+      "display_name": "Safe Harbor Cowesett",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "renewal_start": "2026-03-15",
+      "expiration": "2026-04-15",
+      "status": "expired",
+      "days_to_exp": -29
+    },
+    {
+      "permit_id": "SHV-1875e7be",
+      "title": "Association of Marina Industries (AMI) Clean and Resilient Marina",
+      "property_code": "SHV",
+      "display_name": "Safe Harbor South Harbour Village",
+      "rvp": "David Rogers",
+      "region": "Coastal Carolinas",
+      "renewal_start": "2026-05-01",
+      "expiration": "2026-05-01",
+      "status": "expired",
+      "days_to_exp": -13
+    },
+    {
+      "permit_id": "GLM-fd6d93ae",
+      "title": "Backflow Preventer Device Inspections",
+      "property_code": "GLM",
+      "display_name": "Safe Harbor Great Lakes",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "renewal_start": "2026-04-01",
+      "expiration": "2026-05-01",
+      "status": "expired",
+      "days_to_exp": -13
+    },
+    {
+      "permit_id": "SKM-461a240b",
+      "title": "Backflow Preventer Test",
+      "property_code": "SKM",
+      "display_name": "Safe Harbor Siesta Key",
+      "rvp": "Jaret Rogers",
+      "region": "Florida West",
+      "renewal_start": "2026-03-01",
+      "expiration": "2026-03-24",
+      "status": "expired",
+      "days_to_exp": -51
+    },
+    {
+      "permit_id": "GBM-b5930ee0",
+      "title": "BACKFLOW PREVENTION INSPECTION",
+      "property_code": "GBM",
+      "display_name": "Safe Harbor Greenwich Bay",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "renewal_start": "2026-05-15",
+      "expiration": "2026-06-01",
+      "status": "expiring_soon",
+      "days_to_exp": 18
+    },
+    {
+      "permit_id": "CAR-bb8cf2bf",
+      "title": "Baltimore Co Dept of Permits Public Pool",
+      "property_code": "CAR",
+      "display_name": "Safe Harbor Carroll Island",
+      "rvp": "Desiree Bell",
+      "region": "Mid-Atlantic West",
+      "renewal_start": "2026-04-01",
+      "expiration": "2026-04-30",
+      "status": "expired",
+      "days_to_exp": -14
+    },
+    {
+      "permit_id": "SFB-bc147a0b",
+      "title": "Bay Area Air Quality",
+      "property_code": "SFB",
+      "display_name": "Safe Harbor San Francisco Bay",
+      "rvp": "Garrett McKinney",
+      "region": "West Coast North",
+      "renewal_start": "2026-04-15",
+      "expiration": "2026-05-01",
+      "status": "expired",
+      "days_to_exp": -13
+    },
+    {
+      "permit_id": "SAU-7e02ed45",
+      "title": "Bay Area Air Quality",
+      "property_code": "SAU",
+      "display_name": "Safe Harbor Sausalito",
+      "rvp": "Garrett McKinney",
+      "region": "West Coast North",
+      "renewal_start": "2026-04-15",
+      "expiration": "2026-05-01",
+      "status": "expired",
+      "days_to_exp": -13
+    },
+    {
+      "permit_id": "BIM-f6854c7d",
+      "title": "Bay Area Air Quality Management District",
+      "property_code": "BIM",
+      "display_name": "Safe Harbor Ballena Isle",
+      "rvp": "Garrett McKinney",
+      "region": "West Coast North",
+      "renewal_start": "2026-03-01",
+      "expiration": "2026-04-01",
+      "status": "expired",
+      "days_to_exp": -43
+    },
+    {
+      "permit_id": "TBM-9127499a",
+      "title": "Beverage Toledo Beach LLC Food Establishment",
+      "property_code": "TBM",
+      "display_name": "Safe Harbor Toledo Beach",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "renewal_start": "2026-04-01",
+      "expiration": "2026-04-30",
+      "status": "expired",
+      "days_to_exp": -14
+    },
+    {
+      "permit_id": "TBM-3bf71969",
+      "title": "Beverage Toledo Beach LLC Liquor License",
+      "property_code": "TBM",
+      "display_name": "Safe Harbor Toledo Beach",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "renewal_start": "2026-04-01",
+      "expiration": "2026-04-30",
+      "status": "expired",
+      "days_to_exp": -14
+    },
+    {
+      "permit_id": "BJM-b40e537a",
+      "title": "BJM Public Pool Inspection",
+      "property_code": "BJM",
+      "display_name": "Safe Harbor Bruce & Johnsons",
+      "rvp": "Matt Marshall",
+      "region": "New York + Coastal Connecticut",
+      "renewal_start": "2026-04-01",
+      "expiration": "2026-05-15",
+      "status": "expiring_soon",
+      "days_to_exp": 1
+    },
+    {
+      "permit_id": "MRC-a7e2f2a8",
+      "title": "Bonding Certificate",
+      "property_code": "MRC",
+      "display_name": "Safe Harbor Manasquan River",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "renewal_start": "2026-04-01",
+      "expiration": "2026-05-14",
+      "status": "expiring_soon",
+      "days_to_exp": 0
+    },
+    {
+      "permit_id": "EC-5bf94b1d",
+      "title": "BUSINESS AND SALES TAX",
+      "property_code": "EC",
+      "display_name": "Safe Harbor Eagle Cove",
+      "rvp": "Layne Wilson",
+      "region": "Kentucky + Tennessee",
+      "renewal_start": "2026-04-01",
+      "expiration": "2026-04-15",
+      "status": "expired",
+      "days_to_exp": -29
+    },
+    {
+      "permit_id": "SAU-06225c14",
+      "title": "Business License",
+      "property_code": "SAU",
+      "display_name": "Safe Harbor Sausalito",
+      "rvp": "Garrett McKinney",
+      "region": "West Coast North",
+      "renewal_start": "2026-04-15",
+      "expiration": "2026-05-01",
+      "status": "expired",
+      "days_to_exp": -13
+    },
+    {
+      "permit_id": "MBYH-183e5716",
+      "title": "Business Tax Certificate",
+      "property_code": "MBYH",
+      "display_name": "Safe Harbor Marina Bay Yacht Harbor",
+      "rvp": "Garrett McKinney",
+      "region": "West Coast North",
+      "renewal_start": "2026-04-01",
+      "expiration": "2025-12-31",
+      "status": "expired",
+      "days_to_exp": -134
+    },
+    {
+      "permit_id": "SFB-616bf9bd",
+      "title": "Business Tax Certificate",
+      "property_code": "SFB",
+      "display_name": "Safe Harbor San Francisco Bay",
+      "rvp": "Garrett McKinney",
+      "region": "West Coast North",
+      "renewal_start": "2026-04-15",
+      "expiration": "2026-05-01",
+      "status": "expired",
+      "days_to_exp": -13
+    },
+    {
+      "permit_id": "JAR-3a38aac8",
+      "title": "Campbell Oil Company - Agreement for Purchase of Petroleum Products and Related Services",
+      "property_code": "JAR",
+      "display_name": "Safe Harbor Jarrett Bay",
+      "rvp": "Ron Gift",
+      "region": "Southeast",
+      "renewal_start": "2026-05-01",
+      "expiration": "2026-06-01",
+      "status": "expiring_soon",
+      "days_to_exp": 18
+    },
+    {
+      "permit_id": "CPM-c95cb26f",
+      "title": "Certificate Construction Code Division-Pool Certificate of Compliance",
+      "property_code": "CPM",
+      "display_name": "Safe Harbor Crystal Point",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "renewal_start": "2026-04-01",
+      "expiration": "2026-05-29",
+      "status": "expiring_soon",
+      "days_to_exp": 15
+    },
+    {
+      "permit_id": "GOL-91f3562b",
+      "title": "Certificate for Weighing and Measuring Devices Registration",
+      "property_code": "GOL",
+      "display_name": "Safe Harbor Great Oak Landing",
+      "rvp": "Megan Rausch",
+      "region": "Mid-Atlantic East",
+      "renewal_start": "2026-05-01",
+      "expiration": "2026-05-31",
+      "status": "expiring_soon",
+      "days_to_exp": 17
+    },
+    {
+      "permit_id": "VHM-205cc882",
+      "title": "Certificate of Annual Registration",
+      "property_code": "VHM",
+      "display_name": "Safe Harbor Vineyard Haven",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "renewal_start": "2026-03-01",
+      "expiration": "2026-04-01",
+      "status": "expired",
+      "days_to_exp": -43
+    },
+    {
+      "permit_id": "SPM-ed22df65",
+      "title": "City of Orange Beach Business license SHM Sportsman LLC",
+      "property_code": "SPM",
+      "display_name": "Safe Harbor Sportsman",
+      "rvp": "Michael Duling",
+      "region": "South",
+      "renewal_start": "2025-12-31",
+      "expiration": "2025-12-31",
+      "status": "expired",
+      "days_to_exp": -134
+    },
+    {
+      "permit_id": "KPYY-ccdfe02f",
+      "title": "Clean Marina",
+      "property_code": "KPYY",
+      "display_name": "Safe Harbor Kittery Point Yacht Yard",
+      "rvp": "Greg Glavin",
+      "region": "Maine + New Hampshire",
+      "renewal_start": "2026-04-01",
+      "expiration": "2026-05-06",
+      "status": "expired",
+      "days_to_exp": -8
+    },
+    {
+      "permit_id": "SBAY-79bc999e",
+      "title": "Clean Marine Cert",
+      "property_code": "SBAY",
+      "display_name": "Safe Harbor South Bay",
+      "rvp": "Josh Hester",
+      "region": "West Coast South",
+      "renewal_start": "2026-03-01",
+      "expiration": "2026-04-08",
+      "status": "expired",
+      "days_to_exp": -36
+    },
+    {
+      "permit_id": "BFM-3a3c6469",
+      "title": "County of San Diego Department of Agriculture, Weights and Measures",
+      "property_code": "BFM",
+      "display_name": "Safe Harbor Bayfront",
+      "rvp": "Josh Hester",
+      "region": "West Coast South",
+      "renewal_start": "2026-04-15",
+      "expiration": "2026-05-31",
+      "status": "expiring_soon",
+      "days_to_exp": 17
+    },
+    {
+      "permit_id": "BJM-7770c28c",
+      "title": "CT1072AL Workboat Vessel Registration",
+      "property_code": "BJM",
+      "display_name": "Safe Harbor Bruce & Johnsons",
+      "rvp": "Matt Marshall",
+      "region": "New York + Coastal Connecticut",
+      "renewal_start": "2025-01-01",
+      "expiration": "2025-04-30",
+      "status": "expired",
+      "days_to_exp": -379
+    },
+    {
+      "permit_id": "BJM-6aa95ee2",
+      "title": "CT6837AY Workboat Registration",
+      "property_code": "BJM",
+      "display_name": "Safe Harbor Bruce & Johnsons",
+      "rvp": "Matt Marshall",
+      "region": "New York + Coastal Connecticut",
+      "renewal_start": "2025-01-01",
+      "expiration": "2025-04-30",
+      "status": "expired",
+      "days_to_exp": -379
+    },
+    {
+      "permit_id": "BJM-3f1bcb9f",
+      "title": "CT9111AC Boston Whaler Workboat Vessel Registration",
+      "property_code": "BJM",
+      "display_name": "Safe Harbor Bruce & Johnsons",
+      "rvp": "Matt Marshall",
+      "region": "New York + Coastal Connecticut",
+      "renewal_start": "2025-01-01",
+      "expiration": "2025-04-30",
+      "status": "expired",
+      "days_to_exp": -379
+    },
+    {
+      "permit_id": "NSY-fd62b4b7",
+      "title": "DEM Stormwater MSGP",
+      "property_code": "NSY",
+      "display_name": "Safe Harbor Newport Shipyard",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "renewal_start": "2025-12-01",
+      "expiration": "2025-12-31",
+      "status": "expired",
+      "days_to_exp": -134
+    },
+    {
+      "permit_id": "SKM-a13641df",
+      "title": "DIV of Alcoholic Beverages & Tobacco",
+      "property_code": "SKM",
+      "display_name": "Safe Harbor Siesta Key",
+      "rvp": "Jaret Rogers",
+      "region": "Florida West",
+      "renewal_start": "2026-03-31",
+      "expiration": "2026-03-31",
+      "status": "expired",
+      "days_to_exp": -44
+    },
+    {
+      "permit_id": "NPB-091fc87e",
+      "title": "DIV of Alcoholic Beverages and Tobacco",
+      "property_code": "NPB",
+      "display_name": "Safe Harbor North Palm Beach",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-02-01",
+      "expiration": "2026-03-31",
+      "status": "expired",
+      "days_to_exp": -44
+    },
+    {
+      "permit_id": "EVM-43f7ffac",
+      "title": "DMV REGISTRATIONI",
+      "property_code": "EVM",
+      "display_name": "Safe Harbor Emeryville",
+      "rvp": "Garrett McKinney",
+      "region": "West Coast North",
+      "renewal_start": "2026-04-30",
+      "expiration": "2026-05-31",
+      "status": "expiring_soon",
+      "days_to_exp": 17
+    },
+    {
+      "permit_id": "NPB-a80d1161",
+      "title": "dpbr Alcohol and Tobacco",
+      "property_code": "NPB",
+      "display_name": "Safe Harbor North Palm Beach",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-02-01",
+      "expiration": "2026-03-31",
+      "status": "expired",
+      "days_to_exp": -44
+    },
+    {
+      "permit_id": "BST-160f7a44",
+      "title": "Emergency Response Trailer registration",
+      "property_code": "BST",
+      "display_name": "Safe Harbor Burnt Store",
+      "rvp": "Jaret Rogers",
+      "region": "Florida West",
+      "renewal_start": "2025-05-19",
+      "expiration": "2026-05-31",
+      "status": "expiring_soon",
+      "days_to_exp": 17
+    },
+    {
+      "permit_id": "COW-3721e6df",
+      "title": "FCC Radio Station Authorization",
+      "property_code": "COW",
+      "display_name": "Safe Harbor Cowesett",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "renewal_start": "2026-02-01",
+      "expiration": "2026-02-28",
+      "status": "expired",
+      "days_to_exp": -75
+    },
+    {
+      "permit_id": "MBYH-53b42cd8",
+      "title": "FCC Radio Station Authorization",
+      "property_code": "MBYH",
+      "display_name": "Safe Harbor Marina Bay Yacht Harbor",
+      "rvp": "Garrett McKinney",
+      "region": "West Coast North",
+      "renewal_start": "2026-03-20",
+      "expiration": "2026-04-07",
+      "status": "expired",
+      "days_to_exp": -37
+    },
+    {
+      "permit_id": "HC-6051b803",
+      "title": "Fire Certification",
+      "property_code": "HC",
+      "display_name": "Safe Harbor Holly Creek",
+      "rvp": "Layne Wilson",
+      "region": "Kentucky + Tennessee",
+      "renewal_start": "2026-04-01",
+      "expiration": "2026-05-01",
+      "status": "expired",
+      "days_to_exp": -13
+    },
+    {
+      "permit_id": "HBM-c852fabe",
+      "title": "Fire Extinguisher Inspection",
+      "property_code": "HBM",
+      "display_name": "Safe Harbor Hideaway Bay",
+      "rvp": "Michael Duling",
+      "region": "South",
+      "renewal_start": "2026-05-01",
+      "expiration": "2026-06-01",
+      "status": "expiring_soon",
+      "days_to_exp": 18
+    },
+    {
+      "permit_id": "VIM-4a704cba",
+      "title": "Fire Extinguisher Inspections-VIM",
+      "property_code": "VIM",
+      "display_name": "Safe Harbor Ventura Isle",
+      "rvp": "Josh Hester",
+      "region": "West Coast South",
+      "renewal_start": "2026-04-15",
+      "expiration": "2026-05-15",
+      "status": "expiring_soon",
+      "days_to_exp": 1
+    },
+    {
+      "permit_id": "EC-c5b724c6",
+      "title": "Fire Extinguisher Reminder",
+      "property_code": "EC",
+      "display_name": "Safe Harbor Eagle Cove",
+      "rvp": "Layne Wilson",
+      "region": "Kentucky + Tennessee",
+      "renewal_start": "2026-04-01",
+      "expiration": "2026-04-18",
+      "status": "expired",
+      "days_to_exp": -26
+    },
+    {
+      "permit_id": "ISL-736b69e7",
+      "title": "Fire Inspection Village",
+      "property_code": "ISL",
+      "display_name": "Safe Harbor Islamorada",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2024-08-01",
+      "expiration": "2024-09-13",
+      "status": "expired",
+      "days_to_exp": -608
+    },
+    {
+      "permit_id": "MBB-bcf9616d",
+      "title": "Flammable Fuel Storage",
+      "property_code": "MBB",
+      "display_name": "Safe Harbor Marina Bay",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "renewal_start": "2026-04-15",
+      "expiration": "2026-04-30",
+      "status": "expired",
+      "days_to_exp": -14
+    },
+    {
+      "permit_id": "PAM-fff113e1",
+      "title": "General Discharge Permit",
+      "property_code": "PAM",
+      "display_name": "Safe Harbor Port Annapolis",
+      "rvp": "Desiree Bell",
+      "region": "Mid-Atlantic West",
+      "renewal_start": "2026-02-01",
+      "expiration": "2026-02-28",
+      "status": "expired",
+      "days_to_exp": -75
+    },
+    {
+      "permit_id": "SFB-eb4be028",
+      "title": "Hazardous Materials",
+      "property_code": "SFB",
+      "display_name": "Safe Harbor San Francisco Bay",
+      "rvp": "Garrett McKinney",
+      "region": "West Coast North",
+      "renewal_start": "2026-04-15",
+      "expiration": "2026-05-01",
+      "status": "expired",
+      "days_to_exp": -13
+    },
+    {
+      "permit_id": "KPM-9c4d40f9",
+      "title": "Hazardous Materials Storage Permit",
+      "property_code": "KPM",
+      "display_name": "Safe Harbor King's Point",
+      "rvp": "Michael Duling",
+      "region": "South",
+      "renewal_start": "2026-05-01",
+      "expiration": "2026-06-01",
+      "status": "expiring_soon",
+      "days_to_exp": 18
+    },
+    {
+      "permit_id": "PAM-6aa054e2",
+      "title": "Health Department Permit",
+      "property_code": "PAM",
+      "display_name": "Safe Harbor Port Annapolis",
+      "rvp": "Desiree Bell",
+      "region": "Mid-Atlantic West",
+      "renewal_start": "2026-02-01",
+      "expiration": "2026-02-28",
+      "status": "expired",
+      "days_to_exp": -75
+    },
+    {
+      "permit_id": "PLY-a5827481",
+      "title": "Income and Expenses",
+      "property_code": "PLY",
+      "display_name": "Safe Harbor Plymouth",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "renewal_start": "2026-04-01",
+      "expiration": "2026-05-31",
+      "status": "expiring_soon",
+      "days_to_exp": 17
+    },
+    {
+      "permit_id": "AHM-dd741a46",
+      "title": "Islamorada Annual Fire Inspection",
+      "property_code": "AHM",
+      "display_name": "Safe Harbor Angler House",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2025-09-01",
+      "expiration": "2025-10-16",
+      "status": "expired",
+      "days_to_exp": -210
+    },
+    {
+      "permit_id": "EC-056fb428",
+      "title": "lake cumberland fire extingusher",
+      "property_code": "EC",
+      "display_name": "Safe Harbor Eagle Cove",
+      "rvp": "Layne Wilson",
+      "region": "Kentucky + Tennessee",
+      "renewal_start": "2025-04-01",
+      "expiration": "2026-04-18",
+      "status": "expired",
+      "days_to_exp": -26
+    },
+    {
+      "permit_id": "LFM-9bb6c0fb",
+      "title": "LFM Pool Permit",
+      "property_code": "LFM",
+      "display_name": "Safe Harbor Lakefront",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "renewal_start": "2026-05-01",
+      "expiration": "2026-05-31",
+      "status": "expiring_soon",
+      "days_to_exp": 17
+    },
+    {
+      "permit_id": "MBB-ea417ecf",
+      "title": "Marine Fueling Permit",
+      "property_code": "MBB",
+      "display_name": "Safe Harbor Marina Bay",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "renewal_start": "2025-12-01",
+      "expiration": "2025-12-31",
+      "status": "expired",
+      "days_to_exp": -134
+    },
+    {
+      "permit_id": "MBY-486b965d",
+      "title": "MBY 2025 Monroe Co. Early Re-Entry Placard",
+      "property_code": "MBY",
+      "display_name": "Safe Harbor Marathon",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-03-01",
+      "expiration": "2025-12-31",
+      "status": "expired",
+      "days_to_exp": -134
+    },
+    {
+      "permit_id": "OXF-b46fd5a2",
+      "title": "MD Dept of Health Swimming Pool Operation Permit",
+      "property_code": "OXF",
+      "display_name": "Safe Harbor Oxford",
+      "rvp": "Megan Rausch",
+      "region": "Mid-Atlantic East",
+      "renewal_start": "2026-03-15",
+      "expiration": "2026-04-30",
+      "status": "expired",
+      "days_to_exp": -14
+    },
+    {
+      "permit_id": "SHV-66f530d1",
+      "title": "North Carolina Department of Agriculture & Consumer Services",
+      "property_code": "SHV",
+      "display_name": "Safe Harbor South Harbour Village",
+      "rvp": "David Rogers",
+      "region": "Coastal Carolinas",
+      "renewal_start": "2025-02-13",
+      "expiration": "2025-02-13",
+      "status": "expired",
+      "days_to_exp": -455
+    },
+    {
+      "permit_id": "JAR-46bf2e14",
+      "title": "NOVATECH",
+      "property_code": "JAR",
+      "display_name": "Safe Harbor Jarrett Bay",
+      "rvp": "Ron Gift",
+      "region": "Southeast",
+      "renewal_start": "2026-05-10",
+      "expiration": "2026-06-10",
+      "status": "expiring_soon",
+      "days_to_exp": 27
+    },
+    {
+      "permit_id": "SFB-89202941",
+      "title": "NPDES",
+      "property_code": "SFB",
+      "display_name": "Safe Harbor San Francisco Bay",
+      "rvp": "Garrett McKinney",
+      "region": "West Coast North",
+      "renewal_start": "2026-04-15",
+      "expiration": "2026-05-01",
+      "status": "expired",
+      "days_to_exp": -13
+    },
+    {
+      "permit_id": "SAU-a9ff10d7",
+      "title": "NPDES",
+      "property_code": "SAU",
+      "display_name": "Safe Harbor Sausalito",
+      "rvp": "Garrett McKinney",
+      "region": "West Coast North",
+      "renewal_start": "2026-04-15",
+      "expiration": "2026-05-01",
+      "status": "expired",
+      "days_to_exp": -13
+    },
+    {
+      "permit_id": "GRE-e778bef7",
+      "title": "NYS REGISTRATION",
+      "property_code": "GRE",
+      "display_name": "Safe Harbor Greenport",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "renewal_start": "2026-02-13",
+      "expiration": "2026-02-28",
+      "status": "expired",
+      "days_to_exp": -75
+    },
+    {
+      "permit_id": "ONS-f1c374e8",
+      "title": "ONS 6535 2014 Utility Trailer Gray",
+      "property_code": "ONS",
+      "display_name": "Safe Harbor Onset Bay",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "renewal_start": "2025-11-01",
+      "expiration": "2025-11-30",
+      "status": "expired",
+      "days_to_exp": -165
+    },
+    {
+      "permit_id": "ONS-986ec27b",
+      "title": "ONS 6535 Massachusetts FP-005 Certificate of Registration to store fuel",
+      "property_code": "ONS",
+      "display_name": "Safe Harbor Onset Bay",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "renewal_start": "2026-03-02",
+      "expiration": "2025-12-31",
+      "status": "expired",
+      "days_to_exp": -134
+    },
+    {
+      "permit_id": "ONS-160db7fb",
+      "title": "ONS 6535 Massachusetts FP-006 Permit to Store Fuel",
+      "property_code": "ONS",
+      "display_name": "Safe Harbor Onset Bay",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "renewal_start": "2026-03-02",
+      "expiration": "2025-12-31",
+      "status": "expired",
+      "days_to_exp": -134
+    },
+    {
+      "permit_id": "ONS-c95db35a",
+      "title": "ONS 6535 Massachusetts FP-294 Marine Fueling Facility Permit",
+      "property_code": "ONS",
+      "display_name": "Safe Harbor Onset Bay",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "renewal_start": "2026-03-02",
+      "expiration": "2025-12-31",
+      "status": "expired",
+      "days_to_exp": -134
+    },
+    {
+      "permit_id": "HSM-bc6d434c",
+      "title": "Permit to Operate Swimming Pool",
+      "property_code": "HSM",
+      "display_name": "Safe Harbor Haverstraw",
+      "rvp": "Matt Marshall",
+      "region": "New York + Coastal Connecticut",
+      "renewal_start": "2026-05-01",
+      "expiration": "2025-12-31",
+      "status": "expired",
+      "days_to_exp": -134
+    },
+    {
+      "permit_id": "HC-9baff11f",
+      "title": "Petroleum Sample Collection",
+      "property_code": "HC",
+      "display_name": "Safe Harbor Holly Creek",
+      "rvp": "Layne Wilson",
+      "region": "Kentucky + Tennessee",
+      "renewal_start": "2026-04-16",
+      "expiration": "2026-05-16",
+      "status": "expiring_soon",
+      "days_to_exp": 2
+    },
+    {
+      "permit_id": "CPM-6802e485",
+      "title": "Pool Bonding Certificate",
+      "property_code": "CPM",
+      "display_name": "Safe Harbor Crystal Point",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "renewal_start": "2026-04-01",
+      "expiration": "2026-05-14",
+      "status": "expiring_soon",
+      "days_to_exp": 0
+    },
+    {
+      "permit_id": "MYS-44404224",
+      "title": "Pool License",
+      "property_code": "MYS",
+      "display_name": "Safe Harbor Mystic",
+      "rvp": "Josh Twidwell",
+      "region": "Pilots Point + Mystic",
+      "renewal_start": "2026-05-10",
+      "expiration": "2026-05-31",
+      "status": "expiring_soon",
+      "days_to_exp": 17
+    },
+    {
+      "permit_id": "GLE-5edb609f",
+      "title": "Pool Permit",
+      "property_code": "GLE",
+      "display_name": "Safe Harbor Glen Cove",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "renewal_start": "2026-05-01",
+      "expiration": "2025-09-02",
+      "status": "expired",
+      "days_to_exp": -254
+    },
+    {
+      "permit_id": "CAP-33749c13",
+      "title": "Pool Permit",
+      "property_code": "CAP",
+      "display_name": "Safe Harbor Capri",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "renewal_start": "2026-05-01",
+      "expiration": "2025-10-15",
+      "status": "expired",
+      "days_to_exp": -211
+    },
+    {
+      "permit_id": "FPM-9f03b258",
+      "title": "Pool Permit",
+      "property_code": "FPM",
+      "display_name": "Safe Harbor Ferry Point",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "renewal_start": "2026-05-01",
+      "expiration": "2025-10-01",
+      "status": "expired",
+      "days_to_exp": -225
+    },
+    {
+      "permit_id": "BYC-43605bec",
+      "title": "Pool Permit",
+      "property_code": "BYC",
+      "display_name": "Safe Harbor Bluewater",
+      "rvp": "Ron Gift",
+      "region": "Southeast",
+      "renewal_start": "2026-04-10",
+      "expiration": "2026-04-30",
+      "status": "expired",
+      "days_to_exp": -14
+    },
+    {
+      "permit_id": "JAR-90b85c5f",
+      "title": "Potter Oil & Tire Co., Inc.",
+      "property_code": "JAR",
+      "display_name": "Safe Harbor Jarrett Bay",
+      "rvp": "Ron Gift",
+      "region": "Southeast",
+      "renewal_start": "2026-05-01",
+      "expiration": "2026-06-01",
+      "status": "expiring_soon",
+      "days_to_exp": 18
+    },
+    {
+      "permit_id": "PAM-83d7b97f",
+      "title": "Public Swimming Pool and Spa Permit",
+      "property_code": "PAM",
+      "display_name": "Safe Harbor Port Annapolis",
+      "rvp": "Desiree Bell",
+      "region": "Mid-Atlantic West",
+      "renewal_start": "2026-03-31",
+      "expiration": "2026-04-30",
+      "status": "expired",
+      "days_to_exp": -14
+    },
+    {
+      "permit_id": "SHM-ccb5f9a2",
+      "title": "Public Swimming Pool License",
+      "property_code": "SHM",
+      "display_name": "Safe Harbor Sandusky",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "renewal_start": "2026-05-01",
+      "expiration": "2026-05-31",
+      "status": "expiring_soon",
+      "days_to_exp": 17
+    },
+    {
+      "permit_id": "BMH-0498722d",
+      "title": "Public Swimming Pool License -Outdoor",
+      "property_code": "BMH",
+      "display_name": "Safe Harbor Belle Maer",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "renewal_start": "2026-02-01",
+      "expiration": "2025-12-31",
+      "status": "expired",
+      "days_to_exp": -134
+    },
+    {
+      "permit_id": "JAR-9d4d7aa3",
+      "title": "RDN-2933 (BUS) REGISTRATION",
+      "property_code": "JAR",
+      "display_name": "Safe Harbor Jarrett Bay",
+      "rvp": "Ron Gift",
+      "region": "Southeast",
+      "renewal_start": "2026-03-01",
+      "expiration": "2026-03-31",
+      "status": "expired",
+      "days_to_exp": -44
+    },
+    {
+      "permit_id": "ALN-dbded0de",
+      "title": "REGISTRATION CERTIFICATE",
+      "property_code": "ALN",
+      "display_name": "Safe Harbor Allen Harbor",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "renewal_start": "2026-03-01",
+      "expiration": "2026-03-31",
+      "status": "expired",
+      "days_to_exp": -44
+    },
+    {
+      "permit_id": "FPM-aae12963",
+      "title": "Sales And Use Tax",
+      "property_code": "FPM",
+      "display_name": "Safe Harbor Ferry Point",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "renewal_start": "2026-04-01",
+      "expiration": "2026-05-31",
+      "status": "expiring_soon",
+      "days_to_exp": 17
+    },
+    {
+      "permit_id": "HYC-e71a1abd",
+      "title": "SFWMD Permit No 43-01725-P",
+      "property_code": "HYC",
+      "display_name": "Safe Harbor Harborage Yacht Club",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2024-01-01",
+      "expiration": "2024-04-09",
+      "status": "expired",
+      "days_to_exp": -765
+    },
+    {
+      "permit_id": "BMH-83f74d25",
+      "title": "SHM BELLE MAER LLC - Chevrolet",
+      "property_code": "BMH",
+      "display_name": "Safe Harbor Belle Maer",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "renewal_start": "2026-02-01",
+      "expiration": "2026-02-28",
+      "status": "expired",
+      "days_to_exp": -75
+    },
+    {
+      "permit_id": "BMH-24d4dbdd",
+      "title": "SHM BELLE MAER LLC - Ford",
+      "property_code": "BMH",
+      "display_name": "Safe Harbor Belle Maer",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "renewal_start": "2026-02-01",
+      "expiration": "2026-02-28",
+      "status": "expired",
+      "days_to_exp": -75
+    },
+    {
+      "permit_id": "BMH-e44b6bb4",
+      "title": "SHM BELLE MAER LLC - GMC",
+      "property_code": "BMH",
+      "display_name": "Safe Harbor Belle Maer",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "renewal_start": "2026-02-01",
+      "expiration": "2026-02-28",
+      "status": "expired",
+      "days_to_exp": -75
+    },
+    {
+      "permit_id": "GLE-232138e5",
+      "title": "Shore Things Rental",
+      "property_code": "GLE",
+      "display_name": "Safe Harbor Glen Cove",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "renewal_start": "2026-03-16",
+      "expiration": "2026-04-30",
+      "status": "expired",
+      "days_to_exp": -14
+    },
+    {
+      "permit_id": "EYC-731e55d2",
+      "title": "Short Term Rental Business License",
+      "property_code": "EYC",
+      "display_name": "Safe Harbor Eastport Yachting Center",
+      "rvp": "Desiree Bell",
+      "region": "Mid-Atlantic West",
+      "renewal_start": "2026-02-01",
+      "expiration": "2026-02-28",
+      "status": "expired",
+      "days_to_exp": -75
+    },
+    {
+      "permit_id": "PAM-b7bfd977",
+      "title": "Short Term Rental Unit Operating License",
+      "property_code": "PAM",
+      "display_name": "Safe Harbor Port Annapolis",
+      "rvp": "Desiree Bell",
+      "region": "Mid-Atlantic West",
+      "renewal_start": "2026-02-01",
+      "expiration": "2026-02-28",
+      "status": "expired",
+      "days_to_exp": -75
+    },
+    {
+      "permit_id": "ZAN-4f6742ea",
+      "title": "Shuttle Van Registration",
+      "property_code": "ZAN",
+      "display_name": "Safe Harbor Zahnisers",
+      "rvp": "Megan Rausch",
+      "region": "Mid-Atlantic East",
+      "renewal_start": "2026-05-01",
+      "expiration": "2026-05-31",
+      "status": "expiring_soon",
+      "days_to_exp": 17
+    },
+    {
+      "permit_id": "SAK-ccdc12b2",
+      "title": "Spa License",
+      "property_code": "SAK",
+      "display_name": "Safe Harbor Sakonnet",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "renewal_start": "2026-05-01",
+      "expiration": "2026-05-31",
+      "status": "expiring_soon",
+      "days_to_exp": 17
+    },
+    {
+      "permit_id": "NPC-0cd3b5c4",
+      "title": "SPCC",
+      "property_code": "NPC",
+      "display_name": "Safe Harbor New Port Cove",
+      "rvp": "Bruce McFarlane",
+      "region": "International North",
+      "renewal_start": "2026-06-01",
+      "expiration": "2026-06-01",
+      "status": "expiring_soon",
+      "days_to_exp": 18
+    },
+    {
+      "permit_id": "WBM-9c1310b6",
+      "title": "SPDES MSGP fee",
+      "property_code": "WBM",
+      "display_name": "Safe Harbor Willsboro Bay",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "renewal_start": "2025-12-15",
+      "expiration": "2025-12-31",
+      "status": "expired",
+      "days_to_exp": -134
+    },
+    {
+      "permit_id": "NSY-64b88f37",
+      "title": "Sprinkler Inspection Certificate",
+      "property_code": "NSY",
+      "display_name": "Safe Harbor Newport Shipyard",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "renewal_start": "2026-05-21",
+      "expiration": "2026-06-01",
+      "status": "expiring_soon",
+      "days_to_exp": 18
+    },
+    {
+      "permit_id": "HYC-00fd9aa4",
+      "title": "SSL North Marina No. 430076928",
+      "property_code": "HYC",
+      "display_name": "Safe Harbor Harborage Yacht Club",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2023-11-01",
+      "expiration": "2024-01-11",
+      "status": "expired",
+      "days_to_exp": -854
+    },
+    {
+      "permit_id": "EYC-891e7a71",
+      "title": "Standard Rent Business License",
+      "property_code": "EYC",
+      "display_name": "Safe Harbor Eastport Yachting Center",
+      "rvp": "Desiree Bell",
+      "region": "Mid-Atlantic West",
+      "renewal_start": "2026-02-01",
+      "expiration": "2026-02-28",
+      "status": "expired",
+      "days_to_exp": -75
+    },
+    {
+      "permit_id": "PAM-3f5f47ae",
+      "title": "State of Maryland Business License",
+      "property_code": "PAM",
+      "display_name": "Safe Harbor Port Annapolis",
+      "rvp": "Desiree Bell",
+      "region": "Mid-Atlantic West",
+      "renewal_start": "2026-02-01",
+      "expiration": "2026-02-28",
+      "status": "expired",
+      "days_to_exp": -75
+    },
+    {
+      "permit_id": "STH-e12dfe3d",
+      "title": "Stirling Pool Permit",
+      "property_code": "STH",
+      "display_name": "Safe Harbor Stirling",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "renewal_start": "2026-05-01",
+      "expiration": "2025-09-30",
+      "status": "expired",
+      "days_to_exp": -226
+    },
+    {
+      "permit_id": "SFB-02b71152",
+      "title": "Stormwater Compliance",
+      "property_code": "SFB",
+      "display_name": "Safe Harbor San Francisco Bay",
+      "rvp": "Garrett McKinney",
+      "region": "West Coast North",
+      "renewal_start": "2026-04-15",
+      "expiration": "2026-05-01",
+      "status": "expired",
+      "days_to_exp": -13
+    },
+    {
+      "permit_id": "SAK-a1b2359f",
+      "title": "Swimming Pool License",
+      "property_code": "SAK",
+      "display_name": "Safe Harbor Sakonnet",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "renewal_start": "2026-05-01",
+      "expiration": "2026-05-31",
+      "status": "expiring_soon",
+      "days_to_exp": 17
+    },
+    {
+      "permit_id": "SSM-5d5747a4",
+      "title": "Swimming Pool License",
+      "property_code": "SSM",
+      "display_name": "Safe Harbor Silver Spring",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "renewal_start": "2026-04-01",
+      "expiration": "2026-05-31",
+      "status": "expiring_soon",
+      "days_to_exp": 17
+    },
+    {
+      "permit_id": "SKM-244ab64b",
+      "title": "SWPPP Quarterly Inspection",
+      "property_code": "SKM",
+      "display_name": "Safe Harbor Siesta Key",
+      "rvp": "Jaret Rogers",
+      "region": "Florida West",
+      "renewal_start": "2026-05-31",
+      "expiration": "2026-06-03",
+      "status": "expiring_soon",
+      "days_to_exp": 20
+    },
+    {
+      "permit_id": "EYC-17170c36",
+      "title": "Tenant Certificate of Use Permit",
+      "property_code": "EYC",
+      "display_name": "Safe Harbor Eastport Yachting Center",
+      "rvp": "Desiree Bell",
+      "region": "Mid-Atlantic West",
+      "renewal_start": "2026-02-01",
+      "expiration": "2026-02-28",
+      "status": "expired",
+      "days_to_exp": -75
+    },
+    {
+      "permit_id": "MBB-8a6c9f79",
+      "title": "Tier II",
+      "property_code": "MBB",
+      "display_name": "Safe Harbor Marina Bay",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "renewal_start": "2026-03-01",
+      "expiration": "2025-12-31",
+      "status": "expired",
+      "days_to_exp": -134
+    },
+    {
+      "permit_id": "HAW-6831a395",
+      "title": "TierII Report",
+      "property_code": "HAW",
+      "display_name": "Safe Harbor Hawthorne Cove",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "renewal_start": "2026-01-01",
+      "expiration": "2026-01-31",
+      "status": "expired",
+      "days_to_exp": -103
+    },
+    {
+      "permit_id": "JAR-f6ebddca",
+      "title": "TKE-8934 (GMC SIERRA) REGISTRATION",
+      "property_code": "JAR",
+      "display_name": "Safe Harbor Jarrett Bay",
+      "rvp": "Ron Gift",
+      "region": "Southeast",
+      "renewal_start": "2026-04-01",
+      "expiration": "2026-04-30",
+      "status": "expired",
+      "days_to_exp": -14
+    },
+    {
+      "permit_id": "ZAN-9b974d2f",
+      "title": "Truck Registration",
+      "property_code": "ZAN",
+      "display_name": "Safe Harbor Zahnisers",
+      "rvp": "Megan Rausch",
+      "region": "Mid-Atlantic East",
+      "renewal_start": "2026-04-30",
+      "expiration": "2026-05-31",
+      "status": "expiring_soon",
+      "days_to_exp": 17
+    },
+    {
+      "permit_id": "BMH-6d81bb96",
+      "title": "Underground Storage Tank Registration Certificate",
+      "property_code": "BMH",
+      "display_name": "Safe Harbor Belle Maer",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "renewal_start": "2025-11-01",
+      "expiration": "2025-11-30",
+      "status": "expired",
+      "days_to_exp": -165
+    },
+    {
+      "permit_id": "HC-c8b78afd",
+      "title": "ValveTech Storage Tank Certificate",
+      "property_code": "HC",
+      "display_name": "Safe Harbor Holly Creek",
+      "rvp": "Layne Wilson",
+      "region": "Kentucky + Tennessee",
+      "renewal_start": "2026-04-13",
+      "expiration": "2026-05-13",
+      "status": "expired",
+      "days_to_exp": -1
+    },
+    {
+      "permit_id": "SBM-005ff504",
+      "title": "Vehicle Registration renewal",
+      "property_code": "SBM",
+      "display_name": "Safe Harbor Sunset Bay",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "renewal_start": "2025-11-03",
+      "expiration": "2025-12-31",
+      "status": "expired",
+      "days_to_exp": -134
+    },
+    {
+      "permit_id": "PPM-328c7b09",
+      "title": "Vessel Registration",
+      "property_code": "PPM",
+      "display_name": "Safe Harbor Pilots Point",
+      "rvp": "Josh Twidwell",
+      "region": "Pilots Point + Mystic",
+      "renewal_start": "2026-04-01",
+      "expiration": "2026-04-30",
+      "status": "expired",
+      "days_to_exp": -14
+    },
+    {
+      "permit_id": "PPM-328c7b09",
+      "title": "Vessel Registration",
+      "property_code": "PPM",
+      "display_name": "Safe Harbor Pilots Point",
+      "rvp": "Josh Twidwell",
+      "region": "Pilots Point + Mystic",
+      "renewal_start": "2026-04-15",
+      "expiration": "2026-04-30",
+      "status": "expired",
+      "days_to_exp": -14
+    },
+    {
+      "permit_id": "PPM-328c7b09",
+      "title": "Vessel Registration",
+      "property_code": "PPM",
+      "display_name": "Safe Harbor Pilots Point",
+      "rvp": "Josh Twidwell",
+      "region": "Pilots Point + Mystic",
+      "renewal_start": "2026-04-01",
+      "expiration": "2026-04-30",
+      "status": "expired",
+      "days_to_exp": -14
+    },
+    {
+      "permit_id": "PPM-328c7b09",
+      "title": "Vessel Registration",
+      "property_code": "PPM",
+      "display_name": "Safe Harbor Pilots Point",
+      "rvp": "Josh Twidwell",
+      "region": "Pilots Point + Mystic",
+      "renewal_start": "2026-04-15",
+      "expiration": "2026-04-30",
+      "status": "expired",
+      "days_to_exp": -14
+    },
+    {
+      "permit_id": "PPM-328c7b09",
+      "title": "Vessel Registration",
+      "property_code": "PPM",
+      "display_name": "Safe Harbor Pilots Point",
+      "rvp": "Josh Twidwell",
+      "region": "Pilots Point + Mystic",
+      "renewal_start": "2026-04-15",
+      "expiration": "2026-04-30",
+      "status": "expired",
+      "days_to_exp": -14
+    },
+    {
+      "permit_id": "DRM-72807347",
+      "title": "Vessel Registration",
+      "property_code": "DRM",
+      "display_name": "Safe Harbor Deep River",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "renewal_start": "2026-03-01",
+      "expiration": "2026-04-30",
+      "status": "expired",
+      "days_to_exp": -14
+    },
+    {
+      "permit_id": "MYS-f0dd4cd3",
+      "title": "Wieghts and Measures CT DoCP",
+      "property_code": "MYS",
+      "display_name": "Safe Harbor Mystic",
+      "rvp": "Josh Twidwell",
+      "region": "Pilots Point + Mystic",
+      "renewal_start": "2025-07-31",
+      "expiration": "2025-07-31",
+      "status": "expired",
+      "days_to_exp": -287
+    }
+  ],
+  "region_summary": [
+    {
+      "region": "West Coast North",
+      "rvp": "Garrett McKinney",
+      "total_permits": 44,
+      "expired": 12,
+      "expiring_soon": 2,
+      "pct_expired": 27.3,
+      "pct_expiring_soon": 4.5,
+      "compliance_score": 72.7,
+      "property_count": 7,
+      "properties_with_issues": 5
+    },
+    {
+      "region": "Mid-Atlantic West",
+      "rvp": "Desiree Bell",
+      "total_permits": 46,
+      "expired": 12,
+      "expiring_soon": 1,
+      "pct_expired": 26.1,
+      "pct_expiring_soon": 2.2,
+      "compliance_score": 73.9,
+      "property_count": 6,
+      "properties_with_issues": 5
+    },
+    {
+      "region": "Pilots Point + Mystic",
+      "rvp": "Josh Twidwell",
+      "total_permits": 25,
+      "expired": 6,
+      "expiring_soon": 1,
+      "pct_expired": 24.0,
+      "pct_expiring_soon": 4.0,
+      "compliance_score": 76.0,
+      "property_count": 2,
+      "properties_with_issues": 2
+    },
+    {
+      "region": "New York + Connecticut River",
+      "rvp": "Sean Gilligan",
+      "total_permits": 63,
+      "expired": 12,
+      "expiring_soon": 1,
+      "pct_expired": 19.0,
+      "pct_expiring_soon": 1.6,
+      "compliance_score": 81.0,
+      "property_count": 8,
+      "properties_with_issues": 7
+    },
+    {
+      "region": "New York + Coastal Connecticut",
+      "rvp": "Matt Marshall",
+      "total_permits": 26,
+      "expired": 4,
+      "expiring_soon": 1,
+      "pct_expired": 15.4,
+      "pct_expiring_soon": 3.8,
+      "compliance_score": 84.6,
+      "property_count": 6,
+      "properties_with_issues": 2
+    },
+    {
+      "region": "Massachusetts",
+      "rvp": "Tyler Miller",
+      "total_permits": 102,
+      "expired": 11,
+      "expiring_soon": 1,
+      "pct_expired": 10.8,
+      "pct_expiring_soon": 1.0,
+      "compliance_score": 89.2,
+      "property_count": 9,
+      "properties_with_issues": 6
+    },
+    {
+      "region": "Great Lakes + Lake Champlain",
+      "rvp": "Semo Post",
+      "total_permits": 118,
+      "expired": 11,
+      "expiring_soon": 3,
+      "pct_expired": 9.3,
+      "pct_expiring_soon": 2.5,
+      "compliance_score": 90.7,
+      "property_count": 12,
+      "properties_with_issues": 7
+    },
+    {
+      "region": "Southeast",
+      "rvp": "Ron Gift",
+      "total_permits": 88,
+      "expired": 8,
+      "expiring_soon": 3,
+      "pct_expired": 9.1,
+      "pct_expiring_soon": 3.4,
+      "compliance_score": 90.9,
+      "property_count": 5,
+      "properties_with_issues": 2
+    },
+    {
+      "region": "Florida East",
+      "rvp": "Stephanie McLaughlin",
+      "total_permits": 106,
+      "expired": 7,
+      "expiring_soon": 0,
+      "pct_expired": 6.6,
+      "pct_expiring_soon": 0.0,
+      "compliance_score": 93.4,
+      "property_count": 6,
+      "properties_with_issues": 5
+    },
+    {
+      "region": "Kentucky + Tennessee",
+      "rvp": "Layne Wilson",
+      "total_permits": 95,
+      "expired": 6,
+      "expiring_soon": 1,
+      "pct_expired": 6.3,
+      "pct_expiring_soon": 1.1,
+      "compliance_score": 93.7,
+      "property_count": 7,
+      "properties_with_issues": 3
+    },
+    {
+      "region": "Rhode Island",
+      "rvp": "Jason Durante",
+      "total_permits": 110,
+      "expired": 5,
+      "expiring_soon": 8,
+      "pct_expired": 4.5,
+      "pct_expiring_soon": 7.3,
+      "compliance_score": 95.5,
+      "property_count": 12,
+      "properties_with_issues": 9
+    },
+    {
+      "region": "Coastal Carolinas",
+      "rvp": "David Rogers",
+      "total_permits": 71,
+      "expired": 2,
+      "expiring_soon": 0,
+      "pct_expired": 2.8,
+      "pct_expiring_soon": 0.0,
+      "compliance_score": 97.2,
+      "property_count": 10,
+      "properties_with_issues": 1
+    },
+    {
+      "region": "South",
+      "rvp": "Michael Duling",
+      "total_permits": 88,
+      "expired": 2,
+      "expiring_soon": 2,
+      "pct_expired": 2.3,
+      "pct_expiring_soon": 2.3,
+      "compliance_score": 97.7,
+      "property_count": 9,
+      "properties_with_issues": 4
+    },
+    {
+      "region": "Florida West",
+      "rvp": "Jaret Rogers",
+      "total_permits": 100,
+      "expired": 2,
+      "expiring_soon": 2,
+      "pct_expired": 2.0,
+      "pct_expiring_soon": 2.0,
+      "compliance_score": 98.0,
+      "property_count": 8,
+      "properties_with_issues": 2
+    },
+    {
+      "region": "Mid-Atlantic East",
+      "rvp": "Megan Rausch",
+      "total_permits": 55,
+      "expired": 1,
+      "expiring_soon": 3,
+      "pct_expired": 1.8,
+      "pct_expiring_soon": 5.5,
+      "compliance_score": 98.2,
+      "property_count": 6,
+      "properties_with_issues": 3
+    },
+    {
+      "region": "West Coast South",
+      "rvp": "Josh Hester",
+      "total_permits": 62,
+      "expired": 1,
+      "expiring_soon": 2,
+      "pct_expired": 1.6,
+      "pct_expiring_soon": 3.2,
+      "compliance_score": 98.4,
+      "property_count": 7,
+      "properties_with_issues": 3
+    },
+    {
+      "region": "Maine + New Hampshire",
+      "rvp": "Greg Glavin",
+      "total_permits": 63,
+      "expired": 1,
+      "expiring_soon": 1,
+      "pct_expired": 1.6,
+      "pct_expiring_soon": 1.6,
+      "compliance_score": 98.4,
+      "property_count": 4,
+      "properties_with_issues": 2
+    },
+    {
+      "region": "Southwest",
+      "rvp": "Sean McNamara",
+      "total_permits": 61,
+      "expired": 0,
+      "expiring_soon": 1,
+      "pct_expired": 0.0,
+      "pct_expiring_soon": 1.6,
+      "compliance_score": 100.0,
+      "property_count": 6,
+      "properties_with_issues": 1
+    },
+    {
+      "region": "Yacht Sales",
+      "rvp": "Randall Ramsey",
+      "total_permits": 24,
+      "expired": 0,
+      "expiring_soon": 0,
+      "pct_expired": 0.0,
+      "pct_expiring_soon": 0.0,
+      "compliance_score": 100.0,
+      "property_count": 1,
+      "properties_with_issues": 0
+    },
+    {
+      "region": "International South",
+      "rvp": "Orlando Alvarez Diaz",
+      "total_permits": 47,
+      "expired": 0,
+      "expiring_soon": 0,
+      "pct_expired": 0.0,
+      "pct_expiring_soon": 0.0,
+      "compliance_score": 100.0,
+      "property_count": 4,
+      "properties_with_issues": 0
+    },
+    {
+      "region": "International North",
+      "rvp": "Bruce McFarlane",
+      "total_permits": 95,
+      "expired": 0,
+      "expiring_soon": 1,
+      "pct_expired": 0.0,
+      "pct_expiring_soon": 1.1,
+      "compliance_score": 100.0,
+      "property_count": 4,
+      "properties_with_issues": 1
+    }
+  ],
+  "property_summary": [
+    {
+      "code": "SFB",
+      "display_name": "Safe Harbor San Francisco Bay",
+      "rvp": "Garrett McKinney",
+      "region": "West Coast North",
+      "total_permits": 5,
+      "expired": 5,
+      "expiring_soon": 0,
+      "compliance_score": 0.0
+    },
+    {
+      "code": "SAU",
+      "display_name": "Safe Harbor Sausalito",
+      "rvp": "Garrett McKinney",
+      "region": "West Coast North",
+      "total_permits": 4,
+      "expired": 4,
+      "expiring_soon": 0,
+      "compliance_score": 0.0
+    },
+    {
+      "code": "EYC",
+      "display_name": "Safe Harbor Eastport Yachting Center",
+      "rvp": "Desiree Bell",
+      "region": "Mid-Atlantic West",
+      "total_permits": 3,
+      "expired": 3,
+      "expiring_soon": 0,
+      "compliance_score": 0.0
+    },
+    {
+      "code": "BMH",
+      "display_name": "Safe Harbor Belle Maer",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "total_permits": 7,
+      "expired": 5,
+      "expiring_soon": 0,
+      "compliance_score": 28.6
+    },
+    {
+      "code": "MBB",
+      "display_name": "Safe Harbor Marina Bay",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "total_permits": 6,
+      "expired": 3,
+      "expiring_soon": 0,
+      "compliance_score": 50.0
+    },
+    {
+      "code": "HAW",
+      "display_name": "Safe Harbor Hawthorne Cove",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "total_permits": 4,
+      "expired": 2,
+      "expiring_soon": 0,
+      "compliance_score": 50.0
+    },
+    {
+      "code": "BYC",
+      "display_name": "Safe Harbor Bluewater",
+      "rvp": "Ron Gift",
+      "region": "Southeast",
+      "total_permits": 2,
+      "expired": 1,
+      "expiring_soon": 0,
+      "compliance_score": 50.0
+    },
+    {
+      "code": "STH",
+      "display_name": "Safe Harbor Stirling",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "total_permits": 2,
+      "expired": 1,
+      "expiring_soon": 0,
+      "compliance_score": 50.0
+    },
+    {
+      "code": "BJM",
+      "display_name": "Safe Harbor Bruce & Johnsons",
+      "rvp": "Matt Marshall",
+      "region": "New York + Coastal Connecticut",
+      "total_permits": 8,
+      "expired": 3,
+      "expiring_soon": 1,
+      "compliance_score": 62.5
+    },
+    {
+      "code": "DSY",
+      "display_name": "Safe Harbor Dauntless Shipyard",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "total_permits": 14,
+      "expired": 5,
+      "expiring_soon": 0,
+      "compliance_score": 64.3
+    },
+    {
+      "code": "TBM",
+      "display_name": "Safe Harbor Toledo Beach",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "total_permits": 9,
+      "expired": 3,
+      "expiring_soon": 0,
+      "compliance_score": 66.7
+    },
+    {
+      "code": "ALN",
+      "display_name": "Safe Harbor Allen Harbor",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "total_permits": 3,
+      "expired": 1,
+      "expiring_soon": 0,
+      "compliance_score": 66.7
+    },
+    {
+      "code": "CAP",
+      "display_name": "Safe Harbor Capri",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "total_permits": 3,
+      "expired": 1,
+      "expiring_soon": 0,
+      "compliance_score": 66.7
+    },
+    {
+      "code": "CAR",
+      "display_name": "Safe Harbor Carroll Island",
+      "rvp": "Desiree Bell",
+      "region": "Mid-Atlantic West",
+      "total_permits": 3,
+      "expired": 1,
+      "expiring_soon": 0,
+      "compliance_score": 66.7
+    },
+    {
+      "code": "HSM",
+      "display_name": "Safe Harbor Haverstraw",
+      "rvp": "Matt Marshall",
+      "region": "New York + Coastal Connecticut",
+      "total_permits": 3,
+      "expired": 1,
+      "expiring_soon": 0,
+      "compliance_score": 66.7
+    },
+    {
+      "code": "PDP",
+      "display_name": "Safe Harbor Podickory",
+      "rvp": "Desiree Bell",
+      "region": "Mid-Atlantic West",
+      "total_permits": 3,
+      "expired": 1,
+      "expiring_soon": 0,
+      "compliance_score": 66.7
+    },
+    {
+      "code": "PAM",
+      "display_name": "Safe Harbor Port Annapolis",
+      "rvp": "Desiree Bell",
+      "region": "Mid-Atlantic West",
+      "total_permits": 20,
+      "expired": 6,
+      "expiring_soon": 0,
+      "compliance_score": 70.0
+    },
+    {
+      "code": "PPM",
+      "display_name": "Safe Harbor Pilots Point",
+      "rvp": "Josh Twidwell",
+      "region": "Pilots Point + Mystic",
+      "total_permits": 17,
+      "expired": 5,
+      "expiring_soon": 0,
+      "compliance_score": 70.6
+    },
+    {
+      "code": "SHV",
+      "display_name": "Safe Harbor South Harbour Village",
+      "rvp": "David Rogers",
+      "region": "Coastal Carolinas",
+      "total_permits": 8,
+      "expired": 2,
+      "expiring_soon": 0,
+      "compliance_score": 75.0
+    },
+    {
+      "code": "PYC",
+      "display_name": "Safe Harbor Peninsula Yacht Club",
+      "rvp": "Michael Duling",
+      "region": "South",
+      "total_permits": 4,
+      "expired": 1,
+      "expiring_soon": 0,
+      "compliance_score": 75.0
+    },
+    {
+      "code": "ONS",
+      "display_name": "Safe Harbor Onset Bay",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "total_permits": 17,
+      "expired": 4,
+      "expiring_soon": 0,
+      "compliance_score": 76.5
+    },
+    {
+      "code": "HC",
+      "display_name": "Safe Harbor Holly Creek",
+      "rvp": "Layne Wilson",
+      "region": "Kentucky + Tennessee",
+      "total_permits": 9,
+      "expired": 2,
+      "expiring_soon": 1,
+      "compliance_score": 77.8
+    },
+    {
+      "code": "COW",
+      "display_name": "Safe Harbor Cowesett",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "total_permits": 10,
+      "expired": 2,
+      "expiring_soon": 0,
+      "compliance_score": 80.0
+    },
+    {
+      "code": "ISL",
+      "display_name": "Safe Harbor Islamorada",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "total_permits": 5,
+      "expired": 1,
+      "expiring_soon": 0,
+      "compliance_score": 80.0
+    },
+    {
+      "code": "SBAY",
+      "display_name": "Safe Harbor South Bay",
+      "rvp": "Josh Hester",
+      "region": "West Coast South",
+      "total_permits": 5,
+      "expired": 1,
+      "expiring_soon": 0,
+      "compliance_score": 80.0
+    },
+    {
+      "code": "EC",
+      "display_name": "Safe Harbor Eagle Cove",
+      "rvp": "Layne Wilson",
+      "region": "Kentucky + Tennessee",
+      "total_permits": 16,
+      "expired": 3,
+      "expiring_soon": 0,
+      "compliance_score": 81.2
+    },
+    {
+      "code": "JAR",
+      "display_name": "Safe Harbor Jarrett Bay",
+      "rvp": "Ron Gift",
+      "region": "Southeast",
+      "total_permits": 42,
+      "expired": 7,
+      "expiring_soon": 3,
+      "compliance_score": 83.3
+    },
+    {
+      "code": "MBYH",
+      "display_name": "Safe Harbor Marina Bay Yacht Harbor",
+      "rvp": "Garrett McKinney",
+      "region": "West Coast North",
+      "total_permits": 12,
+      "expired": 2,
+      "expiring_soon": 0,
+      "compliance_score": 83.3
+    },
+    {
+      "code": "NPB",
+      "display_name": "Safe Harbor North Palm Beach",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "total_permits": 12,
+      "expired": 2,
+      "expiring_soon": 0,
+      "compliance_score": 83.3
+    },
+    {
+      "code": "FPM",
+      "display_name": "Safe Harbor Ferry Point",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "total_permits": 6,
+      "expired": 1,
+      "expiring_soon": 1,
+      "compliance_score": 83.3
+    },
+    {
+      "code": "NEB",
+      "display_name": "Safe Harbor New England Boatworks",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "total_permits": 6,
+      "expired": 1,
+      "expiring_soon": 0,
+      "compliance_score": 83.3
+    },
+    {
+      "code": "WDM",
+      "display_name": "Safe Harbor Wisdom Dock",
+      "rvp": "Layne Wilson",
+      "region": "Kentucky + Tennessee",
+      "total_permits": 6,
+      "expired": 1,
+      "expiring_soon": 0,
+      "compliance_score": 83.3
+    },
+    {
+      "code": "BIM",
+      "display_name": "Safe Harbor Ballena Isle",
+      "rvp": "Garrett McKinney",
+      "region": "West Coast North",
+      "total_permits": 7,
+      "expired": 1,
+      "expiring_soon": 1,
+      "compliance_score": 85.7
+    },
+    {
+      "code": "GLE",
+      "display_name": "Safe Harbor Glen Cove",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "total_permits": 16,
+      "expired": 2,
+      "expiring_soon": 0,
+      "compliance_score": 87.5
+    },
+    {
+      "code": "AHM",
+      "display_name": "Safe Harbor Angler House",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "total_permits": 8,
+      "expired": 1,
+      "expiring_soon": 0,
+      "compliance_score": 87.5
+    },
+    {
+      "code": "DRM",
+      "display_name": "Safe Harbor Deep River",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "total_permits": 8,
+      "expired": 1,
+      "expiring_soon": 0,
+      "compliance_score": 87.5
+    },
+    {
+      "code": "JBM",
+      "display_name": "Safe Harbor Jefferson Beach",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "total_permits": 8,
+      "expired": 1,
+      "expiring_soon": 0,
+      "compliance_score": 87.5
+    },
+    {
+      "code": "MYS",
+      "display_name": "Safe Harbor Mystic",
+      "rvp": "Josh Twidwell",
+      "region": "Pilots Point + Mystic",
+      "total_permits": 8,
+      "expired": 1,
+      "expiring_soon": 1,
+      "compliance_score": 87.5
+    },
+    {
+      "code": "SBM",
+      "display_name": "Safe Harbor Sunset Bay",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "total_permits": 10,
+      "expired": 1,
+      "expiring_soon": 0,
+      "compliance_score": 90.0
+    },
+    {
+      "code": "GLM",
+      "display_name": "Safe Harbor Great Lakes",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "total_permits": 11,
+      "expired": 1,
+      "expiring_soon": 0,
+      "compliance_score": 90.9
+    },
+    {
+      "code": "ANN",
+      "display_name": "Safe Harbor Annapolis",
+      "rvp": "Desiree Bell",
+      "region": "Mid-Atlantic West",
+      "total_permits": 12,
+      "expired": 1,
+      "expiring_soon": 1,
+      "compliance_score": 91.7
+    },
+    {
+      "code": "SPM",
+      "display_name": "Safe Harbor Sportsman",
+      "rvp": "Michael Duling",
+      "region": "South",
+      "total_permits": 12,
+      "expired": 1,
+      "expiring_soon": 0,
+      "compliance_score": 91.7
+    },
+    {
+      "code": "WBM",
+      "display_name": "Safe Harbor Willsboro Bay",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "total_permits": 12,
+      "expired": 1,
+      "expiring_soon": 1,
+      "compliance_score": 91.7
+    },
+    {
+      "code": "GRE",
+      "display_name": "Safe Harbor Greenport",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "total_permits": 13,
+      "expired": 1,
+      "expiring_soon": 0,
+      "compliance_score": 92.3
+    },
+    {
+      "code": "SKM",
+      "display_name": "Safe Harbor Siesta Key",
+      "rvp": "Jaret Rogers",
+      "region": "Florida West",
+      "total_permits": 30,
+      "expired": 2,
+      "expiring_soon": 1,
+      "compliance_score": 93.3
+    },
+    {
+      "code": "HYC",
+      "display_name": "Safe Harbor Harborage Yacht Club",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "total_permits": 32,
+      "expired": 2,
+      "expiring_soon": 0,
+      "compliance_score": 93.8
+    },
+    {
+      "code": "OXF",
+      "display_name": "Safe Harbor Oxford",
+      "rvp": "Megan Rausch",
+      "region": "Mid-Atlantic East",
+      "total_permits": 16,
+      "expired": 1,
+      "expiring_soon": 0,
+      "compliance_score": 93.8
+    },
+    {
+      "code": "NSY",
+      "display_name": "Safe Harbor Newport Shipyard",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "total_permits": 20,
+      "expired": 1,
+      "expiring_soon": 1,
+      "compliance_score": 95.0
+    },
+    {
+      "code": "VHM",
+      "display_name": "Safe Harbor Vineyard Haven",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "total_permits": 21,
+      "expired": 1,
+      "expiring_soon": 0,
+      "compliance_score": 95.2
+    },
+    {
+      "code": "KPYY",
+      "display_name": "Safe Harbor Kittery Point Yacht Yard",
+      "rvp": "Greg Glavin",
+      "region": "Maine + New Hampshire",
+      "total_permits": 22,
+      "expired": 1,
+      "expiring_soon": 0,
+      "compliance_score": 95.5
+    },
+    {
+      "code": "MBY",
+      "display_name": "Safe Harbor Marathon",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "total_permits": 24,
+      "expired": 1,
+      "expiring_soon": 0,
+      "compliance_score": 95.8
+    },
+    {
+      "code": "AFD",
+      "display_name": "Safe Harbor Ashley Fuel Dock",
+      "rvp": "David Rogers",
+      "region": "Coastal Carolinas",
+      "total_permits": 3,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "AIM",
+      "display_name": "Safe Harbor Anacapa Isle",
+      "rvp": "Josh Hester",
+      "region": "West Coast South",
+      "total_permits": 5,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "ALM",
+      "display_name": "Safe Harbor Aqualand",
+      "rvp": "Michael Duling",
+      "region": "South",
+      "total_permits": 11,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "AYH",
+      "display_name": "Safe Harbor Aqua Yacht",
+      "rvp": "Sean McNamara",
+      "region": "Southwest",
+      "total_permits": 17,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "BBM",
+      "display_name": "Safe Harbor Bahia Bleu",
+      "rvp": "David Rogers",
+      "region": "Coastal Carolinas",
+      "total_permits": 8,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "BC",
+      "display_name": "Safe Harbor Beaver Creek",
+      "rvp": "Layne Wilson",
+      "region": "Kentucky + Tennessee",
+      "total_permits": 13,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "BDT",
+      "display_name": "Safe Harbor Beaufort",
+      "rvp": "David Rogers",
+      "region": "Coastal Carolinas",
+      "total_permits": 5,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "BFM",
+      "display_name": "Safe Harbor Bayfront",
+      "rvp": "Josh Hester",
+      "region": "West Coast South",
+      "total_permits": 10,
+      "expired": 0,
+      "expiring_soon": 1,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "BMR",
+      "display_name": "Safe Harbor Brady Mountain",
+      "rvp": "Sean McNamara",
+      "region": "Southwest",
+      "total_permits": 18,
+      "expired": 0,
+      "expiring_soon": 1,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "BS",
+      "display_name": "Safe Harbor Burnside",
+      "rvp": "Layne Wilson",
+      "region": "Kentucky + Tennessee",
+      "total_permits": 14,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "BST",
+      "display_name": "Safe Harbor Burnt Store",
+      "rvp": "Jaret Rogers",
+      "region": "Florida West",
+      "total_permits": 15,
+      "expired": 0,
+      "expiring_soon": 1,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "BV",
+      "display_name": "Safe Harbor Bohemia Vista",
+      "rvp": "Megan Rausch",
+      "region": "Mid-Atlantic East",
+      "total_permits": 7,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "BWYS",
+      "display_name": "Safe Harbor Bluewater Yacht Sales",
+      "rvp": "Randall Ramsey",
+      "region": "Yacht Sales",
+      "total_permits": 24,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "CAL",
+      "display_name": "Safe Harbor Calusa Island",
+      "rvp": "Jaret Rogers",
+      "region": "Florida West",
+      "total_permits": 13,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "CBM",
+      "display_name": "Safe Harbor Bristol",
+      "rvp": "David Rogers",
+      "region": "Coastal Carolinas",
+      "total_permits": 8,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "CBY",
+      "display_name": "Safe Harbor City Boatyard",
+      "rvp": "Ron Gift",
+      "region": "Southeast",
+      "total_permits": 18,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "CCM",
+      "display_name": "Safe Harbor Charleston City",
+      "rvp": "David Rogers",
+      "region": "Coastal Carolinas",
+      "total_permits": 13,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "CHM",
+      "display_name": "Safe Harbor Cape Harbour",
+      "rvp": "Jaret Rogers",
+      "region": "Florida West",
+      "total_permits": 9,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "CIM",
+      "display_name": "Safe Harbor Cabrillo Isle",
+      "rvp": "Josh Hester",
+      "region": "West Coast South",
+      "total_permits": 8,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "COV",
+      "display_name": "Safe Harbor Cove Haven",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "total_permits": 4,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "CPM",
+      "display_name": "Safe Harbor Crystal Point",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "total_permits": 7,
+      "expired": 0,
+      "expiring_soon": 2,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "DET",
+      "display_name": "Safe Harbor Detroit River",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "total_permits": 7,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "ECM",
+      "display_name": "Safe Harbor Emerald Coast",
+      "rvp": "Michael Duling",
+      "region": "South",
+      "total_permits": 17,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "EPM",
+      "display_name": "Safe Harbor Emerald Point",
+      "rvp": "Sean McNamara",
+      "region": "Southwest",
+      "total_permits": 3,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "ESX",
+      "display_name": "Safe Harbor Essex Island",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "total_permits": 1,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "ETM",
+      "display_name": "Safe Harbor Edgartown",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "total_permits": 15,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "EVM",
+      "display_name": "Safe Harbor Emeryville",
+      "rvp": "Garrett McKinney",
+      "region": "West Coast North",
+      "total_permits": 8,
+      "expired": 0,
+      "expiring_soon": 1,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "FID",
+      "display_name": "Safe Harbor Fiddler's Cove",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "total_permits": 11,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "GBM",
+      "display_name": "Safe Harbor Greenwich Bay",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "total_permits": 11,
+      "expired": 0,
+      "expiring_soon": 1,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "GBY",
+      "display_name": "Safe Harbor Great Island",
+      "rvp": "Greg Glavin",
+      "region": "Maine + New Hampshire",
+      "total_permits": 13,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "GHM",
+      "display_name": "Safe Harbor Green Harbor",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "total_permits": 10,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "GIM",
+      "display_name": "Safe Harbor Grand Isle",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "total_permits": 18,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "GM",
+      "display_name": "Safe Harbor Gaines",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "total_permits": 3,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "GOL",
+      "display_name": "Safe Harbor Great Oak Landing",
+      "rvp": "Megan Rausch",
+      "region": "Mid-Atlantic East",
+      "total_permits": 17,
+      "expired": 0,
+      "expiring_soon": 1,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "GRH",
+      "display_name": "Safe Harbor Grider Hill",
+      "rvp": "Layne Wilson",
+      "region": "Kentucky + Tennessee",
+      "total_permits": 13,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "HBM",
+      "display_name": "Safe Harbor Hideaway Bay",
+      "rvp": "Michael Duling",
+      "region": "South",
+      "total_permits": 14,
+      "expired": 0,
+      "expiring_soon": 1,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "HP",
+      "display_name": "Safe Harbor Hack's Point",
+      "rvp": "Megan Rausch",
+      "region": "Mid-Atlantic East",
+      "total_permits": 3,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "HTM",
+      "display_name": "Safe Harbor Harbortown",
+      "rvp": "Ron Gift",
+      "region": "Southeast",
+      "total_permits": 15,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "HVM",
+      "display_name": "Safe Harbor Harbors View",
+      "rvp": "Sean McNamara",
+      "region": "Southwest",
+      "total_permits": 7,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "JAM",
+      "display_name": "Safe Harbor Jamestown",
+      "rvp": "Layne Wilson",
+      "region": "Kentucky + Tennessee",
+      "total_permits": 24,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "JBY",
+      "display_name": "Safe Harbor Jamestown Boatyard",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "total_permits": 23,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "KIT",
+      "display_name": "Safe Harbor St. Kitts",
+      "rvp": "Orlando Alvarez Diaz",
+      "region": "International South",
+      "total_permits": 6,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "KPM",
+      "display_name": "Safe Harbor King's Point",
+      "rvp": "Michael Duling",
+      "region": "South",
+      "total_permits": 10,
+      "expired": 0,
+      "expiring_soon": 1,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "LFM",
+      "display_name": "Safe Harbor Lakefront",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "total_permits": 10,
+      "expired": 0,
+      "expiring_soon": 1,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "LLM",
+      "display_name": "Safe Harbor Loch Lomond",
+      "rvp": "Garrett McKinney",
+      "region": "West Coast North",
+      "total_permits": 3,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "LMC",
+      "display_name": "Safe Harbor Lauderdale Marine Center",
+      "rvp": "Orlando Alvarez Diaz",
+      "region": "International South",
+      "total_permits": 17,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "MRC",
+      "display_name": "Safe Harbor Manasquan River",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "total_permits": 4,
+      "expired": 0,
+      "expiring_soon": 1,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "MVH",
+      "display_name": "Safe Harbor Marina Village",
+      "rvp": "Garrett McKinney",
+      "region": "West Coast North",
+      "total_permits": 5,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "NPC",
+      "display_name": "Safe Harbor New Port Cove",
+      "rvp": "Bruce McFarlane",
+      "region": "International North",
+      "total_permits": 11,
+      "expired": 0,
+      "expiring_soon": 1,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "NPM",
+      "display_name": "Safe Harbor Narrows Point",
+      "rvp": "Megan Rausch",
+      "region": "Mid-Atlantic East",
+      "total_permits": 9,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "OBX",
+      "display_name": "Safe Harbor Outer Banks",
+      "rvp": "Ron Gift",
+      "region": "Southeast",
+      "total_permits": 11,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "OPC",
+      "display_name": "Safe Harbor Old Port Cove",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "total_permits": 25,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "P121",
+      "display_name": "Safe Harbor Pier 121",
+      "rvp": "Sean McNamara",
+      "region": "Southwest",
+      "total_permits": 15,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "P77",
+      "display_name": "Safe Harbor Pier 77",
+      "rvp": "Jaret Rogers",
+      "region": "Florida West",
+      "total_permits": 5,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "PDR",
+      "display_name": "Safe Harbor Puerto Del Rey",
+      "rvp": "Orlando Alvarez Diaz",
+      "region": "International South",
+      "total_permits": 17,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "PHX",
+      "display_name": "Safe Harbor Port Phoenix",
+      "rvp": "Jaret Rogers",
+      "region": "Florida West",
+      "total_permits": 1,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "PLM",
+      "display_name": "Safe Harbor Pineland",
+      "rvp": "Jaret Rogers",
+      "region": "Florida West",
+      "total_permits": 15,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "PLY",
+      "display_name": "Safe Harbor Plymouth",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "total_permits": 8,
+      "expired": 0,
+      "expiring_soon": 1,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "PMM",
+      "display_name": "Safe Harbor Port Milford",
+      "rvp": "Matt Marshall",
+      "region": "New York + Coastal Connecticut",
+      "total_permits": 1,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "PRM",
+      "display_name": "Safe Harbor Port Royal Landing",
+      "rvp": "David Rogers",
+      "region": "Coastal Carolinas",
+      "total_permits": 7,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "PST",
+      "display_name": "Safe Harbor Post Road",
+      "rvp": "Matt Marshall",
+      "region": "New York + Coastal Connecticut",
+      "total_permits": 4,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "PTR",
+      "display_name": "Safe Harbor Port Royal",
+      "rvp": "David Rogers",
+      "region": "Coastal Carolinas",
+      "total_permits": 8,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "RBY",
+      "display_name": "Safe Harbor Rybovich",
+      "rvp": "Bruce McFarlane",
+      "region": "International North",
+      "total_permits": 17,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "RHM",
+      "display_name": "Safe Harbor Reserve Harbor",
+      "rvp": "David Rogers",
+      "region": "Coastal Carolinas",
+      "total_permits": 7,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "ROC",
+      "display_name": "Safe Harbor Rockland",
+      "rvp": "Greg Glavin",
+      "region": "Maine + New Hampshire",
+      "total_permits": 19,
+      "expired": 0,
+      "expiring_soon": 1,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "RPM",
+      "display_name": "Safe Harbor Regatta Pointe",
+      "rvp": "Jaret Rogers",
+      "region": "Florida West",
+      "total_permits": 12,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "RSBC",
+      "display_name": "Safe Harbor West Palm",
+      "rvp": "Bruce McFarlane",
+      "region": "International North",
+      "total_permits": 62,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "SAK",
+      "display_name": "Safe Harbor Sakonnet",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "total_permits": 9,
+      "expired": 0,
+      "expiring_soon": 2,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "SCM",
+      "display_name": "Safe Harbor Skull Creek",
+      "rvp": "David Rogers",
+      "region": "Coastal Carolinas",
+      "total_permits": 4,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "SHM",
+      "display_name": "Safe Harbor Sandusky",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "total_permits": 6,
+      "expired": 0,
+      "expiring_soon": 1,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "SIBY",
+      "display_name": "Safe Harbor Shelter Island",
+      "rvp": "Josh Hester",
+      "region": "West Coast South",
+      "total_permits": 7,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "SJM",
+      "display_name": "Safe Harbor San Juan",
+      "rvp": "Orlando Alvarez Diaz",
+      "region": "International South",
+      "total_permits": 7,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "SKL",
+      "display_name": "Safe Harbor Skipper's Landing",
+      "rvp": "Michael Duling",
+      "region": "South",
+      "total_permits": 4,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "SRD",
+      "display_name": "Safe Harbor Sunroad",
+      "rvp": "Josh Hester",
+      "region": "West Coast South",
+      "total_permits": 7,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "SRP",
+      "display_name": "Safe Harbor Stingray Point",
+      "rvp": "Desiree Bell",
+      "region": "Mid-Atlantic West",
+      "total_permits": 5,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "SSM",
+      "display_name": "Safe Harbor Silver Spring",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "total_permits": 4,
+      "expired": 0,
+      "expiring_soon": 1,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "SSY",
+      "display_name": "Safe Harbor Shelburne Shipyard",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "total_permits": 10,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "STR",
+      "display_name": "Safe Harbor Stratford",
+      "rvp": "Matt Marshall",
+      "region": "New York + Coastal Connecticut",
+      "total_permits": 7,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "SYC",
+      "display_name": "Safe Harbor Savannah Yacht Center",
+      "rvp": "Bruce McFarlane",
+      "region": "International North",
+      "total_permits": 5,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "TWM",
+      "display_name": "Safe Harbor Trade Winds",
+      "rvp": "Michael Duling",
+      "region": "South",
+      "total_permits": 6,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "TWR",
+      "display_name": "Safe Harbor Tower Marine",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "total_permits": 17,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "VIM",
+      "display_name": "Safe Harbor Ventura Isle",
+      "rvp": "Josh Hester",
+      "region": "West Coast South",
+      "total_permits": 20,
+      "expired": 0,
+      "expiring_soon": 1,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "WAL",
+      "display_name": "Safe Harbor Walden",
+      "rvp": "Sean McNamara",
+      "region": "Southwest",
+      "total_permits": 1,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "WEN",
+      "display_name": "Safe Harbor Wentworth By The Sea",
+      "rvp": "Greg Glavin",
+      "region": "Maine + New Hampshire",
+      "total_permits": 9,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "WIC",
+      "display_name": "Safe Harbor Wickford Cove",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "total_permits": 9,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "WPM",
+      "display_name": "Safe Harbor Westport",
+      "rvp": "Michael Duling",
+      "region": "South",
+      "total_permits": 10,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "YHM",
+      "display_name": "Safe Harbor Yacht Haven",
+      "rvp": "Matt Marshall",
+      "region": "New York + Coastal Connecticut",
+      "total_permits": 3,
+      "expired": 0,
+      "expiring_soon": 0,
+      "compliance_score": 100.0
+    },
+    {
+      "code": "ZAN",
+      "display_name": "Safe Harbor Zahnisers",
+      "rvp": "Megan Rausch",
+      "region": "Mid-Atlantic East",
+      "total_permits": 3,
+      "expired": 0,
+      "expiring_soon": 2,
+      "compliance_score": 100.0
+    }
+  ],
+  "properties": [
+    {
+      "code": "ALN",
+      "display_name": "Safe Harbor Allen Harbor",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "total_permits": 3
+    },
+    {
+      "code": "AIM",
+      "display_name": "Safe Harbor Anacapa Isle",
+      "rvp": "Josh Hester",
+      "region": "West Coast South",
+      "total_permits": 5
+    },
+    {
+      "code": "AHM",
+      "display_name": "Safe Harbor Angler House",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "total_permits": 8
+    },
+    {
+      "code": "ANN",
+      "display_name": "Safe Harbor Annapolis",
+      "rvp": "Desiree Bell",
+      "region": "Mid-Atlantic West",
+      "total_permits": 12
+    },
+    {
+      "code": "AYH",
+      "display_name": "Safe Harbor Aqua Yacht",
+      "rvp": "Sean McNamara",
+      "region": "Southwest",
+      "total_permits": 17
+    },
+    {
+      "code": "ALM",
+      "display_name": "Safe Harbor Aqualand",
+      "rvp": "Michael Duling",
+      "region": "South",
+      "total_permits": 11
+    },
+    {
+      "code": "AFD",
+      "display_name": "Safe Harbor Ashley Fuel Dock",
+      "rvp": "David Rogers",
+      "region": "Coastal Carolinas",
+      "total_permits": 3
+    },
+    {
+      "code": "BBM",
+      "display_name": "Safe Harbor Bahia Bleu",
+      "rvp": "David Rogers",
+      "region": "Coastal Carolinas",
+      "total_permits": 8
+    },
+    {
+      "code": "BIM",
+      "display_name": "Safe Harbor Ballena Isle",
+      "rvp": "Garrett McKinney",
+      "region": "West Coast North",
+      "total_permits": 7
+    },
+    {
+      "code": "BFM",
+      "display_name": "Safe Harbor Bayfront",
+      "rvp": "Josh Hester",
+      "region": "West Coast South",
+      "total_permits": 10
+    },
+    {
+      "code": "BDT",
+      "display_name": "Safe Harbor Beaufort",
+      "rvp": "David Rogers",
+      "region": "Coastal Carolinas",
+      "total_permits": 5
+    },
+    {
+      "code": "BC",
+      "display_name": "Safe Harbor Beaver Creek",
+      "rvp": "Layne Wilson",
+      "region": "Kentucky + Tennessee",
+      "total_permits": 13
+    },
+    {
+      "code": "BMH",
+      "display_name": "Safe Harbor Belle Maer",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "total_permits": 7
+    },
+    {
+      "code": "BYC",
+      "display_name": "Safe Harbor Bluewater",
+      "rvp": "Ron Gift",
+      "region": "Southeast",
+      "total_permits": 2
+    },
+    {
+      "code": "BWYS",
+      "display_name": "Safe Harbor Bluewater Yacht Sales",
+      "rvp": "Randall Ramsey",
+      "region": "Yacht Sales",
+      "total_permits": 24
+    },
+    {
+      "code": "BV",
+      "display_name": "Safe Harbor Bohemia Vista",
+      "rvp": "Megan Rausch",
+      "region": "Mid-Atlantic East",
+      "total_permits": 7
+    },
+    {
+      "code": "BMR",
+      "display_name": "Safe Harbor Brady Mountain",
+      "rvp": "Sean McNamara",
+      "region": "Southwest",
+      "total_permits": 18
+    },
+    {
+      "code": "CBM",
+      "display_name": "Safe Harbor Bristol",
+      "rvp": "David Rogers",
+      "region": "Coastal Carolinas",
+      "total_permits": 8
+    },
+    {
+      "code": "BJM",
+      "display_name": "Safe Harbor Bruce & Johnsons",
+      "rvp": "Matt Marshall",
+      "region": "New York + Coastal Connecticut",
+      "total_permits": 8
+    },
+    {
+      "code": "BS",
+      "display_name": "Safe Harbor Burnside",
+      "rvp": "Layne Wilson",
+      "region": "Kentucky + Tennessee",
+      "total_permits": 14
+    },
+    {
+      "code": "BST",
+      "display_name": "Safe Harbor Burnt Store",
+      "rvp": "Jaret Rogers",
+      "region": "Florida West",
+      "total_permits": 15
+    },
+    {
+      "code": "CIM",
+      "display_name": "Safe Harbor Cabrillo Isle",
+      "rvp": "Josh Hester",
+      "region": "West Coast South",
+      "total_permits": 8
+    },
+    {
+      "code": "CAL",
+      "display_name": "Safe Harbor Calusa Island",
+      "rvp": "Jaret Rogers",
+      "region": "Florida West",
+      "total_permits": 13
+    },
+    {
+      "code": "CHM",
+      "display_name": "Safe Harbor Cape Harbour",
+      "rvp": "Jaret Rogers",
+      "region": "Florida West",
+      "total_permits": 9
+    },
+    {
+      "code": "CAP",
+      "display_name": "Safe Harbor Capri",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "total_permits": 3
+    },
+    {
+      "code": "CAR",
+      "display_name": "Safe Harbor Carroll Island",
+      "rvp": "Desiree Bell",
+      "region": "Mid-Atlantic West",
+      "total_permits": 3
+    },
+    {
+      "code": "CCM",
+      "display_name": "Safe Harbor Charleston City",
+      "rvp": "David Rogers",
+      "region": "Coastal Carolinas",
+      "total_permits": 13
+    },
+    {
+      "code": "CBY",
+      "display_name": "Safe Harbor City Boatyard",
+      "rvp": "Ron Gift",
+      "region": "Southeast",
+      "total_permits": 18
+    },
+    {
+      "code": "COV",
+      "display_name": "Safe Harbor Cove Haven",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "total_permits": 4
+    },
+    {
+      "code": "COW",
+      "display_name": "Safe Harbor Cowesett",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "total_permits": 10
+    },
+    {
+      "code": "CPM",
+      "display_name": "Safe Harbor Crystal Point",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "total_permits": 7
+    },
+    {
+      "code": "DSY",
+      "display_name": "Safe Harbor Dauntless Shipyard",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "total_permits": 14
+    },
+    {
+      "code": "DRM",
+      "display_name": "Safe Harbor Deep River",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "total_permits": 8
+    },
+    {
+      "code": "DET",
+      "display_name": "Safe Harbor Detroit River",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "total_permits": 7
+    },
+    {
+      "code": "EC",
+      "display_name": "Safe Harbor Eagle Cove",
+      "rvp": "Layne Wilson",
+      "region": "Kentucky + Tennessee",
+      "total_permits": 16
+    },
+    {
+      "code": "EYC",
+      "display_name": "Safe Harbor Eastport Yachting Center",
+      "rvp": "Desiree Bell",
+      "region": "Mid-Atlantic West",
+      "total_permits": 3
+    },
+    {
+      "code": "ETM",
+      "display_name": "Safe Harbor Edgartown",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "total_permits": 15
+    },
+    {
+      "code": "ECM",
+      "display_name": "Safe Harbor Emerald Coast",
+      "rvp": "Michael Duling",
+      "region": "South",
+      "total_permits": 17
+    },
+    {
+      "code": "EPM",
+      "display_name": "Safe Harbor Emerald Point",
+      "rvp": "Sean McNamara",
+      "region": "Southwest",
+      "total_permits": 3
+    },
+    {
+      "code": "EVM",
+      "display_name": "Safe Harbor Emeryville",
+      "rvp": "Garrett McKinney",
+      "region": "West Coast North",
+      "total_permits": 8
+    },
+    {
+      "code": "ESX",
+      "display_name": "Safe Harbor Essex Island",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "total_permits": 1
+    },
+    {
+      "code": "FPM",
+      "display_name": "Safe Harbor Ferry Point",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "total_permits": 6
+    },
+    {
+      "code": "FID",
+      "display_name": "Safe Harbor Fiddler's Cove",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "total_permits": 11
+    },
+    {
+      "code": "GM",
+      "display_name": "Safe Harbor Gaines",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "total_permits": 3
+    },
+    {
+      "code": "GLE",
+      "display_name": "Safe Harbor Glen Cove",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "total_permits": 16
+    },
+    {
+      "code": "GIM",
+      "display_name": "Safe Harbor Grand Isle",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "total_permits": 18
+    },
+    {
+      "code": "GBY",
+      "display_name": "Safe Harbor Great Island",
+      "rvp": "Greg Glavin",
+      "region": "Maine + New Hampshire",
+      "total_permits": 13
+    },
+    {
+      "code": "GLM",
+      "display_name": "Safe Harbor Great Lakes",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "total_permits": 11
+    },
+    {
+      "code": "GOL",
+      "display_name": "Safe Harbor Great Oak Landing",
+      "rvp": "Megan Rausch",
+      "region": "Mid-Atlantic East",
+      "total_permits": 17
+    },
+    {
+      "code": "GHM",
+      "display_name": "Safe Harbor Green Harbor",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "total_permits": 10
+    },
+    {
+      "code": "GRE",
+      "display_name": "Safe Harbor Greenport",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "total_permits": 13
+    },
+    {
+      "code": "GBM",
+      "display_name": "Safe Harbor Greenwich Bay",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "total_permits": 11
+    },
+    {
+      "code": "GRH",
+      "display_name": "Safe Harbor Grider Hill",
+      "rvp": "Layne Wilson",
+      "region": "Kentucky + Tennessee",
+      "total_permits": 13
+    },
+    {
+      "code": "HP",
+      "display_name": "Safe Harbor Hack's Point",
+      "rvp": "Megan Rausch",
+      "region": "Mid-Atlantic East",
+      "total_permits": 3
+    },
+    {
+      "code": "HYC",
+      "display_name": "Safe Harbor Harborage Yacht Club",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "total_permits": 32
+    },
+    {
+      "code": "HVM",
+      "display_name": "Safe Harbor Harbors View",
+      "rvp": "Sean McNamara",
+      "region": "Southwest",
+      "total_permits": 7
+    },
+    {
+      "code": "HTM",
+      "display_name": "Safe Harbor Harbortown",
+      "rvp": "Ron Gift",
+      "region": "Southeast",
+      "total_permits": 15
+    },
+    {
+      "code": "HSM",
+      "display_name": "Safe Harbor Haverstraw",
+      "rvp": "Matt Marshall",
+      "region": "New York + Coastal Connecticut",
+      "total_permits": 3
+    },
+    {
+      "code": "HAW",
+      "display_name": "Safe Harbor Hawthorne Cove",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "total_permits": 4
+    },
+    {
+      "code": "HBM",
+      "display_name": "Safe Harbor Hideaway Bay",
+      "rvp": "Michael Duling",
+      "region": "South",
+      "total_permits": 14
+    },
+    {
+      "code": "HC",
+      "display_name": "Safe Harbor Holly Creek",
+      "rvp": "Layne Wilson",
+      "region": "Kentucky + Tennessee",
+      "total_permits": 9
+    },
+    {
+      "code": "ISL",
+      "display_name": "Safe Harbor Islamorada",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "total_permits": 5
+    },
+    {
+      "code": "JAM",
+      "display_name": "Safe Harbor Jamestown",
+      "rvp": "Layne Wilson",
+      "region": "Kentucky + Tennessee",
+      "total_permits": 24
+    },
+    {
+      "code": "JBY",
+      "display_name": "Safe Harbor Jamestown Boatyard",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "total_permits": 23
+    },
+    {
+      "code": "JAR",
+      "display_name": "Safe Harbor Jarrett Bay",
+      "rvp": "Ron Gift",
+      "region": "Southeast",
+      "total_permits": 42
+    },
+    {
+      "code": "JBM",
+      "display_name": "Safe Harbor Jefferson Beach",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "total_permits": 8
+    },
+    {
+      "code": "KPM",
+      "display_name": "Safe Harbor King's Point",
+      "rvp": "Michael Duling",
+      "region": "South",
+      "total_permits": 10
+    },
+    {
+      "code": "KPYY",
+      "display_name": "Safe Harbor Kittery Point Yacht Yard",
+      "rvp": "Greg Glavin",
+      "region": "Maine + New Hampshire",
+      "total_permits": 22
+    },
+    {
+      "code": "LFM",
+      "display_name": "Safe Harbor Lakefront",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "total_permits": 10
+    },
+    {
+      "code": "LMC",
+      "display_name": "Safe Harbor Lauderdale Marine Center",
+      "rvp": "Orlando Alvarez Diaz",
+      "region": "International South",
+      "total_permits": 17
+    },
+    {
+      "code": "LLM",
+      "display_name": "Safe Harbor Loch Lomond",
+      "rvp": "Garrett McKinney",
+      "region": "West Coast North",
+      "total_permits": 3
+    },
+    {
+      "code": "MRC",
+      "display_name": "Safe Harbor Manasquan River",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "total_permits": 4
+    },
+    {
+      "code": "MBY",
+      "display_name": "Safe Harbor Marathon",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "total_permits": 24
+    },
+    {
+      "code": "MBB",
+      "display_name": "Safe Harbor Marina Bay",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "total_permits": 6
+    },
+    {
+      "code": "MBYH",
+      "display_name": "Safe Harbor Marina Bay Yacht Harbor",
+      "rvp": "Garrett McKinney",
+      "region": "West Coast North",
+      "total_permits": 12
+    },
+    {
+      "code": "MVH",
+      "display_name": "Safe Harbor Marina Village",
+      "rvp": "Garrett McKinney",
+      "region": "West Coast North",
+      "total_permits": 5
+    },
+    {
+      "code": "MYS",
+      "display_name": "Safe Harbor Mystic",
+      "rvp": "Josh Twidwell",
+      "region": "Pilots Point + Mystic",
+      "total_permits": 8
+    },
+    {
+      "code": "NPM",
+      "display_name": "Safe Harbor Narrows Point",
+      "rvp": "Megan Rausch",
+      "region": "Mid-Atlantic East",
+      "total_permits": 9
+    },
+    {
+      "code": "NEB",
+      "display_name": "Safe Harbor New England Boatworks",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "total_permits": 6
+    },
+    {
+      "code": "NPC",
+      "display_name": "Safe Harbor New Port Cove",
+      "rvp": "Bruce McFarlane",
+      "region": "International North",
+      "total_permits": 11
+    },
+    {
+      "code": "NSY",
+      "display_name": "Safe Harbor Newport Shipyard",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "total_permits": 20
+    },
+    {
+      "code": "NPB",
+      "display_name": "Safe Harbor North Palm Beach",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "total_permits": 12
+    },
+    {
+      "code": "OPC",
+      "display_name": "Safe Harbor Old Port Cove",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "total_permits": 25
+    },
+    {
+      "code": "ONS",
+      "display_name": "Safe Harbor Onset Bay",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "total_permits": 17
+    },
+    {
+      "code": "OBX",
+      "display_name": "Safe Harbor Outer Banks",
+      "rvp": "Ron Gift",
+      "region": "Southeast",
+      "total_permits": 11
+    },
+    {
+      "code": "OXF",
+      "display_name": "Safe Harbor Oxford",
+      "rvp": "Megan Rausch",
+      "region": "Mid-Atlantic East",
+      "total_permits": 16
+    },
+    {
+      "code": "PYC",
+      "display_name": "Safe Harbor Peninsula Yacht Club",
+      "rvp": "Michael Duling",
+      "region": "South",
+      "total_permits": 4
+    },
+    {
+      "code": "P121",
+      "display_name": "Safe Harbor Pier 121",
+      "rvp": "Sean McNamara",
+      "region": "Southwest",
+      "total_permits": 15
+    },
+    {
+      "code": "P77",
+      "display_name": "Safe Harbor Pier 77",
+      "rvp": "Jaret Rogers",
+      "region": "Florida West",
+      "total_permits": 5
+    },
+    {
+      "code": "PPM",
+      "display_name": "Safe Harbor Pilots Point",
+      "rvp": "Josh Twidwell",
+      "region": "Pilots Point + Mystic",
+      "total_permits": 17
+    },
+    {
+      "code": "PLM",
+      "display_name": "Safe Harbor Pineland",
+      "rvp": "Jaret Rogers",
+      "region": "Florida West",
+      "total_permits": 15
+    },
+    {
+      "code": "PLY",
+      "display_name": "Safe Harbor Plymouth",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "total_permits": 8
+    },
+    {
+      "code": "PDP",
+      "display_name": "Safe Harbor Podickory",
+      "rvp": "Desiree Bell",
+      "region": "Mid-Atlantic West",
+      "total_permits": 3
+    },
+    {
+      "code": "PAM",
+      "display_name": "Safe Harbor Port Annapolis",
+      "rvp": "Desiree Bell",
+      "region": "Mid-Atlantic West",
+      "total_permits": 20
+    },
+    {
+      "code": "PMM",
+      "display_name": "Safe Harbor Port Milford",
+      "rvp": "Matt Marshall",
+      "region": "New York + Coastal Connecticut",
+      "total_permits": 1
+    },
+    {
+      "code": "PHX",
+      "display_name": "Safe Harbor Port Phoenix",
+      "rvp": "Jaret Rogers",
+      "region": "Florida West",
+      "total_permits": 1
+    },
+    {
+      "code": "PTR",
+      "display_name": "Safe Harbor Port Royal",
+      "rvp": "David Rogers",
+      "region": "Coastal Carolinas",
+      "total_permits": 8
+    },
+    {
+      "code": "PRM",
+      "display_name": "Safe Harbor Port Royal Landing",
+      "rvp": "David Rogers",
+      "region": "Coastal Carolinas",
+      "total_permits": 7
+    },
+    {
+      "code": "PST",
+      "display_name": "Safe Harbor Post Road",
+      "rvp": "Matt Marshall",
+      "region": "New York + Coastal Connecticut",
+      "total_permits": 4
+    },
+    {
+      "code": "PDR",
+      "display_name": "Safe Harbor Puerto Del Rey",
+      "rvp": "Orlando Alvarez Diaz",
+      "region": "International South",
+      "total_permits": 17
+    },
+    {
+      "code": "RPM",
+      "display_name": "Safe Harbor Regatta Pointe",
+      "rvp": "Jaret Rogers",
+      "region": "Florida West",
+      "total_permits": 12
+    },
+    {
+      "code": "RHM",
+      "display_name": "Safe Harbor Reserve Harbor",
+      "rvp": "David Rogers",
+      "region": "Coastal Carolinas",
+      "total_permits": 7
+    },
+    {
+      "code": "ROC",
+      "display_name": "Safe Harbor Rockland",
+      "rvp": "Greg Glavin",
+      "region": "Maine + New Hampshire",
+      "total_permits": 19
+    },
+    {
+      "code": "RBY",
+      "display_name": "Safe Harbor Rybovich",
+      "rvp": "Bruce McFarlane",
+      "region": "International North",
+      "total_permits": 17
+    },
+    {
+      "code": "SAK",
+      "display_name": "Safe Harbor Sakonnet",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "total_permits": 9
+    },
+    {
+      "code": "SFB",
+      "display_name": "Safe Harbor San Francisco Bay",
+      "rvp": "Garrett McKinney",
+      "region": "West Coast North",
+      "total_permits": 5
+    },
+    {
+      "code": "SJM",
+      "display_name": "Safe Harbor San Juan",
+      "rvp": "Orlando Alvarez Diaz",
+      "region": "International South",
+      "total_permits": 7
+    },
+    {
+      "code": "SHM",
+      "display_name": "Safe Harbor Sandusky",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "total_permits": 6
+    },
+    {
+      "code": "SAU",
+      "display_name": "Safe Harbor Sausalito",
+      "rvp": "Garrett McKinney",
+      "region": "West Coast North",
+      "total_permits": 4
+    },
+    {
+      "code": "SYC",
+      "display_name": "Safe Harbor Savannah Yacht Center",
+      "rvp": "Bruce McFarlane",
+      "region": "International North",
+      "total_permits": 5
+    },
+    {
+      "code": "SSY",
+      "display_name": "Safe Harbor Shelburne Shipyard",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "total_permits": 10
+    },
+    {
+      "code": "SIBY",
+      "display_name": "Safe Harbor Shelter Island",
+      "rvp": "Josh Hester",
+      "region": "West Coast South",
+      "total_permits": 7
+    },
+    {
+      "code": "SKM",
+      "display_name": "Safe Harbor Siesta Key",
+      "rvp": "Jaret Rogers",
+      "region": "Florida West",
+      "total_permits": 30
+    },
+    {
+      "code": "SSM",
+      "display_name": "Safe Harbor Silver Spring",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "total_permits": 4
+    },
+    {
+      "code": "SKL",
+      "display_name": "Safe Harbor Skipper's Landing",
+      "rvp": "Michael Duling",
+      "region": "South",
+      "total_permits": 4
+    },
+    {
+      "code": "SCM",
+      "display_name": "Safe Harbor Skull Creek",
+      "rvp": "David Rogers",
+      "region": "Coastal Carolinas",
+      "total_permits": 4
+    },
+    {
+      "code": "SBAY",
+      "display_name": "Safe Harbor South Bay",
+      "rvp": "Josh Hester",
+      "region": "West Coast South",
+      "total_permits": 5
+    },
+    {
+      "code": "SHV",
+      "display_name": "Safe Harbor South Harbour Village",
+      "rvp": "David Rogers",
+      "region": "Coastal Carolinas",
+      "total_permits": 8
+    },
+    {
+      "code": "SPM",
+      "display_name": "Safe Harbor Sportsman",
+      "rvp": "Michael Duling",
+      "region": "South",
+      "total_permits": 12
+    },
+    {
+      "code": "KIT",
+      "display_name": "Safe Harbor St. Kitts",
+      "rvp": "Orlando Alvarez Diaz",
+      "region": "International South",
+      "total_permits": 6
+    },
+    {
+      "code": "SRP",
+      "display_name": "Safe Harbor Stingray Point",
+      "rvp": "Desiree Bell",
+      "region": "Mid-Atlantic West",
+      "total_permits": 5
+    },
+    {
+      "code": "STH",
+      "display_name": "Safe Harbor Stirling",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "total_permits": 2
+    },
+    {
+      "code": "STR",
+      "display_name": "Safe Harbor Stratford",
+      "rvp": "Matt Marshall",
+      "region": "New York + Coastal Connecticut",
+      "total_permits": 7
+    },
+    {
+      "code": "SRD",
+      "display_name": "Safe Harbor Sunroad",
+      "rvp": "Josh Hester",
+      "region": "West Coast South",
+      "total_permits": 7
+    },
+    {
+      "code": "SBM",
+      "display_name": "Safe Harbor Sunset Bay",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "total_permits": 10
+    },
+    {
+      "code": "TBM",
+      "display_name": "Safe Harbor Toledo Beach",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "total_permits": 9
+    },
+    {
+      "code": "TWR",
+      "display_name": "Safe Harbor Tower Marine",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "total_permits": 17
+    },
+    {
+      "code": "TWM",
+      "display_name": "Safe Harbor Trade Winds",
+      "rvp": "Michael Duling",
+      "region": "South",
+      "total_permits": 6
+    },
+    {
+      "code": "VIM",
+      "display_name": "Safe Harbor Ventura Isle",
+      "rvp": "Josh Hester",
+      "region": "West Coast South",
+      "total_permits": 20
+    },
+    {
+      "code": "VHM",
+      "display_name": "Safe Harbor Vineyard Haven",
+      "rvp": "Tyler Miller",
+      "region": "Massachusetts",
+      "total_permits": 21
+    },
+    {
+      "code": "WAL",
+      "display_name": "Safe Harbor Walden",
+      "rvp": "Sean McNamara",
+      "region": "Southwest",
+      "total_permits": 1
+    },
+    {
+      "code": "WEN",
+      "display_name": "Safe Harbor Wentworth By The Sea",
+      "rvp": "Greg Glavin",
+      "region": "Maine + New Hampshire",
+      "total_permits": 9
+    },
+    {
+      "code": "RSBC",
+      "display_name": "Safe Harbor West Palm",
+      "rvp": "Bruce McFarlane",
+      "region": "International North",
+      "total_permits": 62
+    },
+    {
+      "code": "WPM",
+      "display_name": "Safe Harbor Westport",
+      "rvp": "Michael Duling",
+      "region": "South",
+      "total_permits": 10
+    },
+    {
+      "code": "WIC",
+      "display_name": "Safe Harbor Wickford Cove",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "total_permits": 9
+    },
+    {
+      "code": "WBM",
+      "display_name": "Safe Harbor Willsboro Bay",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "total_permits": 12
+    },
+    {
+      "code": "WDM",
+      "display_name": "Safe Harbor Wisdom Dock",
+      "rvp": "Layne Wilson",
+      "region": "Kentucky + Tennessee",
+      "total_permits": 6
+    },
+    {
+      "code": "YHM",
+      "display_name": "Safe Harbor Yacht Haven",
+      "rvp": "Matt Marshall",
+      "region": "New York + Coastal Connecticut",
+      "total_permits": 3
+    },
+    {
+      "code": "ZAN",
+      "display_name": "Safe Harbor Zahnisers",
+      "rvp": "Megan Rausch",
+      "region": "Mid-Atlantic East",
+      "total_permits": 3
+    }
+  ],
+  "archive_permits": [
+    {
+      "permit_id": "ARC-SPM-012",
+      "title": "Brunswick County Marina Operating License NC-MAR-2024-447",
+      "property_code": "SPM",
+      "display_name": "Safe Harbor Sportsman",
+      "rvp": "Michael Duling",
+      "region": "South",
+      "renewal_start": "2026-01-01",
+      "expiration": "2026-04-15",
+      "archived_at": "2026-05-05T09:50:00",
+      "note": {
+        "text": "Standard county renewal. Certificate of occupancy and proof of insurance submitted. Issued 5/2.",
+        "help_status": null,
+        "updated_at": "2026-05-05T09:50:00"
+      }
+    },
+    {
+      "permit_id": "ARC-NPC-011",
+      "title": "Bermuda Department of Environment Marina License BDA-MAR-2024-21",
+      "property_code": "NPC",
+      "display_name": "Safe Harbor New Port Cove",
+      "rvp": "Bruce McFarlane",
+      "region": "International North",
+      "renewal_start": "2025-12-15",
+      "expiration": "2026-02-28",
+      "archived_at": "2026-05-02T12:30:00",
+      "note": {
+        "text": "International renewal \u2014 required notarized documents apostilled. Local agent handled submission. License renewed for 3 years through 2/28/2029.",
+        "help_status": null,
+        "updated_at": "2026-05-02T12:30:00"
+      }
+    },
+    {
+      "permit_id": "ARC-KPYY-010",
+      "title": "Maine DEP Marine Fueling Facility Permit ME-MFF-882",
+      "property_code": "KPYY",
+      "display_name": "Safe Harbor Kittery Point Yacht Yard",
+      "rvp": "Greg Glavin",
+      "region": "Maine + New Hampshire",
+      "renewal_start": "2025-09-15",
+      "expiration": "2026-01-31",
+      "archived_at": "2026-04-30T10:00:00",
+      "note": {
+        "text": "Long renewal cycle. Tank inspection (3/2), spill response plan update (3/15), state review (3/15-4/22). Renewal issued 4/28. Recommend starting 90 days earlier next cycle.",
+        "help_status": "being_helped",
+        "updated_at": "2026-04-28T16:20:00"
+      }
+    },
+    {
+      "permit_id": "ARC-BYC-009",
+      "title": "SCDHEC Septic System Operating Permit SC-OWTS-2025-1882",
+      "property_code": "BYC",
+      "display_name": "Safe Harbor Bluewater",
+      "rvp": "Ron Gift",
+      "region": "Southeast",
+      "renewal_start": "2025-11-15",
+      "expiration": "2026-03-15",
+      "archived_at": "2026-04-26T13:08:00",
+      "note": {
+        "text": "Septic pump-out and inspection completed 3/8 by Atlantic Septic. Required minor baffle replacement on tank 2. Renewal certificate received 4/24.",
+        "help_status": null,
+        "updated_at": "2026-04-26T13:08:00"
+      }
+    },
+    {
+      "permit_id": "ARC-VIM-008",
+      "title": "Ventura County Pool Operating Permit POOL-2024-V-3088",
+      "property_code": "VIM",
+      "display_name": "Safe Harbor Ventura Isle",
+      "rvp": "Josh Hester",
+      "region": "West Coast South",
+      "renewal_start": "2026-03-01",
+      "expiration": "2026-04-30",
+      "archived_at": "2026-04-22T11:40:00",
+      "note": {
+        "text": "Annual pool inspection passed first time. Two minor items on the report (drain cover signage, chemical log binder) corrected before re-inspection. Permit good through 4/30/2027.",
+        "help_status": null,
+        "updated_at": "2026-04-22T11:40:00"
+      }
+    },
+    {
+      "permit_id": "ARC-HC-006",
+      "title": "TWRA Marina Operating License TN-MAR-2024-088",
+      "property_code": "HC",
+      "display_name": "Safe Harbor Holly Creek",
+      "rvp": "Layne Wilson",
+      "region": "Kentucky + Tennessee",
+      "renewal_start": "2025-10-01",
+      "expiration": "2026-01-15",
+      "archived_at": "2026-04-15T15:42:00",
+      "note": {
+        "text": "TWRA renewal delayed by state office backlog. Multiple follow-ups required. Compliance team escalated through regional director \u2014 license issued 4/14, retroactive to 1/15. No fines assessed.",
+        "help_status": "being_helped",
+        "updated_at": "2026-04-14T11:25:00"
+      }
+    },
+    {
+      "permit_id": "ARC-KIT-005",
+      "title": "USVI DPNR Coastal Zone Management Permit CZX-25-0117",
+      "property_code": "KIT",
+      "display_name": "Safe Harbor St. Kitts",
+      "rvp": "Orlando Alvarez Diaz",
+      "region": "International South",
+      "renewal_start": "2025-12-01",
+      "expiration": "2026-02-28",
+      "archived_at": "2026-04-08T08:30:00",
+      "note": {
+        "text": "Five-year coastal renewal. Required updated hurricane plan and dock condition report. Both submitted via local counsel. Permit issued 4/7.",
+        "help_status": null,
+        "updated_at": "2026-04-08T08:30:00"
+      }
+    },
+    {
+      "permit_id": "ARC-GRE-004",
+      "title": "NYSDEC Tidal Wetlands Permit 1-4738-00921",
+      "property_code": "GRE",
+      "display_name": "Safe Harbor Greenport",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "renewal_start": "2025-11-01",
+      "expiration": "2026-02-15",
+      "archived_at": "2026-04-02T14:55:00",
+      "note": {
+        "text": "DEC required updated bathymetric survey before renewal. Engaged Costello Marine for survey, completed 1/22. DEC approval received 3/30. New permit valid through 2/15/2031.",
+        "help_status": "being_helped",
+        "updated_at": "2026-03-30T09:10:00"
+      }
+    },
+    {
+      "permit_id": "ARC-FPM-003",
+      "title": "Town of Old Saybrook Mooring Field Permit 2026-OS-44",
+      "property_code": "FPM",
+      "display_name": "Safe Harbor Ferry Point",
+      "rvp": "Sean Gilligan",
+      "region": "New York + Connecticut River",
+      "renewal_start": "2026-01-01",
+      "expiration": "2026-03-31",
+      "archived_at": "2026-03-28T11:18:00",
+      "note": {
+        "text": "Renewed at March 18 town meeting after harbormaster review. Standard annual renewal \u2014 no changes. Fee paid same day.",
+        "help_status": null,
+        "updated_at": "2026-03-28T11:18:00"
+      }
+    },
+    {
+      "permit_id": "ARC-DET-002",
+      "title": "EGLE Marina Sanitary Sewer Permit MI-2024-MS-118",
+      "property_code": "DET",
+      "display_name": "Safe Harbor Detroit River",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "renewal_start": "2025-10-15",
+      "expiration": "2026-01-31",
+      "archived_at": "2026-03-12T10:05:00",
+      "note": {
+        "text": "Required full pump-out station inspection before renewal. Inspector visit completed 2/28; minor repair on pump 3 needed (replaced 3/4). Renewal certificate issued 3/10.",
+        "help_status": "being_helped",
+        "updated_at": "2026-03-10T16:40:00"
+      }
+    },
+    {
+      "permit_id": "ARC-SHM-007",
+      "title": "OEPA NPDES Stormwater Permit OHR000-2025-1149",
+      "property_code": "SHM",
+      "display_name": "Safe Harbor Sandusky",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "renewal_start": "2025-08-01",
+      "expiration": "2026-02-28",
+      "archived_at": "2026-02-26T09:15:00",
+      "note": {
+        "text": "Routine NOI submitted online 1/12. Auto-approved 2/9. New 5-year coverage. SWPPP refreshed at the same time.",
+        "help_status": null,
+        "updated_at": "2026-02-26T09:15:00"
+      }
+    },
+    {
+      "permit_id": "ARC-WIC-001",
+      "title": "RIDEM Stormwater General Permit RI-46-WP-2024",
+      "property_code": "WIC",
+      "display_name": "Safe Harbor Wickford Cove",
+      "rvp": "Jason Durante",
+      "region": "Rhode Island",
+      "renewal_start": "2025-09-01",
+      "expiration": "2025-12-31",
+      "archived_at": "2026-02-04T13:22:00",
+      "note": {
+        "text": "RIDEM approved renewal application after second round of comments. Updated SWPPP submitted with additional outfall monitoring. New permit valid through 12/31/2030. SWPPP binder updated at marina office.",
+        "help_status": null,
+        "updated_at": "2026-02-04T13:22:00"
+      }
+    }
+  ]
+}
