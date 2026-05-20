@@ -33,11 +33,75 @@ OUTPUT_JSON = DATA_DIR / 'dashboard_data.json'
 EXPIRING_SOON_DAYS = 30
 
 
+def newest_raw_file() -> Path:
+    """Find the newest CSV or XLSX in raw/, by file mtime."""
+    candidates = list(RAW_DIR.glob('*.csv')) + list(RAW_DIR.glob('*.xlsx'))
+    candidates = sorted(candidates, key=lambda p: p.stat().st_mtime, reverse=True)
+    if not candidates:
+        sys.exit(f"ERROR: no CSV or XLSX files found in {RAW_DIR}")
+    return candidates[0]
+
+
 def newest_raw_csv() -> Path:
-    csvs = sorted(RAW_DIR.glob('*.csv'), key=lambda p: p.stat().st_mtime, reverse=True)
-    if not csvs:
-        sys.exit(f"ERROR: no CSV files found in {RAW_DIR}")
-    return csvs[0]
+    """Backward-compatible alias."""
+    return newest_raw_file()
+
+
+def read_rows(raw_path: Path):
+    """Yield row dicts from either a CSV or an XLSX file.
+
+    For XLSX, expects Origami's scheduled-report format: headers on row 5
+    (after 4 metadata rows). Falls back to standard CSV reading otherwise.
+    """
+    suffix = raw_path.suffix.lower()
+    if suffix == '.csv':
+        with raw_path.open(encoding='utf-8-sig') as f:
+            reader = csv.DictReader(f)
+            for i, row in enumerate(reader, start=2):
+                yield i, row
+        return
+
+    if suffix == '.xlsx':
+        # Lazy import so the dependency is only required when XLSX is used.
+        try:
+            from openpyxl import load_workbook
+        except ImportError:
+            sys.exit("ERROR: openpyxl required to read XLSX. "
+                     "Add 'openpyxl' to your GitHub Action's pip install step.")
+        wb = load_workbook(raw_path, read_only=True, data_only=True)
+        ws = wb.active
+        # Find the header row: the first row containing the string 'Title'.
+        # Origami's scheduled report puts headers on row 5; manual exports
+        # may differ. Scan the first 10 rows to be safe.
+        header = None
+        header_row = None
+        for r_idx, row in enumerate(ws.iter_rows(min_row=1, max_row=10, values_only=True), start=1):
+            row_strs = [str(c) if c is not None else '' for c in row]
+            if 'Title' in row_strs:
+                header = row_strs
+                header_row = r_idx
+                break
+        if header is None:
+            sys.exit(f"ERROR: could not find header row in {raw_path.name}")
+
+        # Iterate data rows
+        for r_idx, row in enumerate(ws.iter_rows(min_row=header_row + 1, values_only=True), start=header_row + 2):
+            if all(c is None or str(c).strip() == '' for c in row):
+                continue  # skip blank rows
+            row_dict = {}
+            for col_idx, value in enumerate(row):
+                if col_idx >= len(header):
+                    break
+                col_name = header[col_idx]
+                # Convert datetime objects to ISO date strings for the parser
+                if hasattr(value, 'isoformat'):
+                    row_dict[col_name] = value.strftime('%Y-%m-%d')
+                else:
+                    row_dict[col_name] = '' if value is None else str(value)
+            yield r_idx, row_dict
+        return
+
+    sys.exit(f"ERROR: unsupported file type {suffix}. Expected .csv or .xlsx.")
 
 
 def load_property_reference():
@@ -123,57 +187,55 @@ def extract_title(row):
 
 
 def process_csv(csv_path: Path, ref: dict, name_to_code: dict, today: date):
-    """Read the CSV, filter to relevant permits, build records."""
+    """Read the CSV (or XLSX), filter to relevant permits, build records."""
     horizon = today + timedelta(days=EXPIRING_SOON_DAYS)
     active = []
     skipped_unknown_property = []
 
-    with csv_path.open(encoding='utf-8-sig') as f:
-        reader = csv.DictReader(f)
-        for i, row in enumerate(reader, start=2):
-            code = extract_property_code(row, name_to_code)
-            if not code:
-                continue
-            if code not in ref:
-                skipped_unknown_property.append((i, code))
-                continue
+    for i, row in read_rows(csv_path):
+        code = extract_property_code(row, name_to_code)
+        if not code:
+            continue
+        if code not in ref:
+            skipped_unknown_property.append((i, code))
+            continue
 
-            exp = parse_date(row.get('Expiration Date') or row.get('Expiration'))
-            ren = parse_date(row.get('Renewal Start Date') or row.get('Renewal Start'))
-            if not exp:
-                continue
+        exp = parse_date(row.get('Expiration Date') or row.get('Expiration'))
+        ren = parse_date(row.get('Renewal Start Date') or row.get('Renewal Start'))
+        if not exp:
+            continue
 
-            # Apply the same filter as the Origami saved report:
-            # expiration <= today + 30 days AND renewal start <= today + 30 days
-            if exp > horizon:
-                continue
-            if ren and ren > horizon:
-                continue
+        # Apply the same filter as the Origami saved report:
+        # expiration <= today + 30 days AND renewal start <= today + 30 days
+        if exp > horizon:
+            continue
+        if ren and ren > horizon:
+            continue
 
-            days_to_exp = (exp - today).days
-            status = 'expired' if days_to_exp < 0 else 'expiring_soon'
+        days_to_exp = (exp - today).days
+        status = 'expired' if days_to_exp < 0 else 'expiring_soon'
 
-            title = extract_title(row)
-            # Origami's export doesn't include a separate document ID, so we
-            # generate a stable per-row identifier from property code + title hash.
-            # In a future refresh we can pull a proper ID if Origami's format expands.
-            import hashlib
-            tid = hashlib.md5(f"{code}|{title}|{exp.isoformat()}".encode()).hexdigest()[:8]
-            permit_id = f"{code}-{tid}"
+        title = extract_title(row)
+        # Origami's export doesn't include a separate document ID, so we
+        # generate a stable per-row identifier from property code + title hash.
+        # In a future refresh we can pull a proper ID if Origami's format expands.
+        import hashlib
+        tid = hashlib.md5(f"{code}|{title}|{exp.isoformat()}".encode()).hexdigest()[:8]
+        permit_id = f"{code}-{tid}"
 
-            info = ref[code]
-            active.append({
-                'permit_id': permit_id,
-                'title': title,
-                'property_code': code,
-                'display_name': info['display_name'],
-                'rvp': info['rvp'],
-                'region': info['region'],
-                'renewal_start': ren.isoformat() if ren else None,
-                'expiration': exp.isoformat(),
-                'status': status,
-                'days_to_exp': days_to_exp,
-            })
+        info = ref[code]
+        active.append({
+            'permit_id': permit_id,
+            'title': title,
+            'property_code': code,
+            'display_name': info['display_name'],
+            'rvp': info['rvp'],
+            'region': info['region'],
+            'renewal_start': ren.isoformat() if ren else None,
+            'expiration': exp.isoformat(),
+            'status': status,
+            'days_to_exp': days_to_exp,
+        })
 
     if skipped_unknown_property:
         print(f"WARNING: skipped {len(skipped_unknown_property)} rows with unknown property codes:")
@@ -188,12 +250,10 @@ def process_csv(csv_path: Path, ref: dict, name_to_code: dict, today: date):
 def total_permits_by_property(csv_path: Path, ref: dict, name_to_code: dict):
     """Count total permits per property (all rows, not just expired/expiring)."""
     totals = {}
-    with csv_path.open(encoding='utf-8-sig') as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            code = extract_property_code(row, name_to_code)
-            if code and code in ref:
-                totals[code] = totals.get(code, 0) + 1
+    for _, row in read_rows(csv_path):
+        code = extract_property_code(row, name_to_code)
+        if code and code in ref:
+            totals[code] = totals.get(code, 0) + 1
     return totals
 
 
