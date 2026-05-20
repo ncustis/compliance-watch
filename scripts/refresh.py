@@ -41,20 +41,32 @@ def newest_raw_csv() -> Path:
 
 
 def load_property_reference():
-    """Returns dict keyed by property code -> {display_name, rvp, region}."""
+    """Returns (ref_by_code, name_to_code).
+
+    ref_by_code: dict keyed by property code -> {display_name, rvp, region}
+    name_to_code: dict keyed by uppercase Origami name -> property code
+                  (used to look up which property a CSV row belongs to)
+    """
     if not REFERENCE_CSV.exists():
         sys.exit(f"ERROR: property reference not found at {REFERENCE_CSV}")
-    ref = {}
+    ref_by_code = {}
+    name_to_code = {}
     with REFERENCE_CSV.open() as f:
         reader = csv.DictReader(f)
         for row in reader:
             code = row['Property Code'].strip().upper()
-            ref[code] = {
-                'display_name': row['Display Name'].strip(),
+            display_name = row['Display Name'].strip()
+            origami_name = row.get('Origami Name', '').strip() or display_name
+            ref_by_code[code] = {
+                'display_name': display_name,
                 'rvp': row['RVP/SVP'].strip(),
                 'region': row['Region'].strip(),
             }
-    return ref
+            # Build case-insensitive lookup
+            name_to_code[origami_name.upper().strip()] = code
+            # Also accept the display name as a fallback match
+            name_to_code[display_name.upper().strip()] = code
+    return ref_by_code, name_to_code
 
 
 def parse_date(s: str):
@@ -70,25 +82,35 @@ def parse_date(s: str):
     return None
 
 
-def extract_property_code(row):
-    """Pull the property code from the Location column.
+def extract_property_code(row, name_to_code):
+    """Find the property code for a row.
 
-    Origami's export format: Location field is 'CODE - Property Name'
-    (e.g., 'CBY - Safe Harbor City Boat Yard'). We split on ' - ' and take
-    the first part as the property code. Also tolerates other column names
-    in case Origami's report format changes.
+    Strategy:
+    1. Origami's scheduled report puts just the property name in 'Location'
+       (e.g., 'SAFE HARBOR ALLEN HARBOR'). We match this against the
+       Origami Name column in property_reference.csv (case-insensitive).
+    2. If the Location is in 'CODE - Name' format (manual export), we
+       still parse the code from the prefix.
+    3. Fallback to other column names in case Origami's format changes.
     """
-    # First try the standard Origami format
     loc = (row.get('Location') or '').strip()
-    if loc and ' - ' in loc:
-        code = loc.split(' - ', 1)[0].strip().upper()
-        if code:
-            return code
 
-    # Fallbacks for alternative column names
+    # First: case-insensitive name lookup (the scheduled report path)
+    if loc and loc.upper() in name_to_code:
+        return name_to_code[loc.upper()]
+
+    # Second: 'CODE - Name' format (manual export path)
+    if loc and ' - ' in loc:
+        code_candidate = loc.split(' - ', 1)[0].strip().upper()
+        # Validate it looks like a property code (short alphanumeric)
+        if code_candidate and len(code_candidate) <= 6 and code_candidate.isalnum():
+            return code_candidate
+
+    # Third: explicit Property Code column (in case Origami's format changes)
     for key in ('Property Code', 'PropertyCode', 'Property', 'Location Code'):
         if row.get(key):
             return row[key].strip().upper()
+
     return None
 
 
@@ -100,7 +122,7 @@ def extract_title(row):
     return ''
 
 
-def process_csv(csv_path: Path, ref: dict, today: date):
+def process_csv(csv_path: Path, ref: dict, name_to_code: dict, today: date):
     """Read the CSV, filter to relevant permits, build records."""
     horizon = today + timedelta(days=EXPIRING_SOON_DAYS)
     active = []
@@ -109,7 +131,7 @@ def process_csv(csv_path: Path, ref: dict, today: date):
     with csv_path.open(encoding='utf-8-sig') as f:
         reader = csv.DictReader(f)
         for i, row in enumerate(reader, start=2):
-            code = extract_property_code(row)
+            code = extract_property_code(row, name_to_code)
             if not code:
                 continue
             if code not in ref:
@@ -163,13 +185,13 @@ def process_csv(csv_path: Path, ref: dict, today: date):
     return active
 
 
-def total_permits_by_property(csv_path: Path, ref: dict):
+def total_permits_by_property(csv_path: Path, ref: dict, name_to_code: dict):
     """Count total permits per property (all rows, not just expired/expiring)."""
     totals = {}
     with csv_path.open(encoding='utf-8-sig') as f:
         reader = csv.DictReader(f)
         for row in reader:
-            code = extract_property_code(row)
+            code = extract_property_code(row, name_to_code)
             if code and code in ref:
                 totals[code] = totals.get(code, 0) + 1
     return totals
@@ -291,11 +313,11 @@ def main():
     csv_path = newest_raw_csv()
     print(f"Processing: {csv_path.name} (as of {today.isoformat()})")
 
-    ref = load_property_reference()
+    ref, name_to_code = load_property_reference()
     print(f"Loaded property reference: {len(ref)} properties")
 
-    totals = total_permits_by_property(csv_path, ref)
-    active = process_csv(csv_path, ref, today)
+    totals = total_permits_by_property(csv_path, ref, name_to_code)
+    active = process_csv(csv_path, ref, name_to_code, today)
     print(f"Active expired/expiring permits: {len(active)}")
 
     summary = build_summary(active, ref, totals, today)
