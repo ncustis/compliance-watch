@@ -69,7 +69,15 @@ def read_rows(raw_path: Path):
             sys.exit("ERROR: openpyxl required to read XLSX. "
                      "Add 'openpyxl' to your GitHub Action's pip install step.")
         wb = load_workbook(raw_path, read_only=True, data_only=True)
-        ws = wb.active
+        # Origami's scheduled report ships two sheets: 'All Permits' (everything)
+        # and 'Document Controls - Next 30 Day' (Origami's pre-filtered view).
+        # We prefer 'All Permits' because our own date filter in Python stays
+        # accurate even if this script runs days after the file was exported.
+        # For single-sheet exports we fall back to the active sheet.
+        if 'All Permits' in wb.sheetnames:
+            ws = wb['All Permits']
+        else:
+            ws = wb.active
         # Find the header row: the first row containing the string 'Title'.
         # Origami's scheduled report puts headers on row 5; manual exports
         # may differ. Scan the first 10 rows to be safe.
@@ -263,8 +271,14 @@ def build_summary(active, ref, totals, today):
     total_expiring = sum(1 for p in active if p['status'] == 'expiring_soon')
     properties_with_issues = len({p['property_code'] for p in active})
     compliance = round(100 * (total_permits - total_expired) / total_permits, 1) if total_permits else 100.0
+    # ISO-8601 UTC timestamp of this refresh. The dashboard converts to the
+    # viewer's local time so the masthead reads "Refreshed at 3:14 PM"
+    # rather than a hardcoded value.
+    from datetime import timezone
+    refreshed_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace('+00:00', 'Z')
     return {
         'as_of': today.isoformat(),
+        'refreshed_at': refreshed_at,
         'total_permits': total_permits,
         'total_properties': len(ref),
         'total_expired': total_expired,
