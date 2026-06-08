@@ -172,6 +172,19 @@ function renderMasthead() {
   const date = new Date(DATA.summary.as_of + 'T00:00:00');
   document.getElementById('masthead-date').textContent =
     date.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
+  // If the data file includes a precise refresh timestamp, show it in the
+  // viewer's local time. Falls back to the static placeholder otherwise.
+  const refreshEl = document.getElementById('masthead-refresh');
+  if (refreshEl && DATA.summary.refreshed_at) {
+    const dt = new Date(DATA.summary.refreshed_at);
+    const timeStr = dt.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
+    // Show the same-day uploads with just time; older with date prefix
+    const today = new Date();
+    const sameDay = dt.toDateString() === today.toDateString();
+    refreshEl.innerHTML = sameDay
+      ? `Refreshed at <strong>${timeStr}</strong>`
+      : `Refreshed <strong>${dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })} at ${timeStr}</strong>`;
+  }
   document.getElementById('active-count').textContent = DATA.active_permits.length;
   document.getElementById('archive-count').textContent = (DATA.archive_permits || []).length;
 }
