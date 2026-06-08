@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin — Compliance Watch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+<style>
+  /* ── Admin-specific styles (build on the shared design tokens) ── */
+  .admin-wrap { max-width: 720px; margin: 0 auto; padding: 24px 32px 80px; }
+  .admin-header {
+    border-bottom: 2px solid var(--ink); padding: 18px 0 14px; margin-bottom: 32px;
+    display: flex; justify-content: space-between; align-items: flex-end; gap: 16px;
+  }
+  .admin-title {
+    font-family: 'Fraunces', serif; font-weight: 600;
+    font-size: 32px; letter-spacing: -0.02em; color: var(--ink);
+  }
+  .admin-title em { font-style: italic; font-weight: 400; color: var(--brass); }
+  .admin-back {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--ink-muted); text-decoration: none;
+  }
+  .admin-back:hover { color: var(--ink); }
+
+  .panel {
+    background: var(--paper-warm); border: 1px solid var(--rule);
+    padding: 28px 32px; margin-bottom: 20px;
+  }
+  .panel-title {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--brass); font-weight: 600; margin-bottom: 14px;
+  }
+  .panel h2 {
+    font-family: 'Fraunces', serif; font-weight: 500;
+    font-size: 22px; margin-bottom: 10px; color: var(--ink);
+  }
+  .panel p {
+    font-family: 'Fraunces', serif; font-style: italic; font-size: 15px;
+    line-height: 1.55; color: var(--ink-soft); margin-bottom: 16px;
+  }
+  .field { display: flex; flex-direction: column; gap: 6px; margin-bottom: 16px; }
+  .field label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase;
+    color: var(--ink-muted); font-weight: 600;
+  }
+  .field input[type="password"],
+  .field input[type="text"] {
+    font-family: 'IBM Plex Mono', monospace; font-size: 13px;
+    padding: 10px 12px; background: var(--paper);
+    border: 1px solid var(--rule); color: var(--ink);
+    outline: none; transition: border 0.12s;
+  }
+  .field input:focus { border-color: var(--ink); }
+
+  .checkbox-row {
+    display: flex; align-items: center; gap: 8px;
+    font-family: 'IBM Plex Sans', sans-serif; font-size: 13px;
+    color: var(--ink-soft);
+  }
+  .checkbox-row input { accent-color: var(--ink); }
+
+  .btn-primary {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px; font-weight: 600;
+    letter-spacing: 0.16em; text-transform: uppercase;
+    background: var(--ink); color: var(--paper);
+    border: none; padding: 11px 22px;
+    cursor: pointer; transition: all 0.15s;
+  }
+  .btn-primary:hover { background: var(--brass); }
+  .btn-primary:disabled {
+    background: var(--paper-deep); color: var(--ink-muted); cursor: default;
+  }
+  .btn-secondary {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--ink-soft); background: transparent;
+    border: 1px dashed var(--rule); padding: 9px 14px;
+    cursor: pointer; transition: all 0.12s;
+  }
+  .btn-secondary:hover { color: var(--ink); border-color: var(--ink); border-style: solid; }
+
+  .error-text {
+    font-family: 'IBM Plex Sans', sans-serif; font-size: 13px;
+    color: var(--expired); margin-top: 8px;
+  }
+
+  /* Upload zone */
+  .upload-zone {
+    border: 2px dashed var(--rule);
+    padding: 50px 24px; text-align: center;
+    background: var(--paper); cursor: pointer;
+    transition: all 0.15s; margin-bottom: 16px;
+  }
+  .upload-zone:hover { border-color: var(--brass); background: var(--paper-deep); }
+  .upload-zone.drag-over { border-color: var(--brass); background: var(--paper-deep); transform: scale(1.01); }
+  .upload-zone-icon {
+    font-family: 'Fraunces', serif; font-style: italic;
+    font-size: 42px; color: var(--brass); margin-bottom: 8px;
+  }
+  .upload-zone-text {
+    font-family: 'Fraunces', serif; font-size: 16px; color: var(--ink);
+  }
+  .upload-zone-hint {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--ink-muted); margin-top: 6px;
+  }
+
+  /* Selected file display */
+  .file-card {
+    background: var(--paper); border: 1px solid var(--rule);
+    padding: 16px 18px; margin-bottom: 16px;
+    display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  }
+  .file-card-info { flex: 1; min-width: 0; }
+  .file-card-name {
+    font-family: 'Fraunces', serif; font-weight: 500; font-size: 15px;
+    color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .file-card-meta {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px; color: var(--ink-muted); margin-top: 3px;
+  }
+  .file-card-actions { display: flex; gap: 8px; flex-shrink: 0; }
+
+  /* Status display */
+  .status-line {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px; letter-spacing: 0.04em;
+    padding: 12px 14px; margin-top: 16px;
+    background: var(--paper); border-left: 3px solid var(--rule);
+  }
+  .status-line.is-info { border-left-color: var(--brass); color: var(--ink-soft); }
+  .status-line.is-success { border-left-color: var(--compliant); color: var(--compliant); }
+  .status-line.is-error { border-left-color: var(--expired); color: var(--expired); }
+  .status-line a { color: inherit; font-weight: 600; }
+
+  /* Loading spinner */
+  .spinner {
+    display: inline-block; width: 12px; height: 12px;
+    border: 2px solid var(--rule); border-top-color: var(--ink);
+    border-radius: 50%; animation: spin 0.8s linear infinite;
+    vertical-align: middle; margin-right: 6px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+</style>
+</head>
+<body>
+
+<div class="admin-wrap">
+
+  <header class="admin-header">
+    <div class="admin-title serif">Compliance <em>Watch</em> · Admin</div>
+    <a href="./" class="admin-back">← Dashboard</a>
+  </header>
+
+  <!-- ───── PASSWORD GATE ───── -->
+  <section id="gate-panel" class="panel">
+    <div class="panel-title">Sign in</div>
+    <h2 class="serif">Authorized Personnel</h2>
+    <p>This page is used to upload daily Origami reports. Enter the password to continue.</p>
+    <form id="gate-form">
+      <div class="field">
+        <label for="gate-password">Password</label>
+        <input type="password" id="gate-password" autocomplete="current-password" autofocus required>
+      </div>
+      <button type="submit" class="btn-primary">Enter</button>
+      <div id="gate-error" class="error-text" style="display:none">Incorrect password.</div>
+    </form>
+  </section>
+
+  <!-- ───── ADMIN AREA ───── -->
+  <div id="admin-area" style="display:none">
+
+    <section class="panel">
+      <div class="panel-title">Step 1 — GitHub Token</div>
+      <h2 class="serif">Authentication</h2>
+      <p>Paste your GitHub fine-grained token. The token only ever lives in your browser, never sent anywhere except the GitHub API.</p>
+      <div class="field">
+        <label for="token-input">Token (starts with <code>github_pat_</code>)</label>
+        <input type="password" id="token-input" autocomplete="off" placeholder="github_pat_...">
+      </div>
+      <div class="checkbox-row">
+        <input type="checkbox" id="remember-token" checked>
+        <label for="remember-token">Save token in this browser so I don't have to paste it next time</label>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-title">Step 2 — Upload</div>
+      <h2 class="serif">Today's Origami Report</h2>
+      <p>Save the XLSX attachment from Origami's email to your computer, then drop it here.</p>
+
+      <div id="upload-zone" class="upload-zone">
+        <div class="upload-zone-icon">↑</div>
+        <div class="upload-zone-text">Drag and drop XLSX here, or click to browse</div>
+        <div class="upload-zone-hint">Excel files only · One file at a time</div>
+      </div>
+      <input type="file" id="file-input" accept=".xlsx" style="display:none">
+
+      <div id="file-card" class="file-card" style="display:none">
+        <div class="file-card-info">
+          <div id="file-name" class="file-card-name"></div>
+          <div id="file-meta" class="file-card-meta"></div>
+        </div>
+        <div class="file-card-actions">
+          <button type="button" class="btn-secondary" id="clear-file">Replace</button>
+          <button type="button" class="btn-primary" id="upload-btn">Upload</button>
+        </div>
+      </div>
+
+      <div id="status" class="status-line is-info" style="display:none"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-title">What happens next</div>
+      <p style="margin-bottom:0">
+        Once uploaded, the GitHub Action automatically runs the refresh script (~30 seconds),
+        and the dashboard updates with the latest numbers. You can close this page once you see
+        the success message — the rest happens on its own.
+      </p>
+    </section>
+
+  </div>
+
+</div>
+
+<script>
+  // ╔════════════════════════════════════════════════════╗
+  // ║  CHANGE THIS PASSWORD before going live.           ║
+  // ║  This is a friction-layer gate, not real security. ║
+  // ╚════════════════════════════════════════════════════╝
+  const PASSWORD = 'SafeHarborPermits';
+
+  const REPO_OWNER = 'ncustis';
+  const REPO_NAME = 'compliance-watch';
+  const TOKEN_STORAGE_KEY = 'compliance-watch:github-token';
+  const GATE_STORAGE_KEY = 'compliance-watch:gate-passed';
+
+  // ─── Password gate ───
+  function unlockGate() {
+    document.getElementById('gate-panel').style.display = 'none';
+    document.getElementById('admin-area').style.display = '';
+    // Restore saved token if present
+    const savedToken = localStorage.getItem(TOKEN_STORAGE_KEY);
+    if (savedToken) {
+      document.getElementById('token-input').value = savedToken;
+    } else {
+      document.getElementById('token-input').focus();
+    }
+  }
+
+  // If user already passed the gate this session, skip it
+  if (sessionStorage.getItem(GATE_STORAGE_KEY) === '1') {
+    unlockGate();
+  }
+
+  document.getElementById('gate-form').addEventListener('submit', e => {
+    e.preventDefault();
+    const entered = document.getElementById('gate-password').value;
+    const err = document.getElementById('gate-error');
+    if (entered === PASSWORD) {
+      sessionStorage.setItem(GATE_STORAGE_KEY, '1');
+      err.style.display = 'none';
+      unlockGate();
+    } else {
+      err.style.display = '';
+      document.getElementById('gate-password').value = '';
+      document.getElementById('gate-password').focus();
+    }
+  });
+
+  // ─── File selection ───
+  let selectedFile = null;
+  const zone = document.getElementById('upload-zone');
+  const fileInput = document.getElementById('file-input');
+  const fileCard = document.getElementById('file-card');
+  const fileName = document.getElementById('file-name');
+  const fileMeta = document.getElementById('file-meta');
+  const status = document.getElementById('status');
+
+  function setStatus(msg, kind) {
+    status.style.display = '';
+    status.className = 'status-line is-' + (kind || 'info');
+    status.innerHTML = msg;
+  }
+  function clearStatus() { status.style.display = 'none'; }
+
+  function selectFile(file) {
+    if (!file) return;
+    if (!file.name.toLowerCase().endsWith('.xlsx')) {
+      setStatus('That file isn\'t an XLSX. Origami sends Excel files — make sure you\'re grabbing the attachment, not a renamed copy.', 'error');
+      return;
+    }
+    selectedFile = file;
+    fileName.textContent = file.name;
+    const kb = (file.size / 1024).toFixed(1);
+    fileMeta.textContent = `${kb} KB · selected ${new Date().toLocaleTimeString()}`;
+    fileCard.style.display = '';
+    zone.style.display = 'none';
+    clearStatus();
+  }
+
+  zone.addEventListener('click', () => fileInput.click());
+  fileInput.addEventListener('change', e => {
+    if (e.target.files && e.target.files[0]) selectFile(e.target.files[0]);
+  });
+  zone.addEventListener('dragover', e => { e.preventDefault(); zone.classList.add('drag-over'); });
+  zone.addEventListener('dragleave', () => zone.classList.remove('drag-over'));
+  zone.addEventListener('drop', e => {
+    e.preventDefault();
+    zone.classList.remove('drag-over');
+    if (e.dataTransfer.files && e.dataTransfer.files[0]) selectFile(e.dataTransfer.files[0]);
+  });
+
+  document.getElementById('clear-file').addEventListener('click', () => {
+    selectedFile = null;
+    fileInput.value = '';
+    fileCard.style.display = 'none';
+    zone.style.display = '';
+    clearStatus();
+  });
+
+  // ─── Upload ───
+  function fileToBase64(file) {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => {
+        // result is a data URL like "data:...;base64,XXXX". Strip the prefix.
+        const result = reader.result;
+        const idx = result.indexOf(',');
+        resolve(result.substring(idx + 1));
+      };
+      reader.onerror = reject;
+      reader.readAsDataURL(file);
+    });
+  }
+
+  document.getElementById('upload-btn').addEventListener('click', async () => {
+    const token = document.getElementById('token-input').value.trim();
+    const remember = document.getElementById('remember-token').checked;
+
+    if (!token) {
+      setStatus('Paste your GitHub token first (Step 1 above).', 'error');
+      return;
+    }
+    if (!selectedFile) {
+      setStatus('Choose a file first.', 'error');
+      return;
+    }
+
+    // Remember or forget token per checkbox
+    if (remember) {
+      localStorage.setItem(TOKEN_STORAGE_KEY, token);
+    } else {
+      localStorage.removeItem(TOKEN_STORAGE_KEY);
+    }
+
+    const uploadBtn = document.getElementById('upload-btn');
+    uploadBtn.disabled = true;
+
+    try {
+      setStatus('<span class="spinner"></span>Reading file…', 'info');
+      const base64Content = await fileToBase64(selectedFile);
+
+      // Use today's date for the filename so each day overwrites cleanly
+      const today = new Date().toISOString().slice(0, 10);
+      const filename = `permits_${today}.xlsx`;
+      const repoPath = `raw/${filename}`;
+      const apiUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${repoPath}`;
+
+      // Check if file exists today (need SHA to overwrite)
+      setStatus('<span class="spinner"></span>Checking GitHub…', 'info');
+      let existingSha;
+      const getResp = await fetch(apiUrl, {
+        method: 'GET',
+        headers: {
+          'Authorization': `Bearer ${token}`,
+          'Accept': 'application/vnd.github+json',
+        }
+      });
+      if (getResp.ok) {
+        const existing = await getResp.json();
+        existingSha = existing.sha;
+      } else if (getResp.status === 401) {
+        throw new Error('GitHub rejected your token (401 Unauthorized). Generate a new one and try again.');
+      } else if (getResp.status === 404) {
+        // Fine — file doesn't exist yet today
+      } else if (getResp.status !== 404) {
+        const body = await getResp.text();
+        throw new Error(`GitHub error (${getResp.status}): ${body.slice(0, 200)}`);
+      }
+
+      // PUT the file
+      setStatus('<span class="spinner"></span>Uploading to GitHub…', 'info');
+      const body = {
+        message: `Daily refresh ${today} (uploaded via admin)`,
+        content: base64Content,
+      };
+      if (existingSha) body.sha = existingSha;
+
+      const putResp = await fetch(apiUrl, {
+        method: 'PUT',
+        headers: {
+          'Authorization': `Bearer ${token}`,
+          'Accept': 'application/vnd.github+json',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(body)
+      });
+
+      if (!putResp.ok) {
+        const errBody = await putResp.text();
+        throw new Error(`GitHub PUT failed (${putResp.status}): ${errBody.slice(0, 300)}`);
+      }
+
+      const result = await putResp.json();
+      const commitUrl = result.commit && result.commit.html_url;
+
+      setStatus(
+        `Uploaded successfully as <code>${repoPath}</code>.<br><br>` +
+        `The dashboard will refresh automatically in about 30–60 seconds. ` +
+        `<a href="./" target="_blank">Open dashboard →</a>` +
+        (commitUrl ? ` &nbsp;·&nbsp; <a href="${commitUrl}" target="_blank">View commit</a>` : ''),
+        'success'
+      );
+      // Reset the form for the next upload
+      selectedFile = null;
+      fileInput.value = '';
+      fileCard.style.display = 'none';
+      zone.style.display = '';
+    } catch (err) {
+      console.error(err);
+      setStatus('Upload failed: ' + (err.message || String(err)), 'error');
+    } finally {
+      uploadBtn.disabled = false;
+    }
+  });
+</script>
+
+</body>
+</html>
