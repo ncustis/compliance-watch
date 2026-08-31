@@ -1,13 +1,13 @@
 {
   "summary": {
-    "as_of": "2026-08-30",
-    "refreshed_at": "2026-08-30T15:09:49Z",
+    "as_of": "2026-08-31",
+    "refreshed_at": "2026-08-31T17:52:52Z",
     "total_permits": 1537,
     "total_properties": 140,
-    "total_expired": 311,
-    "total_expiring": 35,
-    "properties_with_issues": 107,
-    "overall_compliance": 79.8,
+    "total_expired": 312,
+    "total_expiring": 102,
+    "properties_with_issues": 112,
+    "overall_compliance": 79.7,
     "total_regions": 21
   },
   "active_permits": [
@@ -21,7 +21,7 @@
       "renewal_start": "2026-03-01",
       "expiration": "2026-03-31",
       "status": "expired",
-      "days_to_exp": -152
+      "days_to_exp": -153
     },
     {
       "permit_id": "AIM-aad975db",
@@ -33,7 +33,7 @@
       "renewal_start": "2024-04-01",
       "expiration": "2024-04-24",
       "status": "expired",
-      "days_to_exp": -858
+      "days_to_exp": -859
     },
     {
       "permit_id": "AIM-2e73a5e8",
@@ -45,7 +45,7 @@
       "renewal_start": "2024-05-15",
       "expiration": "2024-06-15",
       "status": "expired",
-      "days_to_exp": -806
+      "days_to_exp": -807
     },
     {
       "permit_id": "AIM-d0a79edc",
@@ -57,7 +57,7 @@
       "renewal_start": "2026-05-01",
       "expiration": "2026-07-31",
       "status": "expired",
-      "days_to_exp": -30
+      "days_to_exp": -31
     },
     {
       "permit_id": "AHM-dd741a46",
@@ -69,7 +69,7 @@
       "renewal_start": "2025-09-01",
       "expiration": "2025-10-16",
       "status": "expired",
-      "days_to_exp": -318
+      "days_to_exp": -319
     },
     {
       "permit_id": "AHM-5fa8d266",
@@ -81,7 +81,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "ANN-230f4dc6",
@@ -93,7 +93,7 @@
       "renewal_start": "2026-05-05",
       "expiration": "2026-04-30",
       "status": "expired",
-      "days_to_exp": -122
+      "days_to_exp": -123
     },
     {
       "permit_id": "ANN-60d74283",
@@ -105,7 +105,7 @@
       "renewal_start": "2026-05-01",
       "expiration": "2026-05-31",
       "status": "expired",
-      "days_to_exp": -91
+      "days_to_exp": -92
     },
     {
       "permit_id": "AYH-af7e796c",
@@ -117,7 +117,7 @@
       "renewal_start": "2026-05-15",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "ALM-bafac0d3",
@@ -129,7 +129,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "ALM-b76c2815",
@@ -141,7 +141,7 @@
       "renewal_start": "2026-05-18",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "AFD-67545edf",
@@ -153,7 +153,7 @@
       "renewal_start": "2026-07-01",
       "expiration": "2026-08-31",
       "status": "expiring_soon",
-      "days_to_exp": 1
+      "days_to_exp": 0
     },
     {
       "permit_id": "AFD-c60f7f21",
@@ -165,7 +165,7 @@
       "renewal_start": "2026-06-10",
       "expiration": "2026-07-31",
       "status": "expired",
-      "days_to_exp": -30
+      "days_to_exp": -31
     },
     {
       "permit_id": "BIM-15e7be21",
@@ -177,7 +177,7 @@
       "renewal_start": "2026-04-28",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "BIM-59dd3ee0",
@@ -189,7 +189,7 @@
       "renewal_start": "2026-04-21",
       "expiration": "2026-05-21",
       "status": "expired",
-      "days_to_exp": -101
+      "days_to_exp": -102
     },
     {
       "permit_id": "BIM-da8d29ca",
@@ -201,7 +201,7 @@
       "renewal_start": "2026-07-20",
       "expiration": "2026-08-20",
       "status": "expired",
-      "days_to_exp": -10
+      "days_to_exp": -11
     },
     {
       "permit_id": "BFM-3a3c6469",
@@ -213,7 +213,7 @@
       "renewal_start": "2026-04-15",
       "expiration": "2026-05-31",
       "status": "expired",
-      "days_to_exp": -91
+      "days_to_exp": -92
     },
     {
       "permit_id": "BFM-4399bb4a",
@@ -225,7 +225,7 @@
       "renewal_start": "2026-08-01",
       "expiration": "2026-08-31",
       "status": "expiring_soon",
-      "days_to_exp": 1
+      "days_to_exp": 0
     },
     {
       "permit_id": "BFM-b45afbb6",
@@ -237,7 +237,7 @@
       "renewal_start": "2026-07-29",
       "expiration": "2026-08-31",
       "status": "expiring_soon",
-      "days_to_exp": 1
+      "days_to_exp": 0
     },
     {
       "permit_id": "BFM-b45afbb6",
@@ -249,7 +249,7 @@
       "renewal_start": "2026-07-29",
       "expiration": "2026-08-31",
       "status": "expiring_soon",
-      "days_to_exp": 1
+      "days_to_exp": 0
     },
     {
       "permit_id": "BC-61bf019f",
@@ -261,7 +261,19 @@
       "renewal_start": "2024-02-01",
       "expiration": "2024-03-01",
       "status": "expired",
-      "days_to_exp": -912
+      "days_to_exp": -913
+    },
+    {
+      "permit_id": "BC-a4d0412a",
+      "title": "Van Registration",
+      "property_code": "BC",
+      "display_name": "Safe Harbor Beaver Creek",
+      "rvp": "Layne Wilson",
+      "region": "Kentucky + Tennessee",
+      "renewal_start": "2026-09-15",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
     },
     {
       "permit_id": "BC-ffc1ce33",
@@ -273,7 +285,7 @@
       "renewal_start": "2026-07-01",
       "expiration": "2026-07-31",
       "status": "expired",
-      "days_to_exp": -30
+      "days_to_exp": -31
     },
     {
       "permit_id": "BC-5fa2eb56",
@@ -285,7 +297,7 @@
       "renewal_start": "2026-09-01",
       "expiration": "2026-09-01",
       "status": "expiring_soon",
-      "days_to_exp": 2
+      "days_to_exp": 1
     },
     {
       "permit_id": "BMH-83f74d25",
@@ -297,7 +309,7 @@
       "renewal_start": "2026-02-01",
       "expiration": "2026-02-28",
       "status": "expired",
-      "days_to_exp": -183
+      "days_to_exp": -184
     },
     {
       "permit_id": "BMH-24d4dbdd",
@@ -309,7 +321,7 @@
       "renewal_start": "2026-02-01",
       "expiration": "2026-02-28",
       "status": "expired",
-      "days_to_exp": -183
+      "days_to_exp": -184
     },
     {
       "permit_id": "BMH-e44b6bb4",
@@ -321,7 +333,7 @@
       "renewal_start": "2026-02-01",
       "expiration": "2026-02-28",
       "status": "expired",
-      "days_to_exp": -183
+      "days_to_exp": -184
     },
     {
       "permit_id": "BMH-0498722d",
@@ -333,7 +345,7 @@
       "renewal_start": "2026-02-01",
       "expiration": "2025-12-31",
       "status": "expired",
-      "days_to_exp": -242
+      "days_to_exp": -243
     },
     {
       "permit_id": "BMH-6d81bb96",
@@ -345,7 +357,7 @@
       "renewal_start": "2025-11-01",
       "expiration": "2025-11-30",
       "status": "expired",
-      "days_to_exp": -273
+      "days_to_exp": -274
     },
     {
       "permit_id": "BYC-43605bec",
@@ -357,7 +369,7 @@
       "renewal_start": "2026-04-10",
       "expiration": "2026-04-30",
       "status": "expired",
-      "days_to_exp": -122
+      "days_to_exp": -123
     },
     {
       "permit_id": "BWYS-22c70613",
@@ -369,7 +381,7 @@
       "renewal_start": "2026-06-08",
       "expiration": "2026-07-06",
       "status": "expired",
-      "days_to_exp": -55
+      "days_to_exp": -56
     },
     {
       "permit_id": "BWYS-4201c48b",
@@ -381,7 +393,7 @@
       "renewal_start": "2026-07-01",
       "expiration": "2026-07-31",
       "status": "expired",
-      "days_to_exp": -30
+      "days_to_exp": -31
     },
     {
       "permit_id": "BWYS-59ca02e9",
@@ -393,7 +405,7 @@
       "renewal_start": "2026-06-08",
       "expiration": "2026-07-09",
       "status": "expired",
-      "days_to_exp": -52
+      "days_to_exp": -53
     },
     {
       "permit_id": "BWYS-23c1732f",
@@ -405,7 +417,7 @@
       "renewal_start": "2026-07-01",
       "expiration": "2026-07-31",
       "status": "expired",
-      "days_to_exp": -30
+      "days_to_exp": -31
     },
     {
       "permit_id": "BMR-c5935194",
@@ -417,7 +429,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "BMR-c5935194",
@@ -429,7 +441,7 @@
       "renewal_start": "2026-05-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "BMR-c5935194",
@@ -441,7 +453,7 @@
       "renewal_start": "2026-05-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "BMR-396c5772",
@@ -453,7 +465,7 @@
       "renewal_start": "2026-05-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "BMR-396c5772",
@@ -465,7 +477,7 @@
       "renewal_start": "2026-05-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "BMR-ac42e8a8",
@@ -477,7 +489,7 @@
       "renewal_start": "2026-06-30",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "BMR-1406d08a",
@@ -489,7 +501,7 @@
       "renewal_start": "2026-04-01",
       "expiration": "2026-05-31",
       "status": "expired",
-      "days_to_exp": -91
+      "days_to_exp": -92
     },
     {
       "permit_id": "CBM-4217fddc",
@@ -501,7 +513,7 @@
       "renewal_start": "2026-08-01",
       "expiration": "2026-09-01",
       "status": "expiring_soon",
-      "days_to_exp": 2
+      "days_to_exp": 1
     },
     {
       "permit_id": "CBM-619a9b62",
@@ -513,7 +525,7 @@
       "renewal_start": "2026-08-01",
       "expiration": "2026-09-01",
       "status": "expiring_soon",
-      "days_to_exp": 2
+      "days_to_exp": 1
     },
     {
       "permit_id": "BJM-7770c28c",
@@ -525,7 +537,7 @@
       "renewal_start": "2025-01-01",
       "expiration": "2025-04-30",
       "status": "expired",
-      "days_to_exp": -487
+      "days_to_exp": -488
     },
     {
       "permit_id": "BJM-3f1bcb9f",
@@ -537,7 +549,7 @@
       "renewal_start": "2025-01-01",
       "expiration": "2025-04-30",
       "status": "expired",
-      "days_to_exp": -487
+      "days_to_exp": -488
     },
     {
       "permit_id": "BJM-6aa95ee2",
@@ -549,7 +561,19 @@
       "renewal_start": "2025-01-01",
       "expiration": "2025-04-30",
       "status": "expired",
-      "days_to_exp": -487
+      "days_to_exp": -488
+    },
+    {
+      "permit_id": "BJM-0a68ce19",
+      "title": "State of CT Tax Permit",
+      "property_code": "BJM",
+      "display_name": "Safe Harbor Bruce & Johnsons",
+      "rvp": "Matt Marshall",
+      "region": "New York + Coastal Connecticut",
+      "renewal_start": "2026-08-31",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
     },
     {
       "permit_id": "BJM-b40e537a",
@@ -561,7 +585,7 @@
       "renewal_start": "2026-04-01",
       "expiration": "2026-05-15",
       "status": "expired",
-      "days_to_exp": -107
+      "days_to_exp": -108
     },
     {
       "permit_id": "BST-f84a9a18",
@@ -573,7 +597,19 @@
       "renewal_start": "2026-07-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
+    },
+    {
+      "permit_id": "BST-6b9ebe50",
+      "title": "Business tax",
+      "property_code": "BST",
+      "display_name": "Safe Harbor Burnt Store",
+      "rvp": "Jaret Rogers",
+      "region": "Florida West",
+      "renewal_start": "2025-09-02",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
     },
     {
       "permit_id": "BST-3960d3d1",
@@ -585,7 +621,7 @@
       "renewal_start": "2025-07-02",
       "expiration": "2026-09-15",
       "status": "expiring_soon",
-      "days_to_exp": 16
+      "days_to_exp": 15
     },
     {
       "permit_id": "BST-160f7a44",
@@ -597,7 +633,91 @@
       "renewal_start": "2026-05-26",
       "expiration": "2026-05-31",
       "status": "expired",
-      "days_to_exp": -91
+      "days_to_exp": -92
+    },
+    {
+      "permit_id": "CIM-6535e994",
+      "title": "Unified Program Facility Permit",
+      "property_code": "CIM",
+      "display_name": "Safe Harbor Cabrillo Isle",
+      "rvp": "Josh Hester",
+      "region": "West Coast South",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "CAL-c9261b8f",
+      "title": "Collier County Business tax 6-10 Employees",
+      "property_code": "CAL",
+      "display_name": "Safe Harbor Calusa Island",
+      "rvp": "Jaret Rogers",
+      "region": "Florida West",
+      "renewal_start": "2026-07-28",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "CAL-076bbfa5",
+      "title": "Collier County Business Tax -Beverage- retail sales",
+      "property_code": "CAL",
+      "display_name": "Safe Harbor Calusa Island",
+      "rvp": "Jaret Rogers",
+      "region": "Florida West",
+      "renewal_start": "2026-07-28",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "CHM-748cc7ab",
+      "title": "City of Cape Coral Bus. Tax Receipt",
+      "property_code": "CHM",
+      "display_name": "Safe Harbor Cape Harbour",
+      "rvp": "Jaret Rogers",
+      "region": "Florida West",
+      "renewal_start": "2026-07-30",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "CHM-56580f43",
+      "title": "Lee County Business Tax Renewal",
+      "property_code": "CHM",
+      "display_name": "Safe Harbor Cape Harbour",
+      "rvp": "Jaret Rogers",
+      "region": "Florida West",
+      "renewal_start": "2026-07-29",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "CHM-0f1b5a55",
+      "title": "Lee County Business Tax",
+      "property_code": "CHM",
+      "display_name": "Safe Harbor Cape Harbour",
+      "rvp": "Jaret Rogers",
+      "region": "Florida West",
+      "renewal_start": "2026-07-29",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "CHM-c0f1171c",
+      "title": "Commercial (BTR)",
+      "property_code": "CHM",
+      "display_name": "Safe Harbor Cape Harbour",
+      "rvp": "Jaret Rogers",
+      "region": "Florida West",
+      "renewal_start": "2026-07-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
     },
     {
       "permit_id": "CAP-33749c13",
@@ -609,7 +729,7 @@
       "renewal_start": "2026-05-01",
       "expiration": "2025-10-15",
       "status": "expired",
-      "days_to_exp": -319
+      "days_to_exp": -320
     },
     {
       "permit_id": "CCM-d4203af9",
@@ -621,7 +741,7 @@
       "renewal_start": "2026-08-01",
       "expiration": "2026-08-31",
       "status": "expiring_soon",
-      "days_to_exp": 1
+      "days_to_exp": 0
     },
     {
       "permit_id": "CCM-10f0372d",
@@ -633,7 +753,7 @@
       "renewal_start": "2026-08-01",
       "expiration": "2026-08-31",
       "status": "expiring_soon",
-      "days_to_exp": 1
+      "days_to_exp": 0
     },
     {
       "permit_id": "CCM-f90c8b4a",
@@ -645,7 +765,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "CCM-9b850cf5",
@@ -657,7 +777,7 @@
       "renewal_start": "2026-05-31",
       "expiration": "2026-07-31",
       "status": "expired",
-      "days_to_exp": -30
+      "days_to_exp": -31
     },
     {
       "permit_id": "CBY-9058f663",
@@ -669,7 +789,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-07-31",
       "status": "expired",
-      "days_to_exp": -30
+      "days_to_exp": -31
     },
     {
       "permit_id": "CBY-45636257",
@@ -681,7 +801,7 @@
       "renewal_start": "2026-07-01",
       "expiration": "2026-08-31",
       "status": "expiring_soon",
-      "days_to_exp": 1
+      "days_to_exp": 0
     },
     {
       "permit_id": "CBY-227542e2",
@@ -693,7 +813,7 @@
       "renewal_start": "2026-07-01",
       "expiration": "2026-08-31",
       "status": "expiring_soon",
-      "days_to_exp": 1
+      "days_to_exp": 0
     },
     {
       "permit_id": "CBY-58a032e1",
@@ -705,7 +825,7 @@
       "renewal_start": "2026-08-01",
       "expiration": "2026-08-31",
       "status": "expiring_soon",
-      "days_to_exp": 1
+      "days_to_exp": 0
     },
     {
       "permit_id": "CBY-da92c112",
@@ -717,7 +837,31 @@
       "renewal_start": "2026-07-01",
       "expiration": "2026-07-31",
       "status": "expired",
-      "days_to_exp": -30
+      "days_to_exp": -31
+    },
+    {
+      "permit_id": "CBY-f8b0c5fb",
+      "title": "2021 Chev Vn Express Tag#XBD568",
+      "property_code": "CBY",
+      "display_name": "Safe Harbor City Boatyard",
+      "rvp": "Ron Gift",
+      "region": "Southeast",
+      "renewal_start": "2026-08-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "CBY-09b5fa6b",
+      "title": "2016 58 FT CATAMARAN CRUI 1458",
+      "property_code": "CBY",
+      "display_name": "Safe Harbor City Boatyard",
+      "rvp": "Ron Gift",
+      "region": "Southeast",
+      "renewal_start": "2026-08-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
     },
     {
       "permit_id": "CBY-b2c26b31",
@@ -729,7 +873,7 @@
       "renewal_start": "2026-07-01",
       "expiration": "2026-08-17",
       "status": "expired",
-      "days_to_exp": -13
+      "days_to_exp": -14
     },
     {
       "permit_id": "COV-2b98b878",
@@ -741,7 +885,7 @@
       "renewal_start": "2026-06-15",
       "expiration": "2026-07-15",
       "status": "expired",
-      "days_to_exp": -46
+      "days_to_exp": -47
     },
     {
       "permit_id": "COW-178d3f94",
@@ -753,7 +897,7 @@
       "renewal_start": "2026-03-15",
       "expiration": "2026-04-15",
       "status": "expired",
-      "days_to_exp": -137
+      "days_to_exp": -138
     },
     {
       "permit_id": "COW-b2c3b518",
@@ -765,7 +909,7 @@
       "renewal_start": "2026-02-01",
       "expiration": "2026-03-31",
       "status": "expired",
-      "days_to_exp": -152
+      "days_to_exp": -153
     },
     {
       "permit_id": "COW-3721e6df",
@@ -777,7 +921,7 @@
       "renewal_start": "2026-02-01",
       "expiration": "2026-02-28",
       "status": "expired",
-      "days_to_exp": -183
+      "days_to_exp": -184
     },
     {
       "permit_id": "CPM-c95cb26f",
@@ -789,7 +933,7 @@
       "renewal_start": "2026-04-01",
       "expiration": "2026-05-29",
       "status": "expired",
-      "days_to_exp": -93
+      "days_to_exp": -94
     },
     {
       "permit_id": "DSY-bb8ab8e0",
@@ -801,7 +945,7 @@
       "renewal_start": "2026-06-30",
       "expiration": "2026-07-31",
       "status": "expired",
-      "days_to_exp": -30
+      "days_to_exp": -31
     },
     {
       "permit_id": "DSY-dc1f77db",
@@ -813,7 +957,7 @@
       "renewal_start": "2026-04-01",
       "expiration": "2026-04-30",
       "status": "expired",
-      "days_to_exp": -122
+      "days_to_exp": -123
     },
     {
       "permit_id": "DSY-b1191c98",
@@ -825,7 +969,7 @@
       "renewal_start": "2026-04-01",
       "expiration": "2026-04-30",
       "status": "expired",
-      "days_to_exp": -122
+      "days_to_exp": -123
     },
     {
       "permit_id": "DSY-ab099e66",
@@ -837,7 +981,7 @@
       "renewal_start": "2026-03-01",
       "expiration": "2026-04-30",
       "status": "expired",
-      "days_to_exp": -122
+      "days_to_exp": -123
     },
     {
       "permit_id": "DSY-33fa5b69",
@@ -849,7 +993,7 @@
       "renewal_start": "2026-03-01",
       "expiration": "2026-04-30",
       "status": "expired",
-      "days_to_exp": -122
+      "days_to_exp": -123
     },
     {
       "permit_id": "DSY-d86c19ec",
@@ -861,7 +1005,7 @@
       "renewal_start": "2026-04-01",
       "expiration": "2026-04-30",
       "status": "expired",
-      "days_to_exp": -122
+      "days_to_exp": -123
     },
     {
       "permit_id": "DRM-bbc142b3",
@@ -873,7 +1017,7 @@
       "renewal_start": "2025-09-16",
       "expiration": "2026-07-31",
       "status": "expired",
-      "days_to_exp": -30
+      "days_to_exp": -31
     },
     {
       "permit_id": "DRM-e23c8913",
@@ -885,7 +1029,7 @@
       "renewal_start": "2025-10-31",
       "expiration": "2026-07-31",
       "status": "expired",
-      "days_to_exp": -30
+      "days_to_exp": -31
     },
     {
       "permit_id": "DRM-72807347",
@@ -897,7 +1041,7 @@
       "renewal_start": "2026-03-01",
       "expiration": "2026-04-30",
       "status": "expired",
-      "days_to_exp": -122
+      "days_to_exp": -123
     },
     {
       "permit_id": "EC-c5b724c6",
@@ -909,7 +1053,7 @@
       "renewal_start": "2026-04-01",
       "expiration": "2026-04-18",
       "status": "expired",
-      "days_to_exp": -134
+      "days_to_exp": -135
     },
     {
       "permit_id": "EC-67870beb",
@@ -921,7 +1065,7 @@
       "renewal_start": "2025-05-29",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "EC-056fb428",
@@ -933,7 +1077,7 @@
       "renewal_start": "2025-04-01",
       "expiration": "2026-04-18",
       "status": "expired",
-      "days_to_exp": -134
+      "days_to_exp": -135
     },
     {
       "permit_id": "EC-7d8c8e8d",
@@ -945,7 +1089,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "EC-5bf94b1d",
@@ -957,7 +1101,7 @@
       "renewal_start": "2026-04-01",
       "expiration": "2026-04-15",
       "status": "expired",
-      "days_to_exp": -137
+      "days_to_exp": -138
     },
     {
       "permit_id": "EYC-731e55d2",
@@ -969,7 +1113,7 @@
       "renewal_start": "2026-02-01",
       "expiration": "2026-02-28",
       "status": "expired",
-      "days_to_exp": -183
+      "days_to_exp": -184
     },
     {
       "permit_id": "EYC-891e7a71",
@@ -981,7 +1125,7 @@
       "renewal_start": "2026-02-01",
       "expiration": "2026-02-28",
       "status": "expired",
-      "days_to_exp": -183
+      "days_to_exp": -184
     },
     {
       "permit_id": "EYC-17170c36",
@@ -993,7 +1137,7 @@
       "renewal_start": "2026-02-01",
       "expiration": "2026-02-28",
       "status": "expired",
-      "days_to_exp": -183
+      "days_to_exp": -184
     },
     {
       "permit_id": "ETM-e828568d",
@@ -1005,7 +1149,7 @@
       "renewal_start": "2026-01-01",
       "expiration": "2026-06-28",
       "status": "expired",
-      "days_to_exp": -63
+      "days_to_exp": -64
     },
     {
       "permit_id": "ETM-415901a4",
@@ -1017,7 +1161,7 @@
       "renewal_start": "2024-09-01",
       "expiration": "2024-11-30",
       "status": "expired",
-      "days_to_exp": -638
+      "days_to_exp": -639
     },
     {
       "permit_id": "ECM-995bf36f",
@@ -1029,7 +1173,19 @@
       "renewal_start": "2026-05-15",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
+    },
+    {
+      "permit_id": "ECM-be7b0f76",
+      "title": "Okaloosa County business tax receipt",
+      "property_code": "ECM",
+      "display_name": "Safe Harbor Emerald Coast",
+      "rvp": "Michael Duling",
+      "region": "South",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
     },
     {
       "permit_id": "ECM-007d7281",
@@ -1041,7 +1197,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "EVM-43f7ffac",
@@ -1053,7 +1209,7 @@
       "renewal_start": "2026-04-30",
       "expiration": "2026-05-31",
       "status": "expired",
-      "days_to_exp": -91
+      "days_to_exp": -92
     },
     {
       "permit_id": "FPM-aae12963",
@@ -1065,7 +1221,7 @@
       "renewal_start": "2026-04-01",
       "expiration": "2026-05-31",
       "status": "expired",
-      "days_to_exp": -91
+      "days_to_exp": -92
     },
     {
       "permit_id": "FPM-9f03b258",
@@ -1077,7 +1233,7 @@
       "renewal_start": "2026-05-01",
       "expiration": "2025-10-01",
       "status": "expired",
-      "days_to_exp": -333
+      "days_to_exp": -334
     },
     {
       "permit_id": "FID-1924efb2",
@@ -1089,7 +1245,7 @@
       "renewal_start": "2026-08-18",
       "expiration": "2026-08-18",
       "status": "expired",
-      "days_to_exp": -12
+      "days_to_exp": -13
     },
     {
       "permit_id": "FID-22aa0b7e",
@@ -1101,7 +1257,7 @@
       "renewal_start": "2026-08-18",
       "expiration": "2026-08-18",
       "status": "expired",
-      "days_to_exp": -12
+      "days_to_exp": -13
     },
     {
       "permit_id": "GLE-5ea072e8",
@@ -1113,7 +1269,7 @@
       "renewal_start": "2026-07-01",
       "expiration": "2026-07-30",
       "status": "expired",
-      "days_to_exp": -31
+      "days_to_exp": -32
     },
     {
       "permit_id": "GLE-5edb609f",
@@ -1125,7 +1281,7 @@
       "renewal_start": "2026-05-01",
       "expiration": "2025-09-02",
       "status": "expired",
-      "days_to_exp": -362
+      "days_to_exp": -363
     },
     {
       "permit_id": "GLE-232138e5",
@@ -1137,7 +1293,19 @@
       "renewal_start": "2026-03-16",
       "expiration": "2026-04-30",
       "status": "expired",
-      "days_to_exp": -122
+      "days_to_exp": -123
+    },
+    {
+      "permit_id": "GLM-d69995ce",
+      "title": "UST Permit Registration",
+      "property_code": "GLM",
+      "display_name": "Safe Harbor Great Lakes",
+      "rvp": "Semo Post",
+      "region": "Great Lakes + Lake Champlain",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
     },
     {
       "permit_id": "GLM-fd6d93ae",
@@ -1149,7 +1317,7 @@
       "renewal_start": "2026-04-01",
       "expiration": "2026-05-01",
       "status": "expired",
-      "days_to_exp": -121
+      "days_to_exp": -122
     },
     {
       "permit_id": "GOL-5312191a",
@@ -1160,8 +1328,8 @@
       "region": "Mid-Atlantic East",
       "renewal_start": "2026-05-01",
       "expiration": "2026-08-30",
-      "status": "expiring_soon",
-      "days_to_exp": 0
+      "status": "expired",
+      "days_to_exp": -1
     },
     {
       "permit_id": "GOL-c8b9f9f7",
@@ -1173,7 +1341,7 @@
       "renewal_start": "2026-03-01",
       "expiration": "2026-07-31",
       "status": "expired",
-      "days_to_exp": -30
+      "days_to_exp": -31
     },
     {
       "permit_id": "GOL-91f3562b",
@@ -1185,7 +1353,19 @@
       "renewal_start": "2026-05-01",
       "expiration": "2026-05-31",
       "status": "expired",
-      "days_to_exp": -91
+      "days_to_exp": -92
+    },
+    {
+      "permit_id": "GOL-99dc93ea",
+      "title": "DA Maryland State Programmatic General Permit (MDSPGP-6)",
+      "property_code": "GOL",
+      "display_name": "Safe Harbor Great Oak Landing",
+      "rvp": "Megan Rausch",
+      "region": "Mid-Atlantic East",
+      "renewal_start": "2026-03-30",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
     },
     {
       "permit_id": "GHM-7c7f120e",
@@ -1197,7 +1377,7 @@
       "renewal_start": "2024-11-01",
       "expiration": "2024-12-31",
       "status": "expired",
-      "days_to_exp": -607
+      "days_to_exp": -608
     },
     {
       "permit_id": "GRE-e778bef7",
@@ -1209,7 +1389,7 @@
       "renewal_start": "2026-02-13",
       "expiration": "2026-02-28",
       "status": "expired",
-      "days_to_exp": -183
+      "days_to_exp": -184
     },
     {
       "permit_id": "GRE-207c5531",
@@ -1221,7 +1401,7 @@
       "renewal_start": "2026-07-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "GRE-f3fa81f7",
@@ -1233,7 +1413,7 @@
       "renewal_start": "2026-06-12",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "GRE-f3fa81f7",
@@ -1245,7 +1425,7 @@
       "renewal_start": "2026-06-07",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "GRE-4919de3c",
@@ -1257,7 +1437,7 @@
       "renewal_start": "2026-07-10",
       "expiration": "2026-07-31",
       "status": "expired",
-      "days_to_exp": -30
+      "days_to_exp": -31
     },
     {
       "permit_id": "GRE-9db990b8",
@@ -1269,7 +1449,7 @@
       "renewal_start": "2026-03-02",
       "expiration": "2026-03-31",
       "status": "expired",
-      "days_to_exp": -152
+      "days_to_exp": -153
     },
     {
       "permit_id": "GBM-f474dea2",
@@ -1281,7 +1461,7 @@
       "renewal_start": "2025-05-17",
       "expiration": "2024-12-31",
       "status": "expired",
-      "days_to_exp": -607
+      "days_to_exp": -608
     },
     {
       "permit_id": "GBM-f474dea2",
@@ -1293,7 +1473,7 @@
       "renewal_start": "2025-05-17",
       "expiration": "2024-12-31",
       "status": "expired",
-      "days_to_exp": -607
+      "days_to_exp": -608
     },
     {
       "permit_id": "GBM-e21e5826",
@@ -1305,7 +1485,7 @@
       "renewal_start": "2025-03-01",
       "expiration": "2025-05-31",
       "status": "expired",
-      "days_to_exp": -456
+      "days_to_exp": -457
     },
     {
       "permit_id": "GBM-db4e5d6f",
@@ -1317,7 +1497,7 @@
       "renewal_start": "2026-08-01",
       "expiration": "2026-09-10",
       "status": "expiring_soon",
-      "days_to_exp": 11
+      "days_to_exp": 10
     },
     {
       "permit_id": "GBM-b5930ee0",
@@ -1329,7 +1509,7 @@
       "renewal_start": "2026-05-15",
       "expiration": "2026-06-01",
       "status": "expired",
-      "days_to_exp": -90
+      "days_to_exp": -91
     },
     {
       "permit_id": "GRH-e5c484c4",
@@ -1341,7 +1521,7 @@
       "renewal_start": "2026-05-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "GRH-c734ddce",
@@ -1353,7 +1533,67 @@
       "renewal_start": "2026-05-30",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
+    },
+    {
+      "permit_id": "HYC-e3299f2c",
+      "title": "City of Stuart Business Tax Receipt BTR-17945 - Yacht Club and Marina",
+      "property_code": "HYC",
+      "display_name": "Safe Harbor Harborage Yacht Club",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-08-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "HYC-72646c59",
+      "title": "City of Stuart Business Tax Receipt BTR-17944 - Latitude 26",
+      "property_code": "HYC",
+      "display_name": "Safe Harbor Harborage Yacht Club",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "HYC-9fbbbd54",
+      "title": "Martin County Business Tax Receipt - Ship Store - 20250156",
+      "property_code": "HYC",
+      "display_name": "Safe Harbor Harborage Yacht Club",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "HYC-f785ca49",
+      "title": "City of Stuart Business Tax Receipt BTR-17984 - Latitude 26 Poolside",
+      "property_code": "HYC",
+      "display_name": "Safe Harbor Harborage Yacht Club",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "HYC-63e02182",
+      "title": "Martin County Business Tax Receipt - Latitude 26 Poolside - 20250164",
+      "property_code": "HYC",
+      "display_name": "Safe Harbor Harborage Yacht Club",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
     },
     {
       "permit_id": "HYC-e71a1abd",
@@ -1365,7 +1605,43 @@
       "renewal_start": "2024-01-01",
       "expiration": "2024-04-09",
       "status": "expired",
-      "days_to_exp": -873
+      "days_to_exp": -874
+    },
+    {
+      "permit_id": "HYC-ea9968b4",
+      "title": "City of Stuart Business Tax Receipt BTR-8998 - Ship Store",
+      "property_code": "HYC",
+      "display_name": "Safe Harbor Harborage Yacht Club",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-08-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "HYC-ccd3491a",
+      "title": "Martin County Business Tax Receipt - Latitude 26 Restaurant - 20250155",
+      "property_code": "HYC",
+      "display_name": "Safe Harbor Harborage Yacht Club",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "HYC-41685e12",
+      "title": "Martin County Business Tax Receipt - Yacht Club and Marina - 20250158",
+      "property_code": "HYC",
+      "display_name": "Safe Harbor Harborage Yacht Club",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
     },
     {
       "permit_id": "HYC-00fd9aa4",
@@ -1377,7 +1653,7 @@
       "renewal_start": "2023-11-01",
       "expiration": "2024-01-11",
       "status": "expired",
-      "days_to_exp": -962
+      "days_to_exp": -963
     },
     {
       "permit_id": "HYC-d4a822bc",
@@ -1389,7 +1665,7 @@
       "renewal_start": "2026-07-01",
       "expiration": "2026-08-01",
       "status": "expired",
-      "days_to_exp": -29
+      "days_to_exp": -30
     },
     {
       "permit_id": "HYC-84a2aa58",
@@ -1401,7 +1677,7 @@
       "renewal_start": "2026-07-01",
       "expiration": "2026-08-01",
       "status": "expired",
-      "days_to_exp": -29
+      "days_to_exp": -30
     },
     {
       "permit_id": "HYC-0d394c83",
@@ -1413,7 +1689,7 @@
       "renewal_start": "2026-07-01",
       "expiration": "2026-08-01",
       "status": "expired",
-      "days_to_exp": -29
+      "days_to_exp": -30
     },
     {
       "permit_id": "HVM-e8f3624f",
@@ -1425,7 +1701,7 @@
       "renewal_start": "2026-04-15",
       "expiration": "2026-04-30",
       "status": "expired",
-      "days_to_exp": -122
+      "days_to_exp": -123
     },
     {
       "permit_id": "HVM-cb4e0a15",
@@ -1437,7 +1713,31 @@
       "renewal_start": "2026-08-01",
       "expiration": "2026-08-09",
       "status": "expired",
-      "days_to_exp": -21
+      "days_to_exp": -22
+    },
+    {
+      "permit_id": "HTM-7f285e05",
+      "title": "Misc Retail License 5999",
+      "property_code": "HTM",
+      "display_name": "Safe Harbor Harbortown",
+      "rvp": "Ron Gift",
+      "region": "Southeast",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "HTM-72cdd381",
+      "title": "Occupational License 7299 Misc Public Service",
+      "property_code": "HTM",
+      "display_name": "Safe Harbor Harbortown",
+      "rvp": "Ron Gift",
+      "region": "Southeast",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
     },
     {
       "permit_id": "HTM-8b38dd69",
@@ -1449,7 +1749,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "HTM-4c915117",
@@ -1461,7 +1761,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "HTM-4f122765",
@@ -1473,7 +1773,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "HTM-27b0fd1e",
@@ -1485,7 +1785,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "HTM-009b7120",
@@ -1497,7 +1797,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "HTM-21b6bde7",
@@ -1509,7 +1809,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "HTM-96aeba98",
@@ -1521,7 +1821,7 @@
       "renewal_start": "2026-08-01",
       "expiration": "2026-08-31",
       "status": "expiring_soon",
-      "days_to_exp": 1
+      "days_to_exp": 0
     },
     {
       "permit_id": "HSM-bc6d434c",
@@ -1533,7 +1833,7 @@
       "renewal_start": "2026-05-01",
       "expiration": "2025-12-31",
       "status": "expired",
-      "days_to_exp": -242
+      "days_to_exp": -243
     },
     {
       "permit_id": "HAW-db866705",
@@ -1545,7 +1845,7 @@
       "renewal_start": "2026-02-01",
       "expiration": "2026-02-28",
       "status": "expired",
-      "days_to_exp": -183
+      "days_to_exp": -184
     },
     {
       "permit_id": "HAW-6831a395",
@@ -1557,7 +1857,7 @@
       "renewal_start": "2026-01-01",
       "expiration": "2026-01-31",
       "status": "expired",
-      "days_to_exp": -211
+      "days_to_exp": -212
     },
     {
       "permit_id": "HBM-e7d01fd6",
@@ -1569,7 +1869,7 @@
       "renewal_start": "2025-10-01",
       "expiration": "2025-10-31",
       "status": "expired",
-      "days_to_exp": -303
+      "days_to_exp": -304
     },
     {
       "permit_id": "HBM-2b2ee57e",
@@ -1581,7 +1881,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "HBM-72b1e415",
@@ -1593,7 +1893,7 @@
       "renewal_start": "2025-06-01",
       "expiration": "2025-06-30",
       "status": "expired",
-      "days_to_exp": -426
+      "days_to_exp": -427
     },
     {
       "permit_id": "HC-3ff3a127",
@@ -1605,7 +1905,7 @@
       "renewal_start": "2025-05-30",
       "expiration": "2025-06-30",
       "status": "expired",
-      "days_to_exp": -426
+      "days_to_exp": -427
     },
     {
       "permit_id": "HC-6051b803",
@@ -1617,7 +1917,7 @@
       "renewal_start": "2026-04-01",
       "expiration": "2026-05-01",
       "status": "expired",
-      "days_to_exp": -121
+      "days_to_exp": -122
     },
     {
       "permit_id": "HC-9baff11f",
@@ -1629,7 +1929,7 @@
       "renewal_start": "2026-04-16",
       "expiration": "2026-05-16",
       "status": "expired",
-      "days_to_exp": -106
+      "days_to_exp": -107
     },
     {
       "permit_id": "HC-c8b78afd",
@@ -1641,7 +1941,7 @@
       "renewal_start": "2026-04-13",
       "expiration": "2026-05-13",
       "status": "expired",
-      "days_to_exp": -109
+      "days_to_exp": -110
     },
     {
       "permit_id": "HC-4faa2581",
@@ -1653,7 +1953,7 @@
       "renewal_start": "2026-05-30",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "HC-018a885f",
@@ -1665,7 +1965,7 @@
       "renewal_start": "2026-05-30",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "HC-155df37d",
@@ -1677,7 +1977,7 @@
       "renewal_start": "2026-05-30",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "ISL-a3cf6186",
@@ -1689,7 +1989,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-26",
       "status": "expired",
-      "days_to_exp": -65
+      "days_to_exp": -66
     },
     {
       "permit_id": "ISL-736b69e7",
@@ -1701,7 +2001,7 @@
       "renewal_start": "2024-08-01",
       "expiration": "2024-09-13",
       "status": "expired",
-      "days_to_exp": -716
+      "days_to_exp": -717
     },
     {
       "permit_id": "JAM-7f210538",
@@ -1713,7 +2013,7 @@
       "renewal_start": "2026-06-20",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "JAM-f8d9b19b",
@@ -1725,7 +2025,7 @@
       "renewal_start": "2026-06-20",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "JAM-c0dbf893",
@@ -1737,7 +2037,7 @@
       "renewal_start": "2026-06-20",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "JAM-e9cd679e",
@@ -1749,7 +2049,19 @@
       "renewal_start": "2026-06-20",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
+    },
+    {
+      "permit_id": "JAM-17c3389d",
+      "title": "KY Registration-2018 Honda Odyssey",
+      "property_code": "JAM",
+      "display_name": "Safe Harbor Jamestown",
+      "rvp": "Layne Wilson",
+      "region": "Kentucky + Tennessee",
+      "renewal_start": "2026-09-20",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
     },
     {
       "permit_id": "JAM-1ce22f8e",
@@ -1761,7 +2073,7 @@
       "renewal_start": "2026-06-20",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "JAM-f1c442f9",
@@ -1773,7 +2085,7 @@
       "renewal_start": "2026-07-10",
       "expiration": "2026-07-31",
       "status": "expired",
-      "days_to_exp": -30
+      "days_to_exp": -31
     },
     {
       "permit_id": "JAR-a6e14a65",
@@ -1785,7 +2097,7 @@
       "renewal_start": "2026-05-17",
       "expiration": "2026-06-17",
       "status": "expired",
-      "days_to_exp": -74
+      "days_to_exp": -75
     },
     {
       "permit_id": "JAR-0e3e244e",
@@ -1797,7 +2109,7 @@
       "renewal_start": "2026-05-17",
       "expiration": "2026-06-17",
       "status": "expired",
-      "days_to_exp": -74
+      "days_to_exp": -75
     },
     {
       "permit_id": "JAR-a66dd564",
@@ -1809,7 +2121,7 @@
       "renewal_start": "2026-02-03",
       "expiration": "2026-03-03",
       "status": "expired",
-      "days_to_exp": -180
+      "days_to_exp": -181
     },
     {
       "permit_id": "JAR-90b85c5f",
@@ -1821,7 +2133,7 @@
       "renewal_start": "2026-05-01",
       "expiration": "2026-06-01",
       "status": "expired",
-      "days_to_exp": -90
+      "days_to_exp": -91
     },
     {
       "permit_id": "JAR-5ff274c8",
@@ -1833,7 +2145,7 @@
       "renewal_start": "2026-02-19",
       "expiration": "2026-03-19",
       "status": "expired",
-      "days_to_exp": -164
+      "days_to_exp": -165
     },
     {
       "permit_id": "JAR-14e46eb4",
@@ -1845,7 +2157,7 @@
       "renewal_start": "2025-07-30",
       "expiration": "2025-09-30",
       "status": "expired",
-      "days_to_exp": -334
+      "days_to_exp": -335
     },
     {
       "permit_id": "JAR-365aa5c6",
@@ -1857,7 +2169,7 @@
       "renewal_start": "2026-07-29",
       "expiration": "2026-08-29",
       "status": "expired",
-      "days_to_exp": -1
+      "days_to_exp": -2
     },
     {
       "permit_id": "JAR-46bf2e14",
@@ -1869,7 +2181,7 @@
       "renewal_start": "2026-05-10",
       "expiration": "2026-06-10",
       "status": "expired",
-      "days_to_exp": -81
+      "days_to_exp": -82
     },
     {
       "permit_id": "JAR-f6ebddca",
@@ -1881,7 +2193,7 @@
       "renewal_start": "2026-04-01",
       "expiration": "2026-04-30",
       "status": "expired",
-      "days_to_exp": -122
+      "days_to_exp": -123
     },
     {
       "permit_id": "JAR-3a38aac8",
@@ -1893,7 +2205,7 @@
       "renewal_start": "2026-05-01",
       "expiration": "2026-06-01",
       "status": "expired",
-      "days_to_exp": -90
+      "days_to_exp": -91
     },
     {
       "permit_id": "JAR-949a6dc9",
@@ -1905,7 +2217,7 @@
       "renewal_start": "2026-08-01",
       "expiration": "2026-08-31",
       "status": "expiring_soon",
-      "days_to_exp": 1
+      "days_to_exp": 0
     },
     {
       "permit_id": "JAR-33223f58",
@@ -1917,7 +2229,7 @@
       "renewal_start": "2026-02-01",
       "expiration": "2026-03-01",
       "status": "expired",
-      "days_to_exp": -182
+      "days_to_exp": -183
     },
     {
       "permit_id": "JAR-a507f7f5",
@@ -1929,7 +2241,7 @@
       "renewal_start": "2026-02-02",
       "expiration": "2026-03-02",
       "status": "expired",
-      "days_to_exp": -181
+      "days_to_exp": -182
     },
     {
       "permit_id": "JAR-49afd176",
@@ -1941,7 +2253,7 @@
       "renewal_start": "2026-02-02",
       "expiration": "2026-03-02",
       "status": "expired",
-      "days_to_exp": -181
+      "days_to_exp": -182
     },
     {
       "permit_id": "JAR-9d4d7aa3",
@@ -1953,7 +2265,7 @@
       "renewal_start": "2026-03-01",
       "expiration": "2026-03-31",
       "status": "expired",
-      "days_to_exp": -152
+      "days_to_exp": -153
     },
     {
       "permit_id": "JBM-9efeef66",
@@ -1965,7 +2277,7 @@
       "renewal_start": "2026-03-31",
       "expiration": "2026-03-31",
       "status": "expired",
-      "days_to_exp": -152
+      "days_to_exp": -153
     },
     {
       "permit_id": "JBM-60b35b28",
@@ -1977,7 +2289,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-15",
       "status": "expired",
-      "days_to_exp": -76
+      "days_to_exp": -77
     },
     {
       "permit_id": "KPM-e8eb4725",
@@ -1989,7 +2301,7 @@
       "renewal_start": "2025-06-25",
       "expiration": "2025-09-01",
       "status": "expired",
-      "days_to_exp": -363
+      "days_to_exp": -364
     },
     {
       "permit_id": "KPYY-63b2d3f0",
@@ -2001,7 +2313,7 @@
       "renewal_start": "2026-07-15",
       "expiration": "2026-07-31",
       "status": "expired",
-      "days_to_exp": -30
+      "days_to_exp": -31
     },
     {
       "permit_id": "KPYY-d2ab23f3",
@@ -2013,7 +2325,7 @@
       "renewal_start": "2026-07-15",
       "expiration": "2026-07-31",
       "status": "expired",
-      "days_to_exp": -30
+      "days_to_exp": -31
     },
     {
       "permit_id": "KPYY-9811ed16",
@@ -2025,7 +2337,31 @@
       "renewal_start": "2026-07-15",
       "expiration": "2026-07-31",
       "status": "expired",
-      "days_to_exp": -30
+      "days_to_exp": -31
+    },
+    {
+      "permit_id": "KPYY-0a9d05bd",
+      "title": "Annual Security Monitoring - Eliot",
+      "property_code": "KPYY",
+      "display_name": "Safe Harbor Kittery Point Yacht Yard",
+      "rvp": "Greg Glavin",
+      "region": "Maine + New Hampshire",
+      "renewal_start": "2026-08-31",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "KPYY-e904cb53",
+      "title": "Fire Cell Monitoring - Eliot",
+      "property_code": "KPYY",
+      "display_name": "Safe Harbor Kittery Point Yacht Yard",
+      "rvp": "Greg Glavin",
+      "region": "Maine + New Hampshire",
+      "renewal_start": "2026-08-31",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
     },
     {
       "permit_id": "KPYY-6d68f52b",
@@ -2037,7 +2373,7 @@
       "renewal_start": "2025-09-15",
       "expiration": "2025-10-01",
       "status": "expired",
-      "days_to_exp": -333
+      "days_to_exp": -334
     },
     {
       "permit_id": "KPYY-409f80eb",
@@ -2049,7 +2385,7 @@
       "renewal_start": "2026-09-15",
       "expiration": "2026-09-29",
       "status": "expiring_soon",
-      "days_to_exp": 30
+      "days_to_exp": 29
     },
     {
       "permit_id": "KPYY-68c6fb45",
@@ -2061,7 +2397,7 @@
       "renewal_start": "2026-09-15",
       "expiration": "2026-09-29",
       "status": "expiring_soon",
-      "days_to_exp": 30
+      "days_to_exp": 29
     },
     {
       "permit_id": "KPYY-ccdfe02f",
@@ -2073,7 +2409,7 @@
       "renewal_start": "2026-04-01",
       "expiration": "2026-05-06",
       "status": "expired",
-      "days_to_exp": -116
+      "days_to_exp": -117
     },
     {
       "permit_id": "LFM-dff107ae",
@@ -2085,7 +2421,7 @@
       "renewal_start": "2026-05-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "LFM-fd22b012",
@@ -2097,7 +2433,7 @@
       "renewal_start": "2026-05-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "LMC-9a29c614",
@@ -2109,7 +2445,67 @@
       "renewal_start": "2026-03-01",
       "expiration": "2026-07-21",
       "status": "expired",
-      "days_to_exp": -40
+      "days_to_exp": -41
+    },
+    {
+      "permit_id": "LMC-6ff0654c",
+      "title": "MFOL - SHM South Fork",
+      "property_code": "LMC",
+      "display_name": "Safe Harbor Lauderdale Marine Center",
+      "rvp": "Orlando Alvarez Diaz",
+      "region": "International South",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "LMC-58faf00d",
+      "title": "MFOL - Lauderdale Marine Center",
+      "property_code": "LMC",
+      "display_name": "Safe Harbor Lauderdale Marine Center",
+      "rvp": "Orlando Alvarez Diaz",
+      "region": "International South",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "LMC-abda659f",
+      "title": "MFOL - River Bend Marine",
+      "property_code": "LMC",
+      "display_name": "Safe Harbor Lauderdale Marine Center",
+      "rvp": "Orlando Alvarez Diaz",
+      "region": "International South",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "LMC-f5a7d69d",
+      "title": "Business Tax Receipt",
+      "property_code": "LMC",
+      "display_name": "Safe Harbor Lauderdale Marine Center",
+      "rvp": "Orlando Alvarez Diaz",
+      "region": "International South",
+      "renewal_start": "2026-09-03",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "MBY-3d673391",
+      "title": "MBY City of Marathon Vacation Rental License - Sunset",
+      "property_code": "MBY",
+      "display_name": "Safe Harbor Marathon",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
     },
     {
       "permit_id": "MBY-4c418efa",
@@ -2121,7 +2517,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "MBY-3a917a44",
@@ -2133,7 +2529,43 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
+    },
+    {
+      "permit_id": "MBY-ade8c8bc",
+      "title": "MBY Florida RV Park Operating Permit",
+      "property_code": "MBY",
+      "display_name": "Safe Harbor Marathon",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "MBY-be11dd00",
+      "title": "MBY Monroe Bus Tax Receipt - RV Park",
+      "property_code": "MBY",
+      "display_name": "Safe Harbor Marathon",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "MBY-a1344e19",
+      "title": "MBY Monroe Bus Tax Receipt - Vacation Rentals",
+      "property_code": "MBY",
+      "display_name": "Safe Harbor Marathon",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
     },
     {
       "permit_id": "MBY-9b597f3c",
@@ -2145,7 +2577,55 @@
       "renewal_start": "2024-08-15",
       "expiration": "2024-09-30",
       "status": "expired",
-      "days_to_exp": -699
+      "days_to_exp": -700
+    },
+    {
+      "permit_id": "MBY-83d739bf",
+      "title": "MBY City of Marathon Vacation Rental License - Ocean",
+      "property_code": "MBY",
+      "display_name": "Safe Harbor Marathon",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "MBY-a392d819",
+      "title": "MBY Monroe Bus Tax Receipt - Marinas & Storage",
+      "property_code": "MBY",
+      "display_name": "Safe Harbor Marathon",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "MBY-ed57ab16",
+      "title": "MBY Monroe Bus Tax Receipt - Retail Sales",
+      "property_code": "MBY",
+      "display_name": "Safe Harbor Marathon",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "MBY-c0ddd635",
+      "title": "MBY Monroe Bus Tax Receipt - Laundry",
+      "property_code": "MBY",
+      "display_name": "Safe Harbor Marathon",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
     },
     {
       "permit_id": "MBB-ea417ecf",
@@ -2157,7 +2637,7 @@
       "renewal_start": "2025-12-01",
       "expiration": "2025-12-31",
       "status": "expired",
-      "days_to_exp": -242
+      "days_to_exp": -243
     },
     {
       "permit_id": "MBB-bcf9616d",
@@ -2169,7 +2649,7 @@
       "renewal_start": "2026-04-15",
       "expiration": "2026-04-30",
       "status": "expired",
-      "days_to_exp": -122
+      "days_to_exp": -123
     },
     {
       "permit_id": "MBB-8a6c9f79",
@@ -2181,7 +2661,7 @@
       "renewal_start": "2026-03-01",
       "expiration": "2025-12-31",
       "status": "expired",
-      "days_to_exp": -242
+      "days_to_exp": -243
     },
     {
       "permit_id": "MBYH-659f17de",
@@ -2193,7 +2673,7 @@
       "renewal_start": "2026-05-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "MBYH-de9d25a9",
@@ -2205,7 +2685,7 @@
       "renewal_start": "2025-05-31",
       "expiration": "2025-06-30",
       "status": "expired",
-      "days_to_exp": -426
+      "days_to_exp": -427
     },
     {
       "permit_id": "MBYH-53b42cd8",
@@ -2217,7 +2697,7 @@
       "renewal_start": "2026-03-20",
       "expiration": "2026-04-07",
       "status": "expired",
-      "days_to_exp": -145
+      "days_to_exp": -146
     },
     {
       "permit_id": "MBYH-183e5716",
@@ -2229,7 +2709,7 @@
       "renewal_start": "2026-04-01",
       "expiration": "2025-12-31",
       "status": "expired",
-      "days_to_exp": -242
+      "days_to_exp": -243
     },
     {
       "permit_id": "MBYH-6bca5c17",
@@ -2241,7 +2721,7 @@
       "renewal_start": "2026-06-19",
       "expiration": "2026-08-19",
       "status": "expired",
-      "days_to_exp": -11
+      "days_to_exp": -12
     },
     {
       "permit_id": "MVH-ae746584",
@@ -2253,7 +2733,7 @@
       "renewal_start": "2026-08-01",
       "expiration": "2026-09-24",
       "status": "expiring_soon",
-      "days_to_exp": 25
+      "days_to_exp": 24
     },
     {
       "permit_id": "MVH-f10e0845",
@@ -2265,7 +2745,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "MYS-f0dd4cd3",
@@ -2277,7 +2757,7 @@
       "renewal_start": "2025-07-31",
       "expiration": "2025-07-31",
       "status": "expired",
-      "days_to_exp": -395
+      "days_to_exp": -396
     },
     {
       "permit_id": "MYS-44404224",
@@ -2289,7 +2769,7 @@
       "renewal_start": "2026-05-10",
       "expiration": "2026-05-31",
       "status": "expired",
-      "days_to_exp": -91
+      "days_to_exp": -92
     },
     {
       "permit_id": "NPM-942ae77a",
@@ -2301,7 +2781,7 @@
       "renewal_start": "2026-08-01",
       "expiration": "2026-08-31",
       "status": "expiring_soon",
-      "days_to_exp": 1
+      "days_to_exp": 0
     },
     {
       "permit_id": "NAU-409e1c13",
@@ -2313,7 +2793,7 @@
       "renewal_start": "2026-07-01",
       "expiration": "2026-08-01",
       "status": "expired",
-      "days_to_exp": -29
+      "days_to_exp": -30
     },
     {
       "permit_id": "NAU-1673869d",
@@ -2325,7 +2805,7 @@
       "renewal_start": "2026-07-01",
       "expiration": "2026-08-01",
       "status": "expired",
-      "days_to_exp": -29
+      "days_to_exp": -30
     },
     {
       "permit_id": "NEB-98f75435",
@@ -2337,7 +2817,7 @@
       "renewal_start": "2026-03-01",
       "expiration": "2026-03-31",
       "status": "expired",
-      "days_to_exp": -152
+      "days_to_exp": -153
     },
     {
       "permit_id": "NPC-e287f8d1",
@@ -2349,7 +2829,19 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-08-01",
       "status": "expired",
-      "days_to_exp": -29
+      "days_to_exp": -30
+    },
+    {
+      "permit_id": "NPC-a6383415",
+      "title": "New Port Cove Alcohol B",
+      "property_code": "NPC",
+      "display_name": "Safe Harbor New Port Cove",
+      "rvp": "Bruce McFarlane",
+      "region": "International North",
+      "renewal_start": "2026-08-31",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
     },
     {
       "permit_id": "NPC-4eb98f72",
@@ -2361,7 +2853,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "NPC-5f06ae15",
@@ -2373,7 +2865,7 @@
       "renewal_start": "2026-07-05",
       "expiration": "2026-08-05",
       "status": "expired",
-      "days_to_exp": -25
+      "days_to_exp": -26
     },
     {
       "permit_id": "NPC-c2f23005",
@@ -2385,7 +2877,7 @@
       "renewal_start": "2026-05-30",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "NPC-0cd3b5c4",
@@ -2397,7 +2889,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-01",
       "status": "expired",
-      "days_to_exp": -90
+      "days_to_exp": -91
     },
     {
       "permit_id": "NSY-9e3d538d",
@@ -2409,7 +2901,7 @@
       "renewal_start": "2026-08-26",
       "expiration": "2026-09-08",
       "status": "expiring_soon",
-      "days_to_exp": 9
+      "days_to_exp": 8
     },
     {
       "permit_id": "NSY-8c96b2d9",
@@ -2421,7 +2913,7 @@
       "renewal_start": "2026-08-26",
       "expiration": "2026-09-01",
       "status": "expiring_soon",
-      "days_to_exp": 2
+      "days_to_exp": 1
     },
     {
       "permit_id": "NSY-1bcba1e8",
@@ -2433,7 +2925,7 @@
       "renewal_start": "2026-07-08",
       "expiration": "2026-08-05",
       "status": "expired",
-      "days_to_exp": -25
+      "days_to_exp": -26
     },
     {
       "permit_id": "NSY-ccbc45ab",
@@ -2445,7 +2937,7 @@
       "renewal_start": "2026-07-08",
       "expiration": "2026-08-05",
       "status": "expired",
-      "days_to_exp": -25
+      "days_to_exp": -26
     },
     {
       "permit_id": "NSY-1bc47fd9",
@@ -2457,7 +2949,7 @@
       "renewal_start": "2026-07-08",
       "expiration": "2026-08-05",
       "status": "expired",
-      "days_to_exp": -25
+      "days_to_exp": -26
     },
     {
       "permit_id": "NSY-25e28984",
@@ -2469,7 +2961,7 @@
       "renewal_start": "2026-06-10",
       "expiration": "2026-07-10",
       "status": "expired",
-      "days_to_exp": -51
+      "days_to_exp": -52
     },
     {
       "permit_id": "NSY-fd62b4b7",
@@ -2481,7 +2973,19 @@
       "renewal_start": "2025-12-01",
       "expiration": "2025-12-31",
       "status": "expired",
-      "days_to_exp": -242
+      "days_to_exp": -243
+    },
+    {
+      "permit_id": "NPB-9356bd50",
+      "title": "PBC Business Tax Renewal Marina and Beverage",
+      "property_code": "NPB",
+      "display_name": "Safe Harbor North Palm Beach",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
     },
     {
       "permit_id": "NPB-39ad9d98",
@@ -2493,7 +2997,115 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
+    },
+    {
+      "permit_id": "NPB-bc9e28dc",
+      "title": "Business Tax Receipt slips",
+      "property_code": "NPB",
+      "display_name": "Safe Harbor North Palm Beach",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "NPB-f537de96",
+      "title": "Business Tax receipt fuel",
+      "property_code": "NPB",
+      "display_name": "Safe Harbor North Palm Beach",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "OPC-32b4515d",
+      "title": "Village of NPB Business Tax Receipt Transp. Marina 202 Slips",
+      "property_code": "OPC",
+      "display_name": "Safe Harbor Old Port Cove",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-08-03",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "OPC-97dd0035",
+      "title": "Village of NPB Business Tax Retail Trade Filling Station",
+      "property_code": "OPC",
+      "display_name": "Safe Harbor Old Port Cove",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-08-03",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "OPC-791b4e49",
+      "title": "Village of NPB Business Tax Receipt Personal Services Misc Buss. SVC Admin 1942",
+      "property_code": "OPC",
+      "display_name": "Safe Harbor Old Port Cove",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-08-03",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "OPC-7f952e2a",
+      "title": "Village of NPB Business Tax personal serv. misc. SVC NEC admin office PE22 BTR 1941",
+      "property_code": "OPC",
+      "display_name": "Safe Harbor Old Port Cove",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-08-03",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "OPC-8cfacd17",
+      "title": "Village of NPB Business Tax Personal serv. marina admin PE22 BTR 2106",
+      "property_code": "OPC",
+      "display_name": "Safe Harbor Old Port Cove",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-08-03",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "OPC-fe47bc43",
+      "title": "Local Business Tax Watercraft Slips Mooring Service",
+      "property_code": "OPC",
+      "display_name": "Safe Harbor Old Port Cove",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-08-03",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "OPC-23b9d3d9",
+      "title": "Local Business Tax Variety Store",
+      "property_code": "OPC",
+      "display_name": "Safe Harbor Old Port Cove",
+      "rvp": "Stephanie McLaughlin",
+      "region": "Florida East",
+      "renewal_start": "2026-08-03",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
     },
     {
       "permit_id": "ONS-986ec27b",
@@ -2505,7 +3117,7 @@
       "renewal_start": "2026-03-02",
       "expiration": "2025-12-31",
       "status": "expired",
-      "days_to_exp": -242
+      "days_to_exp": -243
     },
     {
       "permit_id": "ONS-160db7fb",
@@ -2517,7 +3129,7 @@
       "renewal_start": "2026-03-02",
       "expiration": "2025-12-31",
       "status": "expired",
-      "days_to_exp": -242
+      "days_to_exp": -243
     },
     {
       "permit_id": "ONS-c95db35a",
@@ -2529,7 +3141,7 @@
       "renewal_start": "2026-03-02",
       "expiration": "2025-12-31",
       "status": "expired",
-      "days_to_exp": -242
+      "days_to_exp": -243
     },
     {
       "permit_id": "ONS-f1c374e8",
@@ -2541,7 +3153,7 @@
       "renewal_start": "2025-11-01",
       "expiration": "2025-11-30",
       "status": "expired",
-      "days_to_exp": -273
+      "days_to_exp": -274
     },
     {
       "permit_id": "ONS-0571bbc2",
@@ -2553,7 +3165,7 @@
       "renewal_start": "2025-10-01",
       "expiration": "2025-10-08",
       "status": "expired",
-      "days_to_exp": -326
+      "days_to_exp": -327
     },
     {
       "permit_id": "OBX-bfafa7b7",
@@ -2565,7 +3177,7 @@
       "renewal_start": "2026-07-25",
       "expiration": "2026-08-12",
       "status": "expired",
-      "days_to_exp": -18
+      "days_to_exp": -19
     },
     {
       "permit_id": "OBX-eca75643",
@@ -2577,7 +3189,7 @@
       "renewal_start": "2026-07-01",
       "expiration": "2026-08-31",
       "status": "expiring_soon",
-      "days_to_exp": 1
+      "days_to_exp": 0
     },
     {
       "permit_id": "PYC-7db20d5e",
@@ -2589,7 +3201,7 @@
       "renewal_start": "2026-06-17",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "PYC-8ee50723",
@@ -2601,7 +3213,7 @@
       "renewal_start": "2026-03-01",
       "expiration": "2026-03-13",
       "status": "expired",
-      "days_to_exp": -170
+      "days_to_exp": -171
     },
     {
       "permit_id": "P121-f51514f3",
@@ -2613,7 +3225,7 @@
       "renewal_start": "2025-08-01",
       "expiration": "2025-09-09",
       "status": "expired",
-      "days_to_exp": -355
+      "days_to_exp": -356
     },
     {
       "permit_id": "P121-e5ba2dfc",
@@ -2625,7 +3237,7 @@
       "renewal_start": "2025-08-01",
       "expiration": "2025-09-08",
       "status": "expired",
-      "days_to_exp": -356
+      "days_to_exp": -357
     },
     {
       "permit_id": "P121-09809b3e",
@@ -2637,7 +3249,7 @@
       "renewal_start": "2026-08-03",
       "expiration": "2026-09-12",
       "status": "expiring_soon",
-      "days_to_exp": 13
+      "days_to_exp": 12
     },
     {
       "permit_id": "P121-3845fae4",
@@ -2649,7 +3261,7 @@
       "renewal_start": "2026-08-03",
       "expiration": "2026-09-12",
       "status": "expiring_soon",
-      "days_to_exp": 13
+      "days_to_exp": 12
     },
     {
       "permit_id": "P77-f0cd5d90",
@@ -2661,7 +3273,7 @@
       "renewal_start": "2026-05-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "P77-c2fb8d51",
@@ -2673,7 +3285,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "P77-656515b8",
@@ -2685,7 +3297,7 @@
       "renewal_start": "2025-05-02",
       "expiration": "2025-06-30",
       "status": "expired",
-      "days_to_exp": -426
+      "days_to_exp": -427
     },
     {
       "permit_id": "PPM-ad615532",
@@ -2697,7 +3309,7 @@
       "renewal_start": "2026-07-15",
       "expiration": "2026-07-31",
       "status": "expired",
-      "days_to_exp": -30
+      "days_to_exp": -31
     },
     {
       "permit_id": "PPM-328c7b09",
@@ -2709,7 +3321,7 @@
       "renewal_start": "2026-04-15",
       "expiration": "2026-04-30",
       "status": "expired",
-      "days_to_exp": -122
+      "days_to_exp": -123
     },
     {
       "permit_id": "PPM-328c7b09",
@@ -2721,7 +3333,7 @@
       "renewal_start": "2026-04-15",
       "expiration": "2026-04-30",
       "status": "expired",
-      "days_to_exp": -122
+      "days_to_exp": -123
     },
     {
       "permit_id": "PPM-6d2fd861",
@@ -2733,7 +3345,7 @@
       "renewal_start": "2026-08-01",
       "expiration": "2026-08-15",
       "status": "expired",
-      "days_to_exp": -15
+      "days_to_exp": -16
     },
     {
       "permit_id": "PPM-328c7b09",
@@ -2745,7 +3357,7 @@
       "renewal_start": "2026-04-01",
       "expiration": "2026-04-30",
       "status": "expired",
-      "days_to_exp": -122
+      "days_to_exp": -123
     },
     {
       "permit_id": "PPM-328c7b09",
@@ -2757,7 +3369,7 @@
       "renewal_start": "2026-04-15",
       "expiration": "2026-04-30",
       "status": "expired",
-      "days_to_exp": -122
+      "days_to_exp": -123
     },
     {
       "permit_id": "PPM-328c7b09",
@@ -2769,7 +3381,7 @@
       "renewal_start": "2026-04-01",
       "expiration": "2026-04-30",
       "status": "expired",
-      "days_to_exp": -122
+      "days_to_exp": -123
     },
     {
       "permit_id": "PLM-e7019f18",
@@ -2781,7 +3393,7 @@
       "renewal_start": "2026-04-29",
       "expiration": "2026-06-24",
       "status": "expired",
-      "days_to_exp": -67
+      "days_to_exp": -68
     },
     {
       "permit_id": "PLM-1fbfcc86",
@@ -2793,7 +3405,7 @@
       "renewal_start": "2026-07-08",
       "expiration": "2026-07-08",
       "status": "expired",
-      "days_to_exp": -53
+      "days_to_exp": -54
     },
     {
       "permit_id": "PLM-4d8019a0",
@@ -2805,7 +3417,7 @@
       "renewal_start": "2026-07-01",
       "expiration": "2026-07-31",
       "status": "expired",
-      "days_to_exp": -30
+      "days_to_exp": -31
     },
     {
       "permit_id": "PLY-a5827481",
@@ -2817,7 +3429,7 @@
       "renewal_start": "2026-04-01",
       "expiration": "2026-05-31",
       "status": "expired",
-      "days_to_exp": -91
+      "days_to_exp": -92
     },
     {
       "permit_id": "PDP-febab90b",
@@ -2829,7 +3441,7 @@
       "renewal_start": "2026-04-15",
       "expiration": "2026-04-30",
       "status": "expired",
-      "days_to_exp": -122
+      "days_to_exp": -123
     },
     {
       "permit_id": "PAM-83d7b97f",
@@ -2841,7 +3453,7 @@
       "renewal_start": "2026-03-31",
       "expiration": "2026-04-30",
       "status": "expired",
-      "days_to_exp": -122
+      "days_to_exp": -123
     },
     {
       "permit_id": "PAM-fff113e1",
@@ -2853,7 +3465,7 @@
       "renewal_start": "2026-02-01",
       "expiration": "2026-02-28",
       "status": "expired",
-      "days_to_exp": -183
+      "days_to_exp": -184
     },
     {
       "permit_id": "PAM-b7bfd977",
@@ -2865,7 +3477,7 @@
       "renewal_start": "2026-02-01",
       "expiration": "2026-02-28",
       "status": "expired",
-      "days_to_exp": -183
+      "days_to_exp": -184
     },
     {
       "permit_id": "PAM-6aa054e2",
@@ -2877,7 +3489,7 @@
       "renewal_start": "2026-02-01",
       "expiration": "2026-02-28",
       "status": "expired",
-      "days_to_exp": -183
+      "days_to_exp": -184
     },
     {
       "permit_id": "PAM-3f5f47ae",
@@ -2889,7 +3501,7 @@
       "renewal_start": "2026-02-01",
       "expiration": "2026-02-28",
       "status": "expired",
-      "days_to_exp": -183
+      "days_to_exp": -184
     },
     {
       "permit_id": "PAM-00fb57eb",
@@ -2901,7 +3513,7 @@
       "renewal_start": "2026-02-01",
       "expiration": "2026-02-28",
       "status": "expired",
-      "days_to_exp": -183
+      "days_to_exp": -184
     },
     {
       "permit_id": "PRM-5df2f6ea",
@@ -2913,7 +3525,7 @@
       "renewal_start": "2026-04-01",
       "expiration": "2026-06-24",
       "status": "expired",
-      "days_to_exp": -67
+      "days_to_exp": -68
     },
     {
       "permit_id": "PRM-feacd856",
@@ -2925,7 +3537,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "PDR-5be9d2c0",
@@ -2937,7 +3549,7 @@
       "renewal_start": "2026-09-01",
       "expiration": "2026-09-27",
       "status": "expiring_soon",
-      "days_to_exp": 28
+      "days_to_exp": 27
     },
     {
       "permit_id": "PDR-0ccb0937",
@@ -2949,7 +3561,7 @@
       "renewal_start": "2026-08-07",
       "expiration": "2026-09-07",
       "status": "expiring_soon",
-      "days_to_exp": 8
+      "days_to_exp": 7
     },
     {
       "permit_id": "PDR-4772c0a7",
@@ -2961,7 +3573,7 @@
       "renewal_start": "2026-09-01",
       "expiration": "2026-09-27",
       "status": "expiring_soon",
-      "days_to_exp": 28
+      "days_to_exp": 27
     },
     {
       "permit_id": "PDR-4bfc3d6b",
@@ -2973,7 +3585,7 @@
       "renewal_start": "2026-08-07",
       "expiration": "2026-09-07",
       "status": "expiring_soon",
-      "days_to_exp": 8
+      "days_to_exp": 7
     },
     {
       "permit_id": "PDR-728f5116",
@@ -2985,7 +3597,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-07-01",
       "status": "expired",
-      "days_to_exp": -60
+      "days_to_exp": -61
     },
     {
       "permit_id": "PDR-beba9752",
@@ -2997,7 +3609,7 @@
       "renewal_start": "2025-11-01",
       "expiration": "2025-11-25",
       "status": "expired",
-      "days_to_exp": -278
+      "days_to_exp": -279
     },
     {
       "permit_id": "PDR-637d1539",
@@ -3009,7 +3621,7 @@
       "renewal_start": "2025-10-15",
       "expiration": "2025-11-15",
       "status": "expired",
-      "days_to_exp": -288
+      "days_to_exp": -289
     },
     {
       "permit_id": "PDR-4ff161b9",
@@ -3021,7 +3633,7 @@
       "renewal_start": "2025-10-28",
       "expiration": "2025-11-28",
       "status": "expired",
-      "days_to_exp": -275
+      "days_to_exp": -276
     },
     {
       "permit_id": "PDR-379da0d5",
@@ -3033,7 +3645,7 @@
       "renewal_start": "2025-11-01",
       "expiration": "2025-11-29",
       "status": "expired",
-      "days_to_exp": -274
+      "days_to_exp": -275
     },
     {
       "permit_id": "PDR-c6a8a21d",
@@ -3045,7 +3657,7 @@
       "renewal_start": "2026-09-01",
       "expiration": "2026-09-27",
       "status": "expiring_soon",
-      "days_to_exp": 28
+      "days_to_exp": 27
     },
     {
       "permit_id": "PDR-c7474939",
@@ -3057,7 +3669,7 @@
       "renewal_start": "2025-10-15",
       "expiration": "2025-11-15",
       "status": "expired",
-      "days_to_exp": -288
+      "days_to_exp": -289
     },
     {
       "permit_id": "PDR-29f4c539",
@@ -3069,7 +3681,7 @@
       "renewal_start": "2025-10-15",
       "expiration": "2025-11-15",
       "status": "expired",
-      "days_to_exp": -288
+      "days_to_exp": -289
     },
     {
       "permit_id": "PDR-8b0d5a82",
@@ -3081,7 +3693,7 @@
       "renewal_start": "2025-10-15",
       "expiration": "2025-11-15",
       "status": "expired",
-      "days_to_exp": -288
+      "days_to_exp": -289
     },
     {
       "permit_id": "PDR-e8d85afd",
@@ -3093,7 +3705,7 @@
       "renewal_start": "2025-10-15",
       "expiration": "2025-11-11",
       "status": "expired",
-      "days_to_exp": -292
+      "days_to_exp": -293
     },
     {
       "permit_id": "RPM-9baac185",
@@ -3105,7 +3717,7 @@
       "renewal_start": "2026-06-15",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "RPM-fdf04bac",
@@ -3117,7 +3729,7 @@
       "renewal_start": "2026-06-15",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "RPM-d9ccdc5d",
@@ -3129,7 +3741,7 @@
       "renewal_start": "2026-06-15",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "RPM-b7a5dc97",
@@ -3141,7 +3753,7 @@
       "renewal_start": "2026-07-06",
       "expiration": "2026-08-01",
       "status": "expired",
-      "days_to_exp": -29
+      "days_to_exp": -30
     },
     {
       "permit_id": "RPM-3ac29dda",
@@ -3153,7 +3765,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "RPM-85af6bbd",
@@ -3165,7 +3777,19 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
+    },
+    {
+      "permit_id": "RPM-0cc28126",
+      "title": "Palmetto City Business License",
+      "property_code": "RPM",
+      "display_name": "Safe Harbor Regatta Pointe",
+      "rvp": "Jaret Rogers",
+      "region": "Florida West",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
     },
     {
       "permit_id": "RHM-74f0fdac",
@@ -3177,7 +3801,7 @@
       "renewal_start": "2026-04-15",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "ROC-6acf3134",
@@ -3189,7 +3813,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "ROC-a9f1980e",
@@ -3201,7 +3825,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "ROC-129d7505",
@@ -3213,7 +3837,7 @@
       "renewal_start": "2026-07-01",
       "expiration": "2026-07-31",
       "status": "expired",
-      "days_to_exp": -30
+      "days_to_exp": -31
     },
     {
       "permit_id": "ROC-34b65439",
@@ -3225,7 +3849,55 @@
       "renewal_start": "2026-07-01",
       "expiration": "2026-07-31",
       "status": "expired",
-      "days_to_exp": -30
+      "days_to_exp": -31
+    },
+    {
+      "permit_id": "RBY-659d3a24",
+      "title": "Food Hygiene  Bar Lounge The Tiki Bar-50-48-2633764",
+      "property_code": "RBY",
+      "display_name": "Safe Harbor Rybovich",
+      "rvp": "Bruce McFarlane",
+      "region": "International North",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "RBY-90c3c8ea",
+      "title": "BUSINESS TAX RECEIPT-CERTIFICATE OF USE- BTR-002445-2024",
+      "property_code": "RBY",
+      "display_name": "Safe Harbor Rybovich",
+      "rvp": "Bruce McFarlane",
+      "region": "International North",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "RBY-1d905c2d",
+      "title": "Business Tax Receipt-Certificate of Use -BTR-002931-2024",
+      "property_code": "RBY",
+      "display_name": "Safe Harbor Rybovich",
+      "rvp": "Bruce McFarlane",
+      "region": "International North",
+      "renewal_start": "2026-08-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "RBY-7aac4a6d",
+      "title": "Business Tax Receipt  BTR-002931-2024 BEVERAGE RBY LLC DBA THE TIKI",
+      "property_code": "RBY",
+      "display_name": "Safe Harbor Rybovich",
+      "rvp": "Bruce McFarlane",
+      "region": "International North",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
     },
     {
       "permit_id": "SAK-ccdc12b2",
@@ -3237,7 +3909,7 @@
       "renewal_start": "2026-05-01",
       "expiration": "2026-05-31",
       "status": "expired",
-      "days_to_exp": -91
+      "days_to_exp": -92
     },
     {
       "permit_id": "SAK-a1b2359f",
@@ -3249,7 +3921,7 @@
       "renewal_start": "2026-05-01",
       "expiration": "2026-05-31",
       "status": "expired",
-      "days_to_exp": -91
+      "days_to_exp": -92
     },
     {
       "permit_id": "SAK-ae2e88f2",
@@ -3261,7 +3933,7 @@
       "renewal_start": "2026-04-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "SFB-616bf9bd",
@@ -3273,7 +3945,7 @@
       "renewal_start": "2026-04-15",
       "expiration": "2026-05-01",
       "status": "expired",
-      "days_to_exp": -121
+      "days_to_exp": -122
     },
     {
       "permit_id": "SFB-02b71152",
@@ -3285,7 +3957,7 @@
       "renewal_start": "2026-04-15",
       "expiration": "2026-05-01",
       "status": "expired",
-      "days_to_exp": -121
+      "days_to_exp": -122
     },
     {
       "permit_id": "SFB-bc147a0b",
@@ -3297,7 +3969,7 @@
       "renewal_start": "2026-04-15",
       "expiration": "2026-05-01",
       "status": "expired",
-      "days_to_exp": -121
+      "days_to_exp": -122
     },
     {
       "permit_id": "SFB-eb4be028",
@@ -3309,7 +3981,7 @@
       "renewal_start": "2026-04-15",
       "expiration": "2026-05-01",
       "status": "expired",
-      "days_to_exp": -121
+      "days_to_exp": -122
     },
     {
       "permit_id": "SFB-89202941",
@@ -3321,7 +3993,7 @@
       "renewal_start": "2026-04-15",
       "expiration": "2026-05-01",
       "status": "expired",
-      "days_to_exp": -121
+      "days_to_exp": -122
     },
     {
       "permit_id": "SJM-07c7560d",
@@ -3333,7 +4005,7 @@
       "renewal_start": "2026-06-30",
       "expiration": "2026-07-31",
       "status": "expired",
-      "days_to_exp": -30
+      "days_to_exp": -31
     },
     {
       "permit_id": "SHM-37f96aaa",
@@ -3345,7 +4017,7 @@
       "renewal_start": "2026-05-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "SHM-ccb5f9a2",
@@ -3357,7 +4029,7 @@
       "renewal_start": "2026-05-01",
       "expiration": "2026-05-31",
       "status": "expired",
-      "days_to_exp": -91
+      "days_to_exp": -92
     },
     {
       "permit_id": "SAU-7e02ed45",
@@ -3369,7 +4041,7 @@
       "renewal_start": "2026-04-15",
       "expiration": "2026-05-01",
       "status": "expired",
-      "days_to_exp": -121
+      "days_to_exp": -122
     },
     {
       "permit_id": "SAU-67b9a539",
@@ -3381,7 +4053,7 @@
       "renewal_start": "2026-04-15",
       "expiration": "2026-05-01",
       "status": "expired",
-      "days_to_exp": -121
+      "days_to_exp": -122
     },
     {
       "permit_id": "SAU-a9ff10d7",
@@ -3393,7 +4065,7 @@
       "renewal_start": "2026-04-15",
       "expiration": "2026-05-01",
       "status": "expired",
-      "days_to_exp": -121
+      "days_to_exp": -122
     },
     {
       "permit_id": "SAU-06225c14",
@@ -3405,7 +4077,7 @@
       "renewal_start": "2026-04-15",
       "expiration": "2026-05-01",
       "status": "expired",
-      "days_to_exp": -121
+      "days_to_exp": -122
     },
     {
       "permit_id": "SIBY-23de3e83",
@@ -3417,7 +4089,7 @@
       "renewal_start": "2026-08-01",
       "expiration": "2026-08-31",
       "status": "expiring_soon",
-      "days_to_exp": 1
+      "days_to_exp": 0
     },
     {
       "permit_id": "SIBY-528cd0f5",
@@ -3429,7 +4101,7 @@
       "renewal_start": "2026-08-01",
       "expiration": "2026-08-31",
       "status": "expiring_soon",
-      "days_to_exp": 1
+      "days_to_exp": 0
     },
     {
       "permit_id": "SKM-a13641df",
@@ -3441,7 +4113,7 @@
       "renewal_start": "2026-03-31",
       "expiration": "2026-03-31",
       "status": "expired",
-      "days_to_exp": -152
+      "days_to_exp": -153
     },
     {
       "permit_id": "SKM-d5104bf4",
@@ -3453,7 +4125,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "SKM-461a240b",
@@ -3465,7 +4137,7 @@
       "renewal_start": "2026-03-01",
       "expiration": "2026-03-24",
       "status": "expired",
-      "days_to_exp": -159
+      "days_to_exp": -160
     },
     {
       "permit_id": "SKM-244ab64b",
@@ -3477,7 +4149,7 @@
       "renewal_start": "2026-05-31",
       "expiration": "2026-06-03",
       "status": "expired",
-      "days_to_exp": -88
+      "days_to_exp": -89
     },
     {
       "permit_id": "SKM-779673d9",
@@ -3489,7 +4161,7 @@
       "renewal_start": "2026-05-30",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "SKM-99439b75",
@@ -3501,7 +4173,7 @@
       "renewal_start": "2026-05-30",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "SKM-11da54f1",
@@ -3513,7 +4185,7 @@
       "renewal_start": "2026-05-30",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "SKM-ef9fba55",
@@ -3525,7 +4197,7 @@
       "renewal_start": "2026-05-30",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "SKM-526320d5",
@@ -3537,7 +4209,7 @@
       "renewal_start": "2026-05-30",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "SKM-3ef8c40e",
@@ -3549,7 +4221,7 @@
       "renewal_start": "2026-05-30",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "SKM-855b6dc3",
@@ -3561,7 +4233,7 @@
       "renewal_start": "2026-05-30",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "SKM-18987c20",
@@ -3573,7 +4245,7 @@
       "renewal_start": "2026-06-05",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "SKM-aeb49116",
@@ -3585,7 +4257,7 @@
       "renewal_start": "2026-06-05",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "SKM-0bf25afd",
@@ -3597,7 +4269,7 @@
       "renewal_start": "2026-06-05",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "SKM-3724ad1b",
@@ -3609,7 +4281,7 @@
       "renewal_start": "2026-06-05",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "SKM-f7d729c7",
@@ -3621,7 +4293,7 @@
       "renewal_start": "2026-06-05",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "SKM-6e8955d5",
@@ -3633,7 +4305,7 @@
       "renewal_start": "2026-05-30",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "SKM-4b9046b6",
@@ -3645,7 +4317,7 @@
       "renewal_start": "2026-06-05",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "SKM-28ec7d46",
@@ -3657,7 +4329,7 @@
       "renewal_start": "2026-06-05",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "SKM-f26a2bbe",
@@ -3669,7 +4341,7 @@
       "renewal_start": "2026-06-05",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "SKM-80c92b20",
@@ -3681,7 +4353,7 @@
       "renewal_start": "2026-06-05",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "SKM-9ee4eea0",
@@ -3693,7 +4365,7 @@
       "renewal_start": "2026-06-05",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "SBAY-e512441e",
@@ -3705,7 +4377,7 @@
       "renewal_start": "2026-08-01",
       "expiration": "2026-08-31",
       "status": "expiring_soon",
-      "days_to_exp": 1
+      "days_to_exp": 0
     },
     {
       "permit_id": "SBAY-79bc999e",
@@ -3717,7 +4389,7 @@
       "renewal_start": "2026-03-01",
       "expiration": "2026-04-08",
       "status": "expired",
-      "days_to_exp": -144
+      "days_to_exp": -145
     },
     {
       "permit_id": "SHV-66f530d1",
@@ -3729,7 +4401,7 @@
       "renewal_start": "2025-02-13",
       "expiration": "2025-02-13",
       "status": "expired",
-      "days_to_exp": -563
+      "days_to_exp": -564
     },
     {
       "permit_id": "SHV-1d2d94d7",
@@ -3741,7 +4413,7 @@
       "renewal_start": "2026-07-31",
       "expiration": "2026-07-31",
       "status": "expired",
-      "days_to_exp": -30
+      "days_to_exp": -31
     },
     {
       "permit_id": "SHV-1875e7be",
@@ -3753,7 +4425,7 @@
       "renewal_start": "2026-05-01",
       "expiration": "2026-05-01",
       "status": "expired",
-      "days_to_exp": -121
+      "days_to_exp": -122
     },
     {
       "permit_id": "SPM-7635ee17",
@@ -3765,7 +4437,19 @@
       "renewal_start": "2024-08-01",
       "expiration": "2024-09-30",
       "status": "expired",
-      "days_to_exp": -699
+      "days_to_exp": -700
+    },
+    {
+      "permit_id": "SPM-c165f5c3",
+      "title": "State of AL Business License SHM Sportsman LLC",
+      "property_code": "SPM",
+      "display_name": "Safe Harbor Sportsman",
+      "rvp": "Michael Duling",
+      "region": "South",
+      "renewal_start": "2026-09-15",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
     },
     {
       "permit_id": "SPM-ed22df65",
@@ -3777,7 +4461,7 @@
       "renewal_start": "2025-12-31",
       "expiration": "2025-12-31",
       "status": "expired",
-      "days_to_exp": -242
+      "days_to_exp": -243
     },
     {
       "permit_id": "SPM-595fecd2",
@@ -3789,7 +4473,7 @@
       "renewal_start": "2024-08-01",
       "expiration": "2024-09-30",
       "status": "expired",
-      "days_to_exp": -699
+      "days_to_exp": -700
     },
     {
       "permit_id": "SPM-26bd7be1",
@@ -3801,7 +4485,31 @@
       "renewal_start": "2026-07-01",
       "expiration": "2026-07-31",
       "status": "expired",
-      "days_to_exp": -30
+      "days_to_exp": -31
+    },
+    {
+      "permit_id": "SPM-f8b9eb0f",
+      "title": "State of AL Dept of Agriculture",
+      "property_code": "SPM",
+      "display_name": "Safe Harbor Sportsman",
+      "rvp": "Michael Duling",
+      "region": "South",
+      "renewal_start": "2026-09-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "SPM-f7564b9a",
+      "title": "State of Al Boat Registration Certificate",
+      "property_code": "SPM",
+      "display_name": "Safe Harbor Sportsman",
+      "rvp": "Michael Duling",
+      "region": "South",
+      "renewal_start": "2026-09-20",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
     },
     {
       "permit_id": "SRP-becb8a05",
@@ -3813,7 +4521,7 @@
       "renewal_start": "2025-11-24",
       "expiration": "2025-12-31",
       "status": "expired",
-      "days_to_exp": -242
+      "days_to_exp": -243
     },
     {
       "permit_id": "STH-e12dfe3d",
@@ -3825,7 +4533,7 @@
       "renewal_start": "2026-05-01",
       "expiration": "2025-09-30",
       "status": "expired",
-      "days_to_exp": -334
+      "days_to_exp": -335
     },
     {
       "permit_id": "STR-b201e027",
@@ -3837,7 +4545,7 @@
       "renewal_start": "2025-04-01",
       "expiration": "2025-04-17",
       "status": "expired",
-      "days_to_exp": -500
+      "days_to_exp": -501
     },
     {
       "permit_id": "SRD-30c2397f",
@@ -3849,7 +4557,7 @@
       "renewal_start": "2025-02-01",
       "expiration": "2025-03-01",
       "status": "expired",
-      "days_to_exp": -547
+      "days_to_exp": -548
     },
     {
       "permit_id": "SRD-f0d9d887",
@@ -3861,7 +4569,7 @@
       "renewal_start": "2026-07-31",
       "expiration": "2026-08-31",
       "status": "expiring_soon",
-      "days_to_exp": 1
+      "days_to_exp": 0
     },
     {
       "permit_id": "SBM-005ff504",
@@ -3873,7 +4581,7 @@
       "renewal_start": "2025-11-03",
       "expiration": "2025-12-31",
       "status": "expired",
-      "days_to_exp": -242
+      "days_to_exp": -243
     },
     {
       "permit_id": "SBM-c45abcc3",
@@ -3885,7 +4593,7 @@
       "renewal_start": "2026-05-15",
       "expiration": "2026-06-28",
       "status": "expired",
-      "days_to_exp": -63
+      "days_to_exp": -64
     },
     {
       "permit_id": "TBM-159b12a8",
@@ -3897,7 +4605,7 @@
       "renewal_start": "2026-01-01",
       "expiration": "2026-02-28",
       "status": "expired",
-      "days_to_exp": -183
+      "days_to_exp": -184
     },
     {
       "permit_id": "TBM-9127499a",
@@ -3909,7 +4617,7 @@
       "renewal_start": "2026-04-01",
       "expiration": "2026-04-30",
       "status": "expired",
-      "days_to_exp": -122
+      "days_to_exp": -123
     },
     {
       "permit_id": "TBM-3bf71969",
@@ -3921,7 +4629,7 @@
       "renewal_start": "2026-04-01",
       "expiration": "2026-04-30",
       "status": "expired",
-      "days_to_exp": -122
+      "days_to_exp": -123
     },
     {
       "permit_id": "TWM-d237120f",
@@ -3933,7 +4641,7 @@
       "renewal_start": "2026-06-14",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "VIM-723b246b",
@@ -3945,7 +4653,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "VIM-1384c46a",
@@ -3957,7 +4665,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "VIM-be6b3d13",
@@ -3969,7 +4677,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-07-01",
       "status": "expired",
-      "days_to_exp": -60
+      "days_to_exp": -61
     },
     {
       "permit_id": "VIM-b6a682c2",
@@ -3981,7 +4689,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-07-31",
       "status": "expired",
-      "days_to_exp": -30
+      "days_to_exp": -31
     },
     {
       "permit_id": "VHM-b2954ed6",
@@ -3993,7 +4701,7 @@
       "renewal_start": "2025-01-01",
       "expiration": "2025-06-01",
       "status": "expired",
-      "days_to_exp": -455
+      "days_to_exp": -456
     },
     {
       "permit_id": "WAL-20ada3c8",
@@ -4005,7 +4713,7 @@
       "renewal_start": "2024-04-01",
       "expiration": "2024-04-15",
       "status": "expired",
-      "days_to_exp": -867
+      "days_to_exp": -868
     },
     {
       "permit_id": "RSBC-0dd61274",
@@ -4017,7 +4725,7 @@
       "renewal_start": "2026-05-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "RSBC-44203c7d",
@@ -4029,7 +4737,103 @@
       "renewal_start": "2026-05-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
+    },
+    {
+      "permit_id": "RSBC-9a7e3ad7",
+      "title": "VESSEL CERTIFICATE DOCUMENTATION- 1332620",
+      "property_code": "RSBC",
+      "display_name": "Safe Harbor West Palm",
+      "rvp": "Bruce McFarlane",
+      "region": "International North",
+      "renewal_start": "2026-08-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "RSBC-eb841b2d",
+      "title": "VESSEL CERTIFICATE DOCUMENTATION-1251283",
+      "property_code": "RSBC",
+      "display_name": "Safe Harbor West Palm",
+      "rvp": "Bruce McFarlane",
+      "region": "International North",
+      "renewal_start": "2026-08-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "RSBC-d68de6b8",
+      "title": "VESSEL CERTIFICATE DOCUMENTATION 1284401",
+      "property_code": "RSBC",
+      "display_name": "Safe Harbor West Palm",
+      "rvp": "Bruce McFarlane",
+      "region": "International North",
+      "renewal_start": "2026-08-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "RSBC-1078cd36",
+      "title": "VESSEL CERTIFICATE DOCUMENTATION- 1342828",
+      "property_code": "RSBC",
+      "display_name": "Safe Harbor West Palm",
+      "rvp": "Bruce McFarlane",
+      "region": "International North",
+      "renewal_start": "2026-08-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "RSBC-570dbc1f",
+      "title": "Business Tax Receipt  LBTR 200415017- Watercraft Repair and Maintenance",
+      "property_code": "RSBC",
+      "display_name": "Safe Harbor West Palm",
+      "rvp": "Bruce McFarlane",
+      "region": "International North",
+      "renewal_start": "2026-08-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "RSBC-b5b7c8fe",
+      "title": "Business Tax Receipt  LBTR 201148825- Watercraft Repair and Maintenance",
+      "property_code": "RSBC",
+      "display_name": "Safe Harbor West Palm",
+      "rvp": "Bruce McFarlane",
+      "region": "International North",
+      "renewal_start": "2026-08-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "RSBC-bed152e8",
+      "title": "Business Tax Receipt  LBTR 200415018-  Store",
+      "property_code": "RSBC",
+      "display_name": "Safe Harbor West Palm",
+      "rvp": "Bruce McFarlane",
+      "region": "International North",
+      "renewal_start": "2026-08-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
+    },
+    {
+      "permit_id": "RSBC-0f05bcaf",
+      "title": "Business Tax Receipt 0000057272",
+      "property_code": "RSBC",
+      "display_name": "Safe Harbor West Palm",
+      "rvp": "Bruce McFarlane",
+      "region": "International North",
+      "renewal_start": "2026-08-01",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
     },
     {
       "permit_id": "RSBC-3145f831",
@@ -4041,7 +4845,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "RSBC-53408364",
@@ -4053,7 +4857,7 @@
       "renewal_start": "2026-06-01",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "WPM-025972d6",
@@ -4065,7 +4869,7 @@
       "renewal_start": "2026-04-01",
       "expiration": "2026-06-24",
       "status": "expired",
-      "days_to_exp": -67
+      "days_to_exp": -68
     },
     {
       "permit_id": "WPM-1ddca878",
@@ -4077,7 +4881,7 @@
       "renewal_start": "2026-06-15",
       "expiration": "2026-07-31",
       "status": "expired",
-      "days_to_exp": -30
+      "days_to_exp": -31
     },
     {
       "permit_id": "WIC-f47cdbf6",
@@ -4089,7 +4893,7 @@
       "renewal_start": "2026-01-06",
       "expiration": "2026-06-30",
       "status": "expired",
-      "days_to_exp": -61
+      "days_to_exp": -62
     },
     {
       "permit_id": "WBM-3b96853f",
@@ -4101,7 +4905,7 @@
       "renewal_start": "2026-04-01",
       "expiration": "2026-05-31",
       "status": "expired",
-      "days_to_exp": -91
+      "days_to_exp": -92
     },
     {
       "permit_id": "WBM-9c1310b6",
@@ -4113,7 +4917,7 @@
       "renewal_start": "2025-12-15",
       "expiration": "2025-12-31",
       "status": "expired",
-      "days_to_exp": -242
+      "days_to_exp": -243
     },
     {
       "permit_id": "WDM-c29b1ce2",
@@ -4125,7 +4929,7 @@
       "renewal_start": "2024-12-31",
       "expiration": "2025-01-31",
       "status": "expired",
-      "days_to_exp": -576
+      "days_to_exp": -577
     },
     {
       "permit_id": "WDM-02a8e5fc",
@@ -4137,7 +4941,19 @@
       "renewal_start": "2026-04-01",
       "expiration": "2026-04-30",
       "status": "expired",
-      "days_to_exp": -122
+      "days_to_exp": -123
+    },
+    {
+      "permit_id": "WDM-8433b58e",
+      "title": "CERTIFICATE OF REGISTRATION",
+      "property_code": "WDM",
+      "display_name": "Safe Harbor Wisdom Dock",
+      "rvp": "Layne Wilson",
+      "region": "Kentucky + Tennessee",
+      "renewal_start": "2026-09-16",
+      "expiration": "2026-09-30",
+      "status": "expiring_soon",
+      "days_to_exp": 30
     },
     {
       "permit_id": "YHM-db7e8e24",
@@ -4149,7 +4965,7 @@
       "renewal_start": "2025-10-01",
       "expiration": "2025-10-31",
       "status": "expired",
-      "days_to_exp": -303
+      "days_to_exp": -304
     },
     {
       "permit_id": "ZAN-4f6742ea",
@@ -4161,7 +4977,7 @@
       "renewal_start": "2026-05-01",
       "expiration": "2026-05-31",
       "status": "expired",
-      "days_to_exp": -91
+      "days_to_exp": -92
     }
   ],
   "region_summary": [
@@ -4194,12 +5010,12 @@
       "rvp": "Jaret Rogers",
       "total_permits": 101,
       "expired": 36,
-      "expiring_soon": 1,
+      "expiring_soon": 9,
       "pct_expired": 35.6,
-      "pct_expiring_soon": 1.0,
+      "pct_expiring_soon": 8.9,
       "compliance_score": 64.4,
       "property_count": 8,
-      "properties_with_issues": 5
+      "properties_with_issues": 7
     },
     {
       "region": "New York + Connecticut River",
@@ -4218,9 +5034,9 @@
       "rvp": "Ron Gift",
       "total_permits": 89,
       "expired": 25,
-      "expiring_soon": 6,
+      "expiring_soon": 10,
       "pct_expired": 28.1,
-      "pct_expiring_soon": 6.7,
+      "pct_expiring_soon": 11.2,
       "compliance_score": 71.9,
       "property_count": 5,
       "properties_with_issues": 5
@@ -4242,9 +5058,9 @@
       "rvp": "Matt Marshall",
       "total_permits": 28,
       "expired": 7,
-      "expiring_soon": 0,
+      "expiring_soon": 1,
       "pct_expired": 25.0,
-      "pct_expiring_soon": 0.0,
+      "pct_expiring_soon": 3.6,
       "compliance_score": 75.0,
       "property_count": 6,
       "properties_with_issues": 4
@@ -4254,9 +5070,9 @@
       "rvp": "Layne Wilson",
       "total_permits": 99,
       "expired": 24,
-      "expiring_soon": 1,
+      "expiring_soon": 4,
       "pct_expired": 24.2,
-      "pct_expiring_soon": 1.0,
+      "pct_expiring_soon": 4.0,
       "compliance_score": 75.8,
       "property_count": 7,
       "properties_with_issues": 6
@@ -4290,9 +5106,9 @@
       "rvp": "Orlando Alvarez Diaz",
       "total_permits": 57,
       "expired": 11,
-      "expiring_soon": 5,
+      "expiring_soon": 9,
       "pct_expired": 19.3,
-      "pct_expiring_soon": 8.8,
+      "pct_expiring_soon": 15.8,
       "compliance_score": 80.7,
       "property_count": 4,
       "properties_with_issues": 3
@@ -4302,9 +5118,9 @@
       "rvp": "Michael Duling",
       "total_permits": 93,
       "expired": 17,
-      "expiring_soon": 0,
+      "expiring_soon": 4,
       "pct_expired": 18.3,
-      "pct_expiring_soon": 0.0,
+      "pct_expiring_soon": 4.3,
       "compliance_score": 81.7,
       "property_count": 9,
       "properties_with_issues": 8
@@ -4338,21 +5154,21 @@
       "rvp": "Josh Hester",
       "total_permits": 65,
       "expired": 10,
-      "expiring_soon": 7,
+      "expiring_soon": 8,
       "pct_expired": 15.4,
-      "pct_expiring_soon": 10.8,
+      "pct_expiring_soon": 12.3,
       "compliance_score": 84.6,
       "property_count": 7,
-      "properties_with_issues": 6
+      "properties_with_issues": 7
     },
     {
       "region": "Great Lakes + Lake Champlain",
       "rvp": "Semo Post",
       "total_permits": 118,
       "expired": 17,
-      "expiring_soon": 0,
+      "expiring_soon": 1,
       "pct_expired": 14.4,
-      "pct_expiring_soon": 0.0,
+      "pct_expiring_soon": 0.8,
       "compliance_score": 85.6,
       "property_count": 12,
       "properties_with_issues": 7
@@ -4362,9 +5178,9 @@
       "rvp": "Greg Glavin",
       "total_permits": 64,
       "expired": 9,
-      "expiring_soon": 2,
+      "expiring_soon": 4,
       "pct_expired": 14.1,
-      "pct_expiring_soon": 3.1,
+      "pct_expiring_soon": 6.2,
       "compliance_score": 85.9,
       "property_count": 4,
       "properties_with_issues": 2
@@ -4386,34 +5202,34 @@
       "rvp": "Stephanie McLaughlin",
       "total_permits": 108,
       "expired": 13,
-      "expiring_soon": 0,
+      "expiring_soon": 26,
       "pct_expired": 12.0,
-      "pct_expiring_soon": 0.0,
+      "pct_expiring_soon": 24.1,
       "compliance_score": 88.0,
       "property_count": 6,
-      "properties_with_issues": 5
+      "properties_with_issues": 6
     },
     {
       "region": "International North",
       "rvp": "Bruce McFarlane",
       "total_permits": 91,
       "expired": 9,
-      "expiring_soon": 0,
+      "expiring_soon": 13,
       "pct_expired": 9.9,
-      "pct_expiring_soon": 0.0,
+      "pct_expiring_soon": 14.3,
       "compliance_score": 90.1,
       "property_count": 4,
-      "properties_with_issues": 2
+      "properties_with_issues": 3
     },
     {
       "region": "Mid-Atlantic East",
       "rvp": "Megan Rausch",
       "total_permits": 55,
-      "expired": 3,
+      "expired": 4,
       "expiring_soon": 2,
-      "pct_expired": 5.5,
+      "pct_expired": 7.3,
       "pct_expiring_soon": 3.6,
-      "compliance_score": 94.5,
+      "compliance_score": 92.7,
       "property_count": 6,
       "properties_with_issues": 3
     }
@@ -4496,7 +5312,7 @@
       "region": "Florida West",
       "total_permits": 12,
       "expired": 6,
-      "expiring_soon": 0,
+      "expiring_soon": 1,
       "compliance_score": 50.0
     },
     {
@@ -4506,7 +5322,7 @@
       "region": "New York + Coastal Connecticut",
       "total_permits": 8,
       "expired": 4,
-      "expiring_soon": 0,
+      "expiring_soon": 1,
       "compliance_score": 50.0
     },
     {
@@ -4596,7 +5412,7 @@
       "region": "International North",
       "total_permits": 11,
       "expired": 5,
-      "expiring_soon": 0,
+      "expiring_soon": 1,
       "compliance_score": 54.5
     },
     {
@@ -4646,7 +5462,7 @@
       "region": "Southeast",
       "total_permits": 15,
       "expired": 6,
-      "expiring_soon": 1,
+      "expiring_soon": 3,
       "compliance_score": 60.0
     },
     {
@@ -4856,7 +5672,7 @@
       "region": "South",
       "total_permits": 14,
       "expired": 4,
-      "expiring_soon": 0,
+      "expiring_soon": 3,
       "compliance_score": 71.4
     },
     {
@@ -4876,7 +5692,7 @@
       "region": "Kentucky + Tennessee",
       "total_permits": 7,
       "expired": 2,
-      "expiring_soon": 0,
+      "expiring_soon": 1,
       "compliance_score": 71.4
     },
     {
@@ -4906,7 +5722,7 @@
       "region": "Kentucky + Tennessee",
       "total_permits": 24,
       "expired": 6,
-      "expiring_soon": 0,
+      "expiring_soon": 1,
       "compliance_score": 75.0
     },
     {
@@ -4976,7 +5792,7 @@
       "region": "Maine + New Hampshire",
       "total_permits": 23,
       "expired": 5,
-      "expiring_soon": 2,
+      "expiring_soon": 4,
       "compliance_score": 78.3
     },
     {
@@ -5110,6 +5926,16 @@
       "compliance_score": 81.8
     },
     {
+      "code": "GOL",
+      "display_name": "Safe Harbor Great Oak Landing",
+      "rvp": "Megan Rausch",
+      "region": "Mid-Atlantic East",
+      "total_permits": 17,
+      "expired": 3,
+      "expiring_soon": 1,
+      "compliance_score": 82.4
+    },
+    {
       "code": "BWYS",
       "display_name": "Safe Harbor Bluewater Yacht Sales",
       "rvp": "Randall Ramsey",
@@ -5126,7 +5952,7 @@
       "region": "Southeast",
       "total_permits": 18,
       "expired": 3,
-      "expiring_soon": 3,
+      "expiring_soon": 5,
       "compliance_score": 83.3
     },
     {
@@ -5196,7 +6022,7 @@
       "region": "Florida East",
       "total_permits": 33,
       "expired": 5,
-      "expiring_soon": 0,
+      "expiring_soon": 8,
       "compliance_score": 84.8
     },
     {
@@ -5206,7 +6032,7 @@
       "region": "Kentucky + Tennessee",
       "total_permits": 14,
       "expired": 2,
-      "expiring_soon": 1,
+      "expiring_soon": 2,
       "compliance_score": 85.7
     },
     {
@@ -5256,7 +6082,7 @@
       "region": "Florida West",
       "total_permits": 15,
       "expired": 2,
-      "expiring_soon": 1,
+      "expiring_soon": 2,
       "compliance_score": 86.7
     },
     {
@@ -5316,7 +6142,7 @@
       "region": "Florida East",
       "total_permits": 25,
       "expired": 3,
-      "expiring_soon": 0,
+      "expiring_soon": 8,
       "compliance_score": 88.0
     },
     {
@@ -5324,16 +6150,6 @@
       "display_name": "Safe Harbor Emerald Coast",
       "rvp": "Michael Duling",
       "region": "South",
-      "total_permits": 17,
-      "expired": 2,
-      "expiring_soon": 0,
-      "compliance_score": 88.2
-    },
-    {
-      "code": "GOL",
-      "display_name": "Safe Harbor Great Oak Landing",
-      "rvp": "Megan Rausch",
-      "region": "Mid-Atlantic East",
       "total_permits": 17,
       "expired": 2,
       "expiring_soon": 1,
@@ -5376,7 +6192,7 @@
       "region": "Great Lakes + Lake Champlain",
       "total_permits": 11,
       "expired": 1,
-      "expiring_soon": 0,
+      "expiring_soon": 1,
       "compliance_score": 90.9
     },
     {
@@ -5416,7 +6232,7 @@
       "region": "Florida East",
       "total_permits": 12,
       "expired": 1,
-      "expiring_soon": 0,
+      "expiring_soon": 3,
       "compliance_score": 91.7
     },
     {
@@ -5426,7 +6242,7 @@
       "region": "International North",
       "total_permits": 58,
       "expired": 4,
-      "expiring_soon": 0,
+      "expiring_soon": 8,
       "compliance_score": 93.1
     },
     {
@@ -5446,7 +6262,7 @@
       "region": "International South",
       "total_permits": 17,
       "expired": 1,
-      "expiring_soon": 0,
+      "expiring_soon": 4,
       "compliance_score": 94.1
     },
     {
@@ -5516,7 +6332,7 @@
       "region": "West Coast South",
       "total_permits": 8,
       "expired": 0,
-      "expiring_soon": 0,
+      "expiring_soon": 1,
       "compliance_score": 100.0
     },
     {
@@ -5526,7 +6342,7 @@
       "region": "Florida West",
       "total_permits": 13,
       "expired": 0,
-      "expiring_soon": 0,
+      "expiring_soon": 2,
       "compliance_score": 100.0
     },
     {
@@ -5536,7 +6352,7 @@
       "region": "Florida West",
       "total_permits": 9,
       "expired": 0,
-      "expiring_soon": 0,
+      "expiring_soon": 4,
       "compliance_score": 100.0
     },
     {
@@ -5666,7 +6482,7 @@
       "region": "Florida East",
       "total_permits": 25,
       "expired": 0,
-      "expiring_soon": 0,
+      "expiring_soon": 7,
       "compliance_score": 100.0
     },
     {
@@ -5726,7 +6542,7 @@
       "region": "International North",
       "total_permits": 17,
       "expired": 0,
-      "expiring_soon": 0,
+      "expiring_soon": 4,
       "compliance_score": 100.0
     },
     {
